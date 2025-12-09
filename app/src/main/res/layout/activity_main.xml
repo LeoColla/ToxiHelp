@@ -7,13 +7,42 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/b_introducao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="introducao"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="534dp"
+        app:layout_constraintEnd_toStartOf="@id/b_categoria"
+        android:layout_marginEnd="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginBottom="150dp"
+        />
 
+    <Button
+        android:id="@+id/b_categoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categorias"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="551dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
+        android:id="@+id/b_credito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Creditos"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="534dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintStart_toEndOf="@id/b_categoria"
+        android:layout_marginStart="15dp"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
