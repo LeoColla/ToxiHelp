@@ -5,7 +5,5 @@
     android:id="@+id/main_categorias"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cinza_fundo"
-    tools:context=".Categorias">
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:background="@drawable/fundo"
+    tools:context=".Categorias"/>

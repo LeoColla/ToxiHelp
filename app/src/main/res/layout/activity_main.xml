@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:background="@color/cinza_fundo"
+    android:background="@drawable/fundo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -15,8 +15,8 @@
         android:text="introducao"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="534dp"
-        app:layout_constraintEnd_toStartOf="@id/b_categoria"
-        android:layout_marginEnd="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="150dp"
         />
@@ -25,14 +25,11 @@
         android:id="@+id/b_categoria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="240dp"
         android:text="Categorias"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="551dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="150dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        />
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/b_credito"
@@ -41,9 +38,39 @@
         android:text="Creditos"
         tools:layout_editor_absoluteX="282dp"
         tools:layout_editor_absoluteY="534dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="150dp"
-        app:layout_constraintStart_toEndOf="@id/b_categoria"
-        android:layout_marginStart="15dp"
         />
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToxiHelp"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="230dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/subTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guia prático em casos de intoxicação"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Titulo"
+        android:layout_marginTop="32dp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="269dp"
+        />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
