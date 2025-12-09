@@ -6,4 +6,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fundo"
-    tools:context=".Categorias"/>
+    tools:context=".Categorias">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_categorias"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:paddingTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titulo_categorias"
+        app:layout_constraintVertical_bias="0.0"
+        tools:itemCount="5"
+        tools:listitem="@layout/layout_rv_categorias" />
+
+
+    <TextView
+        android:id="@+id/tv_titulo_categorias"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Categorias"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_botao_intro_categorias"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_botao_intro_categorias"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="(i)"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/rv_categorias"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_titulo_categorias" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
