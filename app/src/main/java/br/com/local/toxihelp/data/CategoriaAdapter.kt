@@ -1,19 +1,21 @@
-package br.com.local.toxihelp
+package br.com.local.toxihelp.data
 
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.RelativeLayout
 import android.widget.TextView
-import androidx.recyclerview.widget.RecyclerView
-import android.graphics.Color
-import br.com.local.toxihelp.domain.ICategoria
 import androidx.core.graphics.toColorInt
+import androidx.recyclerview.widget.DiffUtil
+import androidx.recyclerview.widget.ListAdapter
+import androidx.recyclerview.widget.RecyclerView
+import br.com.local.toxihelp.R
+import br.com.local.toxihelp.domain.Categoria
 
 class CategoriaAdapter(
-    private val categorias: List<ICategoria>,
-    private val onItemClick : (ICategoria) -> Unit
-) : RecyclerView.Adapter<CategoriaAdapter.CategoriaViewHolder>() {
+    private val onItemClick : (Categoria) -> Unit
+): ListAdapter<Categoria, CategoriaAdapter.CategoriaViewHolder>(CategoriaDiffCallback) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CategoriaViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.layout_rv_categorias, parent, false)
@@ -21,21 +23,19 @@ class CategoriaAdapter(
     }
 
     override fun onBindViewHolder(holder: CategoriaViewHolder, position: Int) {
-        val categoria = categorias[position]
+        val categoria = getItem(position)
         holder.bind(categoria)
-        holder.itemView.setOnClickListener { onItemClick(categoria) } // Define o click listener
+        holder.itemView.setOnClickListener {
+            onItemClick(categoria)
+        }
     }
-
-    override fun getItemCount(): Int = categorias.size
-
     class CategoriaViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
         private val titulo: TextView = itemView.findViewById(R.id.tv_categoria_titulo)
         private val container: RelativeLayout = itemView.findViewById(R.id.RL_categoria)
-        //private val intro: TextView = itemView.findViewById(R.id.item_pontuacao_desafio)
-        //private val itens: TextView = itemView.findViewById(R.id.item_periodo_desafio)
+        //private val intro: TextView = itemView.findViewById(R.id.)
 
-        fun bind(categoria: ICategoria) {
+        fun bind(categoria: Categoria) {
             titulo.text = categoria.nome
             //intro.text = categoria.intro
 
@@ -45,7 +45,19 @@ class CategoriaAdapter(
                 Color.GRAY // fallback
             }
             container.setBackgroundColor(cor)
-            //itens.text = categoria.itens
         }
+    }
+}
+
+// Objeto para calcular a diferença entre a lista antiga e a nova
+// Classe do Android para fazer especificamente isso
+object CategoriaDiffCallback : DiffUtil.ItemCallback<Categoria>() {
+    override fun areItemsTheSame(oldItem: Categoria, newItem: Categoria): Boolean {
+        // nome é um identificador único
+        return oldItem.nome == newItem.nome
+    }
+
+    override fun areContentsTheSame(oldItem: Categoria, newItem: Categoria): Boolean {
+        return oldItem == newItem
     }
 }

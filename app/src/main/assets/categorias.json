@@ -1,0 +1,30 @@
+[{
+  "nome" : "Agrotoxico",
+  "intro" : "Nao coma",
+  "colorCode" : "#E1A8F0"
+},
+{
+  "nome" : "Animal Peconhento",
+  "intro" : "De preferencia nao seja mordido",
+  "colorCode" : "#FFDE59"
+},
+{
+  "nome" : "Cosmetico",
+  "intro" : "Use, nao coma",
+  "colorCode" : "#FF66C4"
+},
+{
+  "nome" : "Planta Toxica",
+  "intro" : "As vezes",
+  "colorCode" : "#FF5757"
+},
+{
+  "nome" : "Produto Limpeza",
+  "intro" : "Usa luva vei",
+  "colorCode" : "#C1FF72"
+},
+{
+  "nome" : "Medicamento",
+  "intro" : "Tome remedios",
+  "colorCode" : "#D9D9D9"
+}]
