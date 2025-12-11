@@ -1,17 +1,17 @@
 package br.com.local.toxihelp.domain
 
-
-
 // Representa uma entidade tóxica.
 // sealed significa que todas as subclasses devem permanecer neste arquivo.
-
 
 sealed class EntidadeToxica : IItem
 
 // tipos concretos de Item
 
+
+// para fins de simplificacao, vou usar o Nome cientifico do principio ativo
+// como nome popular, e a funcao como descricao
 data class PrincipioAtivo(
-    val nomeCientifico: String,
+    val funcao: String,
     override val nomePopular: String,
     override val sintIntox: String,
     override val primSocorro: String

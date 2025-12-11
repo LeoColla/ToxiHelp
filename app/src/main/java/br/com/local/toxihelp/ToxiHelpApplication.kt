@@ -10,5 +10,5 @@ class ToxiHelpApplication : Application() {
     // Usamos 'lazy' para que o banco de dados e o repositório sejam criados
     // somente quando forem acessados pela primeira vez.
     private val database by lazy { AppDatabase.getInstance(this) }
-    val repository by lazy { Repository(database.categoriaDAO()) }
+    val repository by lazy { Repository(database.categoriaDAO(), database.entidadeToxicaDAO()) }
 }

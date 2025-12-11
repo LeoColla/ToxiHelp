@@ -31,7 +31,7 @@ class CategoriaAdapter(
     }
     class CategoriaViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-        private val titulo: TextView = itemView.findViewById(R.id.tv_categoria_titulo)
+        private val titulo: TextView = itemView.findViewById(R.id.categoria_titulo)
         private val container: RelativeLayout = itemView.findViewById(R.id.RL_categoria)
         //private val intro: TextView = itemView.findViewById(R.id.)
 

@@ -8,20 +8,22 @@ import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
 import br.com.local.toxihelp.assets.DataLoader
 import br.com.local.toxihelp.data.local.dao.*
-import br.com.local.toxihelp.data.local.entity.CategoriaEntity
+import br.com.local.toxihelp.data.local.entity.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 @Database(
     entities = [
-        CategoriaEntity::class
+        CategoriaEntity::class,
+        EntidadeToxicaEntity::class
     ],
-    version = 1,
+    version = 2,
     exportSchema = false
 )
 abstract class AppDatabase : RoomDatabase() {
     abstract fun categoriaDAO(): CategoriaDAO
+    abstract fun entidadeToxicaDAO(): EntidadeToxicaDAO
 
     // companion eh semelhante a classe estatica
     // vamos ter apenas um para todas as instancias
@@ -59,11 +61,12 @@ abstract class AppDatabase : RoomDatabase() {
 
             // Acessamos a instância diretamente após a criação no companion object
             val database = INSTANCE!!
-            val dao = database.categoriaDAO()
+            val catDAO = database.categoriaDAO()
+            val entDAO = database.entidadeToxicaDAO()
 
             CoroutineScope(Dispatchers.IO).launch {
                 Log.d("AppDatabase", "Coroutine de população iniciada.")
-                DataLoader(context.assets, dao).populate()
+                DataLoader(context.assets, catDAO, entDAO).populate()
                 Log.d("AppDatabase", "Coroutine de população concluída.")
             }
         }

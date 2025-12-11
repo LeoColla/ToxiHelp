@@ -1,5 +1,6 @@
 package br.com.local.toxihelp
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
@@ -14,7 +15,7 @@ import br.com.local.toxihelp.data.CategoriaAdapter
 import kotlinx.coroutines.launch
 
 class Categorias : AppCompatActivity() {
-    private val categoriaRepository by lazy {
+    private val reposit by lazy {
         (application as ToxiHelpApplication).repository
     }
 
@@ -35,11 +36,12 @@ class Categorias : AppCompatActivity() {
         // Criamos o adapter uma vez, com uma lista vazia.
         val adapter = CategoriaAdapter { categoria ->
             Log.d("CategoriasActivity", "Clique no item: ${categoria.nome}")
-            Toast.makeText(
-                this@Categorias,
-                "Categoria clicada: ${categoria.nome}",
-                Toast.LENGTH_SHORT
-            ).show()
+
+            // passando informacao para a proxima tela
+            val intent = Intent(this@Categorias, EntidadeToxicaLista::class.java).apply {
+                putExtra("NOME_CATEGORIA", categoria.nome)
+            }
+            startActivity(intent)
         }
         rv.adapter = adapter
 
@@ -49,7 +51,7 @@ class Categorias : AppCompatActivity() {
 
             // o bloco será executado imediatamente com os dados atuais (lista vazia)
             // e depois, novamente, quando o DataLoader terminar e o banco for atualizado.
-            categoriaRepository.getCategorias().collect { categorias ->
+            reposit.getCategorias().collect { categorias ->
                 Log.d("CategoriasActivity", "Flow coletado. Novo número de categorias: ${categorias.size}")
 
                 // Atualizamos a lista de dados no adapter

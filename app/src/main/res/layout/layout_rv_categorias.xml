@@ -34,7 +34,7 @@
 
 
             <TextView
-                android:id="@+id/tv_categoria_titulo"
+                android:id="@+id/categoria_titulo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
