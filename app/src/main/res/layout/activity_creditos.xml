@@ -8,4 +8,82 @@
     android:background="@drawable/fundo"
     tools:context=".Creditos">
 
+    <TextView
+        android:id="@+id/Titulo_Credito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Créditos"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/Subt_credito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Idealizadoras"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="132dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_Credito"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/Texto_Credito"
+        android:layout_width="325dp"
+        android:layout_height="200dp"
+        android:text="Bárbara Stephani Silva\nBruna Natasha Moura de Almeida\nCarlos Roberto Escrivão Grignoli\nDaniela Teixeira Schuartz\nJulia Guedes Maretti\nLetícia Cristina Gonçalves\nMariana Dias\nVitória Roberta Felipe da Silva"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="254dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Subt_credito"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/Subt_credito2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desenvolvedores"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="132dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Texto_Credito"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/Texto_Credito2"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:text="Gabriel Barbosa\nLeonardo Henrique Barbosa Colla"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="254dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Subt_credito2"
+        android:layout_marginTop="30dp"
+        />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
