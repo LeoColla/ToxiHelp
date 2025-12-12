@@ -34,7 +34,7 @@
         tools:layout_editor_absoluteY="132dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titulo_Credito"
+        app:layout_constraintTop_toBottomOf="@+id/Titulo_Credito"
         android:layout_marginTop="30dp"
         />
 
@@ -42,7 +42,7 @@
         android:id="@+id/Texto_Credito"
         android:layout_width="325dp"
         android:layout_height="200dp"
-        android:text="Bárbara Stephani Silva\nBruna Natasha Moura de Almeida\nCarlos Roberto Escrivão Grignoli\nDaniela Teixeira Schuartz\nJulia Guedes Maretti\nLetícia Cristina Gonçalves\nMariana Dias\nVitória Roberta Felipe da Silva"
+        android:text="@string/idealizadores"
         android:textAlignment="center"
         android:gravity="center"
         android:textSize="20sp"
@@ -73,7 +73,7 @@
         android:id="@+id/Texto_Credito2"
         android:layout_width="325dp"
         android:layout_height="50dp"
-        android:text="Gabriel Barbosa\nLeonardo Henrique Barbosa Colla"
+        android:text="@string/desenvolvedores"
         android:textAlignment="center"
         android:gravity="center"
         android:textSize="20sp"

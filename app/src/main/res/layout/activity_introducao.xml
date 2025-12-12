@@ -28,9 +28,7 @@
         android:layout_height="470dp"
         android:layout_marginTop="30dp"
         android:justificationMode="inter_word"
-        android:text="\t\tA linguagem utilizada busca ser acessível a todos, sem abrir mão da fundamentação científica que garante a credibilidade e a seriedade do conteúdo apresentados.
-        \n\t\tEsperamos que este aplicativo se torne uma ferramenta útil para profissionais da saúde, educadores, cuidadores e qualquer pessoa que deseje estar melhor preparada para agir com segurança em situações emergenciais. Que o ToxiHelp contribua para fortalecer o autocuidado, a educação em saúde e a promoção de práticas mais seguras em ambientes domiciliares e comunitários.
-Agradecemos a todos os envolvidos na idealização e construção deste projeto, que dedicaram seu tempo, conhecimento e criatividade para tornar possível esse instrumento de apoio à saúde coletiva."
+        android:text="@string/texto_introducao_completo"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
