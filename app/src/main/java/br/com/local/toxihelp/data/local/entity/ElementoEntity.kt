@@ -3,8 +3,8 @@ package br.com.local.toxihelp.data.local.entity
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "entidades_toxicas")
-data class EntidadeToxicaEntity(
+@Entity(tableName = "elementos")
+data class ElementoEntity(
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
 
@@ -18,9 +18,9 @@ data class EntidadeToxicaEntity(
 
     // Campos específicos (podem ser nulos)
     val nomeCientifico: String?,
-    val funcao: String?,           // Apenas para Medicamento
+    val funcao: String?,           // Apenas para Medicamentos e Agrotoxico
     val parteToxica: String?,      // Apenas para Planta
     val substanciaToxica: String?, // Apenas para Animal
-    val produto: String?,          // Apenas para Cosmético
+    val produto: String?,          // Apenas para Cosmético e Limpeza
     val substancia: String?        // Apenas para Limpeza
 )

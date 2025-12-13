@@ -3,7 +3,6 @@ package br.com.local.toxihelp
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -38,7 +37,7 @@ class Categorias : AppCompatActivity() {
             Log.d("CategoriasActivity", "Clique no item: ${categoria.nome}")
 
             // passando informacao para a proxima tela
-            val intent = Intent(this@Categorias, EntidadeToxicaLista::class.java).apply {
+            val intent = Intent(this@Categorias, ElementoLista::class.java).apply {
                 putExtra("NOME_CATEGORIA", categoria.nome)
             }
             startActivity(intent)
