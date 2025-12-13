@@ -6,20 +6,20 @@ import br.com.local.toxihelp.data.local.entity.CategoriaEntity
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import android.util.Log
-import br.com.local.toxihelp.data.local.dao.EntidadeToxicaDAO
-import br.com.local.toxihelp.data.local.entity.EntidadeToxicaEntity
+import br.com.local.toxihelp.data.local.dao.ElementoDAO
+import br.com.local.toxihelp.data.local.entity.ElementoEntity
 
 class DataLoader(
     private val assets: AssetManager,
-    private val catDAO: CategoriaDAO,
-    private val entDAO: EntidadeToxicaDAO
+    private val categoriaDAO: CategoriaDAO,
+    private val elementoDAO: ElementoDAO
 ) {
     // estamos acessando DAO diretamente
     private val gson = Gson()
 
     suspend fun populate() {
         loadCategorias()
-        loadEntidades()
+        loadElementos()
     }
 
     suspend private fun loadCategorias() {
@@ -32,27 +32,27 @@ class DataLoader(
             val items: List<CategoriaEntity> = gson.fromJson(json, listType)
 
             Log.d("DataLoader", "loadCategorias: Inserindo Categorias no banco de dados.")
-            items.forEach { catDAO.insertCategorias(it) }
+            items.forEach { categoriaDAO.insertCategorias(it) }
             Log.d("DataLoader", "loadCategorias: Carregamento concluído. Quantidade de categorias: ${items.size}")
         }catch (e: Exception){
             Log.e("DataLoader", "Erro ao carregar categorias: ${e.message}")
         }
     }
 
-    suspend private fun loadEntidades(){
+    suspend private fun loadElementos(){
         try {
-            Log.d("DataLoader", "loadEntidades: Iniciando carregamento de Entidades.")
-            val json = read("entidades.json")
-            Log.d("DataLoader", "loadEntidades: JSON carregado.")
+            Log.d("DataLoader", "loadElementos: Iniciando carregamento de Elementos.")
+            val json = read("elementos.json")
+            Log.d("DataLoader", "loadElementos: JSON carregado.")
 
-            val listType = object : TypeToken<List<EntidadeToxicaEntity>>() {}.type
-            val items: List<EntidadeToxicaEntity> = gson.fromJson(json, listType)
+            val listType = object : TypeToken<List<ElementoEntity>>() {}.type
+            val items: List<ElementoEntity> = gson.fromJson(json, listType)
 
-            Log.d("DataLoader", "loadEntidades: Inserindo Entidades no banco de dados.")
-            entDAO.insertAll(items)
-            Log.d("DataLoader", "loadEntidades: Carregamento concluído. Quantidade de entidades: ${items.size}")
+            Log.d("DataLoader", "loadElementos: Inserindo Elementos no banco de dados.")
+            elementoDAO.insertAll(items)
+            Log.d("DataLoader", "loadElementos: Carregamento concluído. Quantidade de Elementos: ${items.size}")
         }catch (e: Exception){
-            Log.e("DataLoader", "Erro ao carregar entidades: ${e.message}")
+            Log.e("DataLoader", "Erro ao carregar Elementos: ${e.message}")
         }
 
     }

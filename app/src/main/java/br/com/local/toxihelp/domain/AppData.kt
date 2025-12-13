@@ -5,6 +5,5 @@ package br.com.local.toxihelp.domain
 
 data class AppData(
     val titulo: String,
-    val intro: String,
-    val categorias: List<Categoria>
+    val intro: String
 )

@@ -19,53 +19,54 @@ fun Categoria.toEntity() = CategoriaEntity(
     colorCode = colorCode
 )
 
-fun EntidadeToxicaEntity.toDomain(): EntidadeToxica {
+fun ElementoEntity.toDomain(): Elemento {
     // Usamos o 'categoriaNome' para decidir qual tipo de objeto de domínio criar.
     // Isso é mais robusto do que verificar campos nulos.
     return when (categoriaNome) {
-        "Agrotoxico" -> SubstanciaAgro(
-            nomeCientifico = nomeCientifico ?: "",
+        "Agrotoxico" -> Agrotoxico(
+            funcao = funcao ?: "Não especificada",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
             primSocorro = primSocorro
         )
-        "Planta Toxica" -> Planta(
-            nomeCientifico = nomeCientifico ?: "",
+        "Planta Toxica" -> PlantaToxica(
+            nomeCientifico = nomeCientifico ?: "Não especificado",
             parteToxica = parteToxica ?: "Não especificada",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
             primSocorro = primSocorro
         )
-        "Animal Peconhento" -> Animal(
-            nomeCientifico = nomeCientifico ?: "",
+        "Animal Peconhento" -> AnimalPeconhento(
+            nomeCientifico = nomeCientifico ?: "Não especificado",
             substanciaToxica = substanciaToxica ?: "Não especificada",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
             primSocorro = primSocorro
         )
-        "Cosmetico" -> SubstanciaCosm(
+        "Cosmetico" -> Cosmetico(
             produto = produto ?: "Não especificado",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
             primSocorro = primSocorro
         )
-        "Produto Limpeza" -> SubstanciaLimp(
+        "Produto Limpeza" -> ProdutoLimpeza(
             substancia = substancia ?: "Não especificada",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
-            primSocorro = primSocorro
+            primSocorro = primSocorro,
+            produto = produto ?: "Não especificado"
         )
-        "Medicamento" -> PrincipioAtivo(
-            funcao = funcao ?: "",
+        "Medicamento" -> Medicamento(
+            funcao = funcao ?: "Não especificada",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
             primSocorro = primSocorro
         )
-        else -> throw IllegalArgumentException("Tipo de entidade desconhecido: $categoriaNome")
+        else -> throw IllegalArgumentException("Tipo de elemento desconhecido: $categoriaNome")
     }
 }
 
-fun EntidadeToxica.toEntity(): EntidadeToxicaEntity {
+fun Elemento.toEntity(): ElementoEntity {
     // Extrai os campos comuns da interface
     val nomePopular = this.nomePopular
     val sintIntox = this.sintIntox
@@ -73,7 +74,7 @@ fun EntidadeToxica.toEntity(): EntidadeToxicaEntity {
 
     // Determina o nome da categoria e os campos específicos
     return when (this) {
-        is Animal -> EntidadeToxicaEntity(
+        is AnimalPeconhento -> ElementoEntity(
             categoriaNome = "Animal Peconhento",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
@@ -82,7 +83,7 @@ fun EntidadeToxica.toEntity(): EntidadeToxicaEntity {
             substanciaToxica = this.substanciaToxica,
             parteToxica = null, produto = null, substancia = null, funcao = null
         )
-        is Planta -> EntidadeToxicaEntity(
+        is PlantaToxica -> ElementoEntity(
             categoriaNome = "Planta Toxica",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
@@ -91,7 +92,7 @@ fun EntidadeToxica.toEntity(): EntidadeToxicaEntity {
             parteToxica = this.parteToxica,
             substanciaToxica = null, produto = null, substancia = null, funcao = null
         )
-        is PrincipioAtivo -> EntidadeToxicaEntity(
+        is Medicamento -> ElementoEntity(
             categoriaNome = "Medicamento",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
@@ -99,15 +100,15 @@ fun EntidadeToxica.toEntity(): EntidadeToxicaEntity {
             funcao = this.funcao,
             parteToxica = null, substanciaToxica = null, produto = null, substancia = null, nomeCientifico = null
         )
-        is SubstanciaAgro -> EntidadeToxicaEntity(
+        is Agrotoxico -> ElementoEntity(
             categoriaNome = "Agrotoxico",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
             primSocorro = primSocorro,
-            nomeCientifico = this.nomeCientifico,
-            parteToxica = null, substanciaToxica = null, produto = null, substancia = null, funcao = null
+            funcao = this.funcao,
+            parteToxica = null, substanciaToxica = null, produto = null, substancia = null, nomeCientifico = null
         )
-        is SubstanciaCosm -> EntidadeToxicaEntity(
+        is Cosmetico -> ElementoEntity(
             categoriaNome = "Cosmetico",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
@@ -115,13 +116,14 @@ fun EntidadeToxica.toEntity(): EntidadeToxicaEntity {
             produto = this.produto,
             nomeCientifico = null, parteToxica = null, substanciaToxica = null, substancia = null, funcao = null
         )
-        is SubstanciaLimp -> EntidadeToxicaEntity(
+        is ProdutoLimpeza -> ElementoEntity(
             categoriaNome = "Produto Limpeza",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
             primSocorro = primSocorro,
             substancia = this.substancia,
-            nomeCientifico = null, parteToxica = null, substanciaToxica = null, produto = null, funcao = null
+            produto = this.produto,
+            nomeCientifico = null, parteToxica = null, substanciaToxica = null, funcao = null
         )
     }
 }

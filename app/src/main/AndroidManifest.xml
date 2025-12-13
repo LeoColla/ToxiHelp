@@ -14,7 +14,10 @@
         android:theme="@style/Theme.ToxiHelp"
         tools:targetApi="31">
         <activity
-            android:name=".EntidadeToxicaLista"
+            android:name=".ElementoDetalhe"
+            android:exported="false" />
+        <activity
+            android:name=".ElementoLista"
             android:exported="false" />
         <activity
             android:name=".Categorias"

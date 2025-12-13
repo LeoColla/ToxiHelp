@@ -9,7 +9,7 @@
     app:cardElevation="4dp">
 
     <LinearLayout
-        android:id="@+id/lL_entidade_toxica"
+        android:id="@+id/lL_elemento_resumo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -18,7 +18,7 @@
         android:padding="16dp">
 
         <TextView
-            android:id="@+id/entidade_nome"
+            android:id="@+id/elemento_resumo_nome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18sp"

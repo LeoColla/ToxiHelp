@@ -16,14 +16,14 @@ import kotlinx.coroutines.launch
 @Database(
     entities = [
         CategoriaEntity::class,
-        EntidadeToxicaEntity::class
+        ElementoEntity::class
     ],
     version = 2,
     exportSchema = false
 )
 abstract class AppDatabase : RoomDatabase() {
     abstract fun categoriaDAO(): CategoriaDAO
-    abstract fun entidadeToxicaDAO(): EntidadeToxicaDAO
+    abstract fun elementoDAO(): ElementoDAO
 
     // companion eh semelhante a classe estatica
     // vamos ter apenas um para todas as instancias
@@ -34,6 +34,12 @@ abstract class AppDatabase : RoomDatabase() {
         @Volatile
         private var INSTANCE: AppDatabase? = null
 
+        // ?: operador elvis
+        // retorna instancia se houver valor
+        // roda o syncronized caso contrario
+
+        // syncronized eh um semaforo
+        // ele permite que apenas uma thread acesse o bloco de codigo por vez
         fun getInstance(context: Context): AppDatabase {
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
@@ -61,12 +67,12 @@ abstract class AppDatabase : RoomDatabase() {
 
             // Acessamos a instância diretamente após a criação no companion object
             val database = INSTANCE!!
-            val catDAO = database.categoriaDAO()
-            val entDAO = database.entidadeToxicaDAO()
+            val categoriaDAO = database.categoriaDAO()
+            val elementoDAO = database.elementoDAO()
 
             CoroutineScope(Dispatchers.IO).launch {
                 Log.d("AppDatabase", "Coroutine de população iniciada.")
-                DataLoader(context.assets, catDAO, entDAO).populate()
+                DataLoader(context.assets, categoriaDAO, elementoDAO).populate()
                 Log.d("AppDatabase", "Coroutine de população concluída.")
             }
         }
