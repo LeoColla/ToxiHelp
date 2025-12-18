@@ -12,7 +12,7 @@
         android:id="@+id/titulo_Intro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Introdução"
+        android:text="@string/texto_titulo_Intro"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
