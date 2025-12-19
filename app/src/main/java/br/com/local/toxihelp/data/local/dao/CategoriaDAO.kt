@@ -14,6 +14,9 @@ interface CategoriaDAO {
     @Query("SELECT * FROM categorias")
     fun getCategorias(): Flow<List<CategoriaEntity>>
 
+    @Query("SELECT * FROM categorias WHERE nome = :nome")
+    suspend fun getCategoriaPorNome(nome: String): CategoriaEntity?
+
     @Insert
     suspend fun insertCategorias(e: CategoriaEntity)
 

@@ -31,8 +31,21 @@
         android:text="Elementos"
         android:textSize="24sp"
         android:textStyle="bold|italic"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/info_categoria"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/info_categoria"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="2dp"
+        android:background="#FAFAFA"
+        android:padding="16dp"
+        android:text=" ( i )"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/rv_elemento_resumo_lista"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 

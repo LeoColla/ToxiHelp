@@ -16,6 +16,11 @@ class Repository(
             entities.map { it.toDomain() }
         }
 
+    suspend fun getCategoriaPorNome(nome: String): Categoria? {
+        val entity = categoriaDAO.getCategoriaPorNome(nome)
+        return entity?.toDomain()
+    }
+
     suspend fun insertCategorias(item: Categoria) =
         categoriaDAO.insertCategorias(item.toEntity())
 

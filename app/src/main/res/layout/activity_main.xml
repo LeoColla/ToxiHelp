@@ -12,7 +12,7 @@
         android:id="@+id/b_introducao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="introducao"
+        android:text="Introducao"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="534dp"
         app:layout_constraintStart_toStartOf="parent"
