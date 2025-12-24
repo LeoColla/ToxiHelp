@@ -40,21 +40,28 @@ class DataLoader(
     }
 
     suspend private fun loadElementos(){
-        try {
-            Log.d("DataLoader", "loadElementos: Iniciando carregamento de Elementos.")
-            val json = read("elementos.json")
-            Log.d("DataLoader", "loadElementos: JSON carregado.")
+        val arquivosJson = listOf(
+            "medicamentos.json",
+            "agrotoxicos.json"
+        )
 
-            val listType = object : TypeToken<List<ElementoEntity>>() {}.type
-            val items: List<ElementoEntity> = gson.fromJson(json, listType)
+        val listType = object : TypeToken<List<ElementoEntity>>() {}.type
 
-            Log.d("DataLoader", "loadElementos: Inserindo Elementos no banco de dados.")
-            elementoDAO.insertAll(items)
-            Log.d("DataLoader", "loadElementos: Carregamento concluído. Quantidade de Elementos: ${items.size}")
-        }catch (e: Exception){
-            Log.e("DataLoader", "Erro ao carregar Elementos: ${e.message}")
+        arquivosJson.forEach { arquivo ->
+            try {
+                Log.d("DataLoader", "loadElementos: Iniciando carregamento de '$arquivo'.")
+                val json = read(arquivo)
+                Log.d("DataLoader", "loadElementos: JSON carregado.")
+
+                val items: List<ElementoEntity> = gson.fromJson(json, listType)
+
+                Log.d("DataLoader", "loadElementos: Inserindo Elementos no banco de dados.")
+                elementoDAO.insertAll(items)
+                Log.d("DataLoader", "loadElementos: Carregamento concluído. Quantidade de Elementos: ${items.size}")
+            }catch (e: Exception){
+                Log.e("DataLoader", "Erro ao carregar Elementos de '$arquivo': ${e.message}")
+            }
         }
-
     }
 
     private fun read(filename: String): String {
