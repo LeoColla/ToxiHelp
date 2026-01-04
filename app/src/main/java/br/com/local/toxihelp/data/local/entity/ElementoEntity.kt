@@ -20,6 +20,8 @@ data class ElementoEntity(
     val nomeCientifico: String?,
     val funcao: String?,           // Apenas para Medicamentos e Agrotoxico
     val parteToxica: String?,      // Apenas para Planta
+    val caracteristica: String?,   // Apenas para Planta
+    val resumo: String?,           // Apenas para Planta
     val substanciaToxica: String?, // Apenas para Animal
     val produto: String?,          // Apenas para Cosmético e Limpeza
     val substancia: String?        // Apenas para Limpeza

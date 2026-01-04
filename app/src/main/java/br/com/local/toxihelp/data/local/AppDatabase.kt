@@ -5,6 +5,7 @@ import android.util.Log
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
 import br.com.local.toxihelp.assets.DataLoader
 import br.com.local.toxihelp.data.local.dao.*
@@ -13,6 +14,8 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
+// TODO modificar AndroidManifest para android:allowBackup="true"
+// Apos isso, toda mudança no banco deve ser feita por meio de Migração
 @Database(
     entities = [
         CategoriaEntity::class,
@@ -48,7 +51,10 @@ abstract class AppDatabase : RoomDatabase() {
                     "toxiHelp.db"
                 )
                     .addCallback(DatabaseCallback(context))
+                    .fallbackToDestructiveMigration(true)
                     .build()
+
+                // TODO remover fallback apos adicionar migração
 
                 INSTANCE = instance
                 instance

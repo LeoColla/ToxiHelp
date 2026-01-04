@@ -13,16 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/im_categoria"
-            android:layout_width="match_parent"
-            android:layout_height="109dp"
-            android:layout_alignParentEnd="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginEnd="0dp"
-            android:layout_toEndOf="@+id/lL_categoria"
-            tools:srcCompat="@tools:sample/avatars" />
-
         <LinearLayout
             android:id="@+id/lL_categoria"
             android:layout_width="200dp"

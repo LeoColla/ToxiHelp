@@ -25,6 +25,7 @@ class DataLoader(
     suspend private fun loadCategorias() {
         try {
             Log.d("DataLoader", "loadCategorias: Iniciando carregamento de Categorias.")
+
             val json = read("categorias.json")
             Log.d("DataLoader", "loadCategorias: JSON carregado.")
 
@@ -41,8 +42,9 @@ class DataLoader(
 
     suspend private fun loadElementos(){
         val arquivosJson = listOf(
+            "agrotoxicos.json",
             "medicamentos.json",
-            "agrotoxicos.json"
+            "plantasToxicas.json"
         )
 
         val listType = object : TypeToken<List<ElementoEntity>>() {}.type
@@ -50,6 +52,7 @@ class DataLoader(
         arquivosJson.forEach { arquivo ->
             try {
                 Log.d("DataLoader", "loadElementos: Iniciando carregamento de '$arquivo'.")
+
                 val json = read(arquivo)
                 Log.d("DataLoader", "loadElementos: JSON carregado.")
 

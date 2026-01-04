@@ -34,7 +34,9 @@ fun ElementoEntity.toDomain(): Elemento {
             parteToxica = parteToxica ?: "Não especificada",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
-            primSocorro = primSocorro
+            primSocorro = primSocorro,
+            caracteristica = caracteristica ?: "Não especificada",
+            resumo = resumo ?: "Não especificada"
         )
         "Animal Peconhento" -> AnimalPeconhento(
             nomeCientifico = nomeCientifico ?: "Não especificado",
@@ -81,7 +83,7 @@ fun Elemento.toEntity(): ElementoEntity {
             primSocorro = primSocorro,
             nomeCientifico = this.nomeCientifico,
             substanciaToxica = this.substanciaToxica,
-            parteToxica = null, produto = null, substancia = null, funcao = null
+            parteToxica = null, produto = null, substancia = null, funcao = null, caracteristica = null, resumo = null
         )
         is PlantaToxica -> ElementoEntity(
             categoriaNome = "Planta Toxica",
@@ -90,6 +92,8 @@ fun Elemento.toEntity(): ElementoEntity {
             primSocorro = primSocorro,
             nomeCientifico = this.nomeCientifico,
             parteToxica = this.parteToxica,
+            caracteristica = this.caracteristica,
+            resumo = this.resumo,
             substanciaToxica = null, produto = null, substancia = null, funcao = null
         )
         is Medicamento -> ElementoEntity(
@@ -98,7 +102,7 @@ fun Elemento.toEntity(): ElementoEntity {
             sintIntox = sintIntox,
             primSocorro = primSocorro,
             funcao = this.funcao,
-            parteToxica = null, substanciaToxica = null, produto = null, substancia = null, nomeCientifico = null
+            parteToxica = null, substanciaToxica = null, produto = null, substancia = null, nomeCientifico = null, caracteristica = null, resumo = null
         )
         is Agrotoxico -> ElementoEntity(
             categoriaNome = "Agrotoxico",
@@ -106,7 +110,7 @@ fun Elemento.toEntity(): ElementoEntity {
             sintIntox = sintIntox,
             primSocorro = primSocorro,
             funcao = this.funcao,
-            parteToxica = null, substanciaToxica = null, produto = null, substancia = null, nomeCientifico = null
+            parteToxica = null, substanciaToxica = null, produto = null, substancia = null, nomeCientifico = null, caracteristica = null, resumo = null
         )
         is Cosmetico -> ElementoEntity(
             categoriaNome = "Cosmetico",
@@ -114,7 +118,7 @@ fun Elemento.toEntity(): ElementoEntity {
             sintIntox = sintIntox,
             primSocorro = primSocorro,
             produto = this.produto,
-            nomeCientifico = null, parteToxica = null, substanciaToxica = null, substancia = null, funcao = null
+            nomeCientifico = null, parteToxica = null, substanciaToxica = null, substancia = null, funcao = null, caracteristica = null, resumo = null
         )
         is ProdutoLimpeza -> ElementoEntity(
             categoriaNome = "Produto Limpeza",
@@ -123,7 +127,7 @@ fun Elemento.toEntity(): ElementoEntity {
             primSocorro = primSocorro,
             substancia = this.substancia,
             produto = this.produto,
-            nomeCientifico = null, parteToxica = null, substanciaToxica = null, funcao = null
+            nomeCientifico = null, parteToxica = null, substanciaToxica = null, funcao = null, caracteristica = null, resumo = null
         )
     }
 }

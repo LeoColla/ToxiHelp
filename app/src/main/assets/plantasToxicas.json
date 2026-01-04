@@ -1,0 +1,30 @@
+[
+  {
+    "categoriaNome" : "Planta Toxica",
+    "nomePopular" :"Espirradeira",
+    "sintIntox" : "\n Náuseas e vômitos\nDiarreia intensa e dor abdominal\nBatimentos cardíacos irregulares (arritmias)\nTontura, fraqueza e confusão mental\nTremores ou sonolência\nDificuldade respiratória\nEm casos mais graves: convulsões, perda de consciência, coma ou parada cardíaca\n",
+    "primSocorro" : "Ingestão acidental:\nNão provocar vômito\nNão dar nada por via oral se a vítima estiver sonolenta ou com dificuldade de engolir\nManter a vítima em repouso e sob observação\nEncaminhar imediatamente ao hospital, levando, se possível, uma amostra ou foto da planta\n Contato com pele ou olhos:\nRemover roupas contaminadas com cuidado\nLavar a área atingida com água e sabão neutro por pelo menos 15 minutos\nProcurar atendimento médico se houver irritação persistente\n Inalação da fumaça:\nLevar a vítima para local arejado\n Observar sinais como tosse, tontura ou falta de ar\n Procurar atendimento médico se os sintomas forem intensos ou durarem mais que alguns minutos",
+    "nomeCientifico" : "Nerium oleander",
+    "funcao" : "",
+    "parteToxica" : "Todas as partes da planta são tóxicas — incluindo folhas, flores, galhos, sementes ",
+    "substanciaToxica" : "",
+    "produto" : "",
+    "substancia" : "",
+    "caracteristica" : "Planta ornamental de médio porte\nFolhas: verdes, longas e lanceoladas, dispostas em grupos de três\nFlores: vistosas, nas cores branca, rosa ou vermelha, com perfume suave\nAltamente resistente à seca e comumente utilizada em jardins, calçadas e cercas vivas",
+    "resumo" : "Nerium oleander, conhecida como espirradeira, é uma planta ornamental amplamente cultivada em áreas urbanas e rurais. Apesar de sua beleza, é altamente tóxica para animais domésticos e de criação. Todas as partes da planta — incluindo folhas secas, flores e galhos — contêm substâncias que podem causar intoxicações graves ou fatais. A ingestão acidental por cães, gatos, bovinos e equinos pode provocar distúrbios gastrointestinais, neurológicos e cardiovasculares. Seu uso em áreas acessíveis a animais deve ser evitado."
+  },
+  {
+    "categoriaNome" : "Planta Toxica",
+    "nomePopular" :"Mamona",
+    "sintIntox" : "Náuseas e vômitos intensos\nCólicas abdominais e diarreia severa\nDesidratação rápida\nTontura, fraqueza geral e tremores\nConvulsões, febre e confusão mental\nEm casos graves, pode evoluir para falência de órgãos e morte se não houver atendimento imediato",
+    "primSocorro" : " Ingestão acidental:\n Não provocar vômito, mesmo que a vítima esteja consciente\n Não oferecer alimentos, água ou leite sem avaliação médica\n Manter a vítima em repouso, deitada de lado se houver náuseas\n Observar sinais como vômitos persistentes, dor abdominal, tontura ou confusão mental\nEncaminhar imediatamente ao hospital, levando amostras das sementes ou da planta, se possível\nContato com pele ou olhos:\n Lavar a área atingida com água corrente e sabão neutro por pelo menos 15 minutos\n Evitar coçar ou esfregar os olhos\n Procurar atendimento médico se houver vermelhidão, ardência, ou irritação persistente\n Inalação (pouco comum, mas possível em ambiente agrícola):\n Levar a vítima para ambiente ventilado\n Observar sinais respiratórios como tosse, dificuldade para respirar ou irritação nasal\n Procurar auxílio médico se os sintomas persistirem\n",
+    "nomeCientifico" : "Ricinus communis",
+    "funcao" : "",
+    "parteToxica" : "Sementes — contêm ricina, uma toxina extremamente potente mesmo em pequenas quantidades. As folhas e o caule têm menor toxicidade, mas também podem causar irritações.",
+    "substanciaToxica" : "",
+    "produto" : "",
+    "substancia" : "",
+    "caracteristica" : "Arbusto perene que pode atingir até 3 metros de altura, com caule ereto e oco. Suas folhas são grandes, palmadas, com bordas serrilhadas, de coloração verde ou arroxeada. As flores são pequenas, agrupadas em inflorescências, e os frutos são cápsulas espinhosas que contêm de 1 a 3 sementes brilhantes, com aspecto marmorizado. As sementes, apesar de atraentes, são altamente tóxicas quando mastigadas ou trituradas. A planta é comum em áreas rurais, terrenos baldios e margens de estradas.",
+    "resumo" : "Ricinus communis, popularmente conhecida como mamona, é uma planta amplamente distribuída no Brasil, especialmente em áreas não cultivadas e zonas rurais. Embora tenha aplicações industriais importantes, como na produção de óleo de mamona, sua toxicidade representa um sério risco para humanos e animais. As sementes da planta contêm uma toxina extremamente potente, e a ingestão, mesmo em pequenas quantidades, pode causar quadros graves de intoxicação. Por seu crescimento espontâneo e aparência inofensiva, a planta é frequentemente manipulada por crianças ou animais domésticos, o que aumenta o risco de envenenamento acidental. "
+  }
+]

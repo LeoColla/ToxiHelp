@@ -72,7 +72,9 @@ class ElementoDetalhe : AppCompatActivity() {
             is PlantaToxica -> mapOf(
                 "Planta" to  elemento.nomeCientifico,
                 "Nome Popular" to elemento.nomePopular,
-                "Parte Tóxica" to elemento.parteToxica
+                "Parte Tóxica" to elemento.parteToxica,
+                "Caracteristica" to elemento.caracteristica,
+                "Resumo" to elemento.resumo
             )
             is AnimalPeconhento -> mapOf(
                 "Animal" to  elemento.nomeCientifico,

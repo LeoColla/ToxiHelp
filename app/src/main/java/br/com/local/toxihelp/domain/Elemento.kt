@@ -29,7 +29,9 @@ data class PlantaToxica(
     val parteToxica: String,
     override val nomePopular: String,
     override val sintIntox: String,
-    override val primSocorro: String
+    override val primSocorro: String,
+    val caracteristica: String?,
+    val resumo: String?
 ) : Elemento()
 
 data class AnimalPeconhento(

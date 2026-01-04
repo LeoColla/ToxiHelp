@@ -33,11 +33,9 @@ class CategoriaAdapter(
 
         private val titulo: TextView = itemView.findViewById(R.id.categoria_titulo)
         private val container: RelativeLayout = itemView.findViewById(R.id.RL_categoria)
-        //private val intro: TextView = itemView.findViewById(R.id.)
 
         fun bind(categoria: Categoria) {
             titulo.text = categoria.nome
-            //intro.text = categoria.intro
 
             val cor = try {
                 categoria.colorCode.toColorInt()

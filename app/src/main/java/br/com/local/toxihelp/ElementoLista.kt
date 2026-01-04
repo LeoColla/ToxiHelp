@@ -97,5 +97,6 @@ class ElementoLista : AppCompatActivity() {
                 adapter.submitList(elementosOrdenados)
             }
         }
+
     }
 }
