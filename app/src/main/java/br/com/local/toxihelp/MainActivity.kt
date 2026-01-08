@@ -24,6 +24,10 @@ class MainActivity : AppCompatActivity() {
         val botaoCategorias: Button = findViewById(R.id.b_categoria)
         botaoCategorias.setOnClickListener{ GoCategorias() }
 
+        val botaoReferencias: Button = findViewById(R.id.b_referencia)
+        botaoReferencias.setOnClickListener{ GoReferencias() }
+
+
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -47,4 +51,10 @@ class MainActivity : AppCompatActivity() {
         val intentCategorias = Intent(this,Categorias::class.java)
         startActivity(intentCategorias)
     }
+
+    private fun GoReferencias(){
+        val intentReferencias = Intent(this,Referencias::class.java)
+        startActivity(intentReferencias)
+    }
+
 }
