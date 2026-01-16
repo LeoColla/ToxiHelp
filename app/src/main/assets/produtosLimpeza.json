@@ -225,7 +225,7 @@
   },
   {
     "categoriaNome" : "Produto Limpeza",
-    "nomePopular" : "Solvente",
+    "nomePopular" : "Solvente (Querosene)",
     "sintIntox" : "Náusea, vômitos.\nConfusão mental, tontura.\nDispneia (falta de ar), tosse, possível aspiração pulmonar.\nRisco de pneumonia química se aspirado para os pulmões.\n",
     "primSocorro" : "Ingestão acidental:\nNão induzir vômito — risco elevado de aspiração pulmonar, que pode causar pneumonia química grave.\nEnxaguar a boca com água, se a vítima estiver consciente.\nManter a vítima em repouso e em posição lateral de segurança, se possível.\nProcurar atendimento médico urgente, levando a embalagem do produto.\nInalação:\nRemover a vítima para local arejado imediatamente.\nObservar sinais de dificuldade respiratória.\nProcurar atendimento médico se houver tosse persistente, chiado ou falta de ar.\nContato com a pele:\nLavar bem a área afetada com água e sabão neutro.\nRemover roupas contaminadas.\nProcurar atendimento médico se houver irritação persistente.\nContato com os olhos:\nLavar com água corrente abundante por pelo menos 15 minutos.\nProcurar atendimento oftalmológico se persistir vermelhidão ou dor.\n",
     "nomeCientifico" : "",
@@ -239,7 +239,7 @@
   },
   {
     "categoriaNome" : "Produto Limpeza",
-    "nomePopular" : "Solvente",
+    "nomePopular" : "Solvente (Metanol)",
     "sintIntox" : "Depressão do sistema nervoso central (SNC) — tontura, sonolência, confusão.\nNáuseas, vômitos, dor abdominal.\nVisão turva, diplopia, podendo evoluir para cegueira.\nComa e insuficiência respiratória em casos graves.\nAcidemia metabólica e dano renal.\n",
     "primSocorro" : "Ingestão acidental:\nNão induzir vômito.\nProcurar atendimento médico imediato.\nLevar a embalagem do produto para o hospital.\nAdministração médica urgente de antídotos (etanol ou fomepizol) pode ser necessária.\n Inalação:\nRemover a vítima para ambiente ventilado.\nObservar sinais de depressão respiratória.\nProcurar atendimento médico se houver sonolência, dificuldade respiratória ou confusão.\nContato com a pele:\nLavar a área afetada com água e sabão.\nProcurar atendimento médico se houver irritação persistente.\nContato com os olhos:\nLavar com água corrente abundante por pelo menos 15 minutos.\nProcurar atendimento oftalmológico se houver dor ou irritação persistente.\n",
     "nomeCientifico" : "",
@@ -253,21 +253,7 @@
   },
   {
     "categoriaNome" : "Produto Limpeza",
-    "nomePopular" : "Solvente",
-    "sintIntox" : "Tontura, náusea.",
-    "primSocorro" : "Ambientes ventilados, hidratar.",
-    "nomeCientifico" : "",
-    "funcao" : "",
-    "parteToxica" : "",
-    "substanciaToxica" : "",
-    "produto" : "Vários",
-    "substancia" : "Acetato de etila",
-    "caracteristica" : "",
-    "resumo" : ""
-  },
-  {
-    "categoriaNome" : "Produto Limpeza",
-    "nomePopular" : "Solvente",
+    "nomePopular" : "Solvente (Acetato de etila)",
     "sintIntox" : "Tontura, dor de cabeça.\nNáusea, irritação das mucosas.\nEm exposição prolongada, confusão e depressão do sistema nervoso central.\n",
     "primSocorro" : "Inalação:\nRemover a vítima para ambiente ventilado imediatamente.\nManter a pessoa em repouso.\nSe houver persistência dos sintomas (tontura, náusea, dificuldade respiratória), procurar atendimento médico.\n Contato com a pele:\nLavar com água e sabão.\nRemover roupas contaminadas.\nProcurar atendimento médico se houver irritação persistente.\n Contato com os olhos:\nLavar com água corrente abundante por pelo menos 15 minutos.\nProcurar atendimento oftalmológico se a irritação ou dor persistirem.\n Ingestão:\nNão provocar vômito.\nEnxaguar a boca com água.\nProcurar atendimento médico se houver sintomas persistentes.\n",
     "nomeCientifico" : "",

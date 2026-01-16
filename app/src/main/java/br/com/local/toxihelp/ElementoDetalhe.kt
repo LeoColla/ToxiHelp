@@ -90,7 +90,7 @@ class ElementoDetalhe : AppCompatActivity() {
                 "Produtos que contem a substância" to elemento.produto
             )
             is ProdutoLimpeza -> mapOf(
-                "Substância" to  elemento.nomePopular,
+                "Substância" to  elemento.substancia,
                 "Produtos que contem a substância" to elemento.produto,
                 "Nome Popular" to elemento.nomePopular
             )

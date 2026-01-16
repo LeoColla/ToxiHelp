@@ -5,15 +5,16 @@
     android:id="@+id/main_referencias"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Referencias"
-    android:background="@color/cinza_fundo">
+    android:background="@drawable/fundo"
+    tools:context=".Referencias">
 
     <TextView
         android:id="@+id/titulo_Referencias"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="50dp"
         android:text="@string/referencias_titulo"
+        android:textAlignment="center"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +24,10 @@
 
     <ScrollView
         android:layout_width="0dp"
-        android:layout_height="495dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:justificationMode="inter_word"
                 android:paddingHorizontal="16sp"
-                android:text="@string/referencias_texto"
+                android:text=""
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
