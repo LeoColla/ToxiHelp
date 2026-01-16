@@ -43,8 +43,11 @@ class DataLoader(
     suspend private fun loadElementos(){
         val arquivosJson = listOf(
             "agrotoxicos.json",
+            "animaisPeconhentos.json",
+            "cosmeticos.json",
             "medicamentos.json",
-            "plantasToxicas.json"
+            "plantasToxicas.json",
+            "produtosLimpeza.json"
         )
 
         val listType = object : TypeToken<List<ElementoEntity>>() {}.type
