@@ -35,14 +35,16 @@ class CategoriaAdapter(
         private val container: RelativeLayout = itemView.findViewById(R.id.RL_categoria)
 
         fun bind(categoria: Categoria) {
+            // 1. Define o nome da categoria (ex: Agrotoxico)
             titulo.text = categoria.nome
 
-            val cor = try {
-                categoria.colorCode.toColorInt()
-            } catch (e: Exception) {
-                Color.GRAY // fallback
-            }
-            container.setBackgroundColor(cor)
+            // 2. Busca a cor "vermelho" do  arquivo colors.xml
+            val corBotao = androidx.core.content.ContextCompat.getColor(itemView.context, R.color.vermelho)
+            container.setBackgroundColor(corBotao)
+
+            // 3. Busca a cor "branco" do arquivo colors.xml e aplica ao texto
+            val corTexto = androidx.core.content.ContextCompat.getColor(itemView.context, R.color.branco)
+            titulo.setTextColor(corTexto)
         }
     }
 }

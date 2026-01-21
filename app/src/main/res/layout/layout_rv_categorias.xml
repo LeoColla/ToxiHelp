@@ -15,7 +15,7 @@
 
         <LinearLayout
             android:id="@+id/lL_categoria"
-            android:layout_width="200dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_marginStart="0dp"
@@ -27,8 +27,9 @@
                 android:id="@+id/categoria_titulo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
+                android:gravity="center"
                 tools:text="Titulo" />
 
         </LinearLayout>

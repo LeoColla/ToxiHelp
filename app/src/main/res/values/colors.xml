@@ -2,5 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="cinza_fundo">#CACACA</color>
+
+    <color name="cinza_fundo">#f4f4f4</color>
+    <color name="vermelho">#d5333a</color>
+    <color name="vermelho_claro">#dd5b61</color>
+    <color name="branco">#f6f7f6</color>
+    <color name="preto">#010202</color>
+
+
 </resources>
