@@ -47,8 +47,8 @@ class ElementoLista : AppCompatActivity() {
 
         val vistaIntro = prefs.getBoolean(chaveCategoriaVista, false)
         if (!vistaIntro) {
-            val intent = Intent(this@ElementoLista, CategoriaIntro::class.java).apply {
-                putExtra("NOME_CATEGORIA", nomeCategoria)
+            val intent = Intent(this@ElementoLista, Introducao::class.java).apply {
+                putExtra("INTRO", nomeCategoria)
             }
             startActivity(intent)
             prefs.edit { putBoolean(chaveCategoriaVista, true) }
@@ -60,8 +60,8 @@ class ElementoLista : AppCompatActivity() {
         // para abrir a tela de intro da categoria
         val introButton: TextView = this.findViewById(R.id.info_categoria)
         introButton.setOnClickListener {
-            val intent = Intent(this@ElementoLista, CategoriaIntro::class.java).apply {
-                putExtra("NOME_CATEGORIA", nomeCategoria)
+            val intent = Intent(this@ElementoLista, Introducao::class.java).apply {
+                putExtra("INTRO", nomeCategoria)
             }
             startActivity(intent)
         }

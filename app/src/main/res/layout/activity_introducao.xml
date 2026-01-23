@@ -9,10 +9,10 @@
     tools:context=".Introducao">
 
     <TextView
-        android:id="@+id/titulo_Intro"
+        android:id="@+id/titulo_intro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/texto_titulo_Intro"
+        android:text="@string/intro_geral_nome"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,15 +22,23 @@
         tools:layout_editor_absoluteX="162dp"
         tools:layout_editor_absoluteY="59dp" />
 
-    <TextView
-        android:id="@+id/texto_Intro"
-        android:layout_width="325dp"
-        android:layout_height="470dp"
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="30dp"
-        android:justificationMode="inter_word"
-        android:text="@string/texto_introducao_completo"
-        android:textSize="18sp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/titulo_Intro" />
+        app:layout_constraintTop_toBottomOf="@id/titulo_intro">
+
+        <TextView
+            android:id="@+id/texto_intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

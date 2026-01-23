@@ -8,15 +8,13 @@ import br.com.local.toxihelp.domain.*
 // categorias
 fun CategoriaEntity.toDomain() = Categoria(
     nome = nome,
-    intro = intro,
-    colorCode = colorCode
+    intro = intro
 )
 
 fun Categoria.toEntity() = CategoriaEntity(
     id = 0,
     nome = nome,
-    intro = intro,
-    colorCode = colorCode
+    intro = intro
 )
 
 fun ElementoEntity.toDomain(): Elemento {

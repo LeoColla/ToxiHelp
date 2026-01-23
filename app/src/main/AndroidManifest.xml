@@ -17,9 +17,6 @@
             android:name=".Referencias"
             android:exported="false" />
         <activity
-            android:name=".CategoriaIntro"
-            android:exported="false" />
-        <activity
             android:name=".ElementoDetalhe"
             android:exported="false" />
         <activity
@@ -34,7 +31,7 @@
         <activity
             android:name=".Introducao"
             android:exported="false"
-            android:label="@string/title_activity_introducao"
+            android:label="@string/intro_geral_nome"
             android:theme="@style/Theme.ToxiHelp" />
         <activity
             android:name=".MainActivity"

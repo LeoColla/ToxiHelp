@@ -1,10 +1,16 @@
 <resources>
-    <string name="app_name">ToxiHelp</string>
-    <string name="title_activity_introducao">Introducao</string>
-    <string name="texto_introducao_completo">
-    A linguagem utilizada busca ser acessível a todos, sem abrir mão da fundamentação científica que garante a credibilidade e a seriedade do conteúdo apresentados.\n
-    Esperamos que este aplicativo se torne uma ferramenta útil para profissionais da saúde, educadores, cuidadores e qualquer pessoa que deseje estar melhor preparada para agir com segurança em situações emergenciais. Que o ToxiHelp contribua para fortalecer o autocuidado, a educação em saúde e a promoção de práticas mais seguras em ambientes domiciliares e comunitários.\n
-    Agradecemos a todos os envolvidos na idealização e construção deste projeto, que dedicaram seu tempo, conhecimento e criatividade para tornar possível esse instrumento de apoio à saúde coletiva.
+    <string name="app_name">
+        ToxiHelp
+    </string>
+
+    <string name="intro_geral_nome">
+        Introducao
+    </string>
+
+    <string name="intro_geral_intro">
+        A linguagem utilizada busca ser acessível a todos, sem abrir mão da fundamentação científica que garante a credibilidade e a seriedade do conteúdo apresentados.\n
+        Esperamos que este aplicativo se torne uma ferramenta útil para profissionais da saúde, educadores, cuidadores e qualquer pessoa que deseje estar melhor preparada para agir com segurança em situações emergenciais. Que o ToxiHelp contribua para fortalecer o autocuidado, a educação em saúde e a promoção de práticas mais seguras em ambientes domiciliares e comunitários.\n
+        Agradecemos a todos os envolvidos na idealização e construção deste projeto, que dedicaram seu tempo, conhecimento e criatividade para tornar possível esse instrumento de apoio à saúde coletiva.
     </string>
 
     <string name="texto_titulo_Intro">
@@ -38,5 +44,4 @@
     <string name="referencias_erro">
         Erro ao carregar as referências.
     </string>
-
 </resources>

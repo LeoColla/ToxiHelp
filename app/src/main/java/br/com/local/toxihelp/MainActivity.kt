@@ -8,6 +8,7 @@ import androidx.core.view.WindowInsetsCompat
 import android.widget.Button
 import android.content.Intent
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.core.content.edit
 
 
 class MainActivity : AppCompatActivity() {
@@ -18,6 +19,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
+
+
+        val prefs = getSharedPreferences("toxihelp_prefs", MODE_PRIVATE)
+        val chaveCategoriaVista = "vista_intro_geral"
+
+        val vistaIntro = prefs.getBoolean(chaveCategoriaVista, false)
+        if (!vistaIntro) {
+            GoIntroducao()
+            prefs.edit { putBoolean(chaveCategoriaVista, true) }
+        }
 
         val botaoIntroducao: Button = findViewById(R.id.b_introducao)
         botaoIntroducao.setOnClickListener{ GoIntroducao() }
@@ -42,7 +53,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun GoIntroducao(){
-        val intentIntroducao = Intent(this,Introducao::class.java)
+        val intentIntroducao = Intent(this, Introducao::class.java).apply {
+            putExtra("INTRO", "introGeral")
+        }
         startActivity(intentIntroducao)
     }
 
