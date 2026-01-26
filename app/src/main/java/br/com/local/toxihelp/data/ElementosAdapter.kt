@@ -31,14 +31,20 @@ class ElementosAdapter (
     class ElementosViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
         private val nome: TextView = itemView.findViewById(R.id.elemento_resumo_nome)
-        private val container: LinearLayout = itemView.findViewById(R.id.lL_elemento_resumo)
+        // Pegamos o CardView para mudar a cor de fundo dele
+        private val card: androidx.cardview.widget.CardView = itemView as androidx.cardview.widget.CardView
 
         fun bind(elemento: ElementoResumo) {
+            // 1. Define o nome do elemento
             nome.text = elemento.nomePopular
 
-            // podemos deixar cores dinamicas
-            val cor = Color.GRAY
-            container.setBackgroundColor(cor)
+            // 2. Busca a cor "vermelho" do arquivo colors.xml e aplica ao fundo do CARD
+            val corBotao = androidx.core.content.ContextCompat.getColor(itemView.context, R.color.branco)
+            card.setCardBackgroundColor(corBotao)
+
+            // 3. Busca a cor "branco" do arquivo colors.xml e aplica ao texto
+            val corTexto = androidx.core.content.ContextCompat.getColor(itemView.context, R.color.vermelho_escuro)
+            nome.setTextColor(corTexto)
         }
     }
 }

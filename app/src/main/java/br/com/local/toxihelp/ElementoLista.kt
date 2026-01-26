@@ -3,6 +3,8 @@ package br.com.local.toxihelp
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.widget.ImageButton
+import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -58,7 +60,7 @@ class ElementoLista : AppCompatActivity() {
 
         // torna o botao de intro clicavel
         // para abrir a tela de intro da categoria
-        val introButton: TextView = this.findViewById(R.id.info_categoria)
+        val introButton: ImageButton = this.findViewById(R.id.bt_info_categoria)
         introButton.setOnClickListener {
             val intent = Intent(this@ElementoLista, Introducao::class.java).apply {
                 putExtra("INTRO", nomeCategoria)

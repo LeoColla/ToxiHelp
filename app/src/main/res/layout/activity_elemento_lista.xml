@@ -10,12 +10,10 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_elemento_resumo_lista"
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:paddingTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titulo_elemento_resumo_lista"
         app:layout_constraintVertical_bias="0.0"
         tools:itemCount="5"
@@ -24,29 +22,31 @@
 
     <TextView
         android:id="@+id/titulo_elemento_resumo_lista"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="#FAFAFA"
-        android:padding="16sp"
-        android:text="Elementos"
-        android:textSize="24sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintEnd_toStartOf="@+id/info_categoria"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/info_categoria"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginEnd="2dp"
-        android:background="#FAFAFA"
-        android:padding="16dp"
-        android:text=" ( i )"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/rv_elemento_resumo_lista"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="wrap_content"
+        android:padding="15sp"
+        android:textColor="@color/preto"
+        android:text="Elementos"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
 
+        />
+
+
+
+    <ImageButton
+        android:id="@+id/bt_info_categoria"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toTopOf="@id/rv_elemento_resumo_lista"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/bt_icon_info"
+        android:tint="@color/branco"
+        android:background="@drawable/circulo_vermelho"
+         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
