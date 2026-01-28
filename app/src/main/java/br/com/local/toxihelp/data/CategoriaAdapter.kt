@@ -1,12 +1,9 @@
 package br.com.local.toxihelp.data
 
-import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.RelativeLayout
 import android.widget.TextView
-import androidx.core.graphics.toColorInt
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -32,20 +29,22 @@ class CategoriaAdapter(
     class CategoriaViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
         private val titulo: TextView = itemView.findViewById(R.id.categoria_titulo)
-        private val container: RelativeLayout = itemView.findViewById(R.id.RL_categoria)
+
+        //private val container: RelativeLayout = itemView.findViewById(R.id.RL_categoria)
 
         fun bind(categoria: Categoria) {
             // 1. Define o nome da categoria (ex: Agrotoxico)
             titulo.text = categoria.nome
-
+            /*
             // 2. Busca a cor "vermelho" do  arquivo colors.xml
-            val corBotao = androidx.core.content.ContextCompat.getColor(itemView.context, R.color.vermelho)
+            val corBotao = androidx.core.content.ContextCompat.getColor(itemView.context, R.color.botao_vermelho_claro_tint)
             container.setBackgroundColor(corBotao)
 
             // 3. Busca a cor "branco" do arquivo colors.xml e aplica ao texto
             val corTexto = androidx.core.content.ContextCompat.getColor(itemView.context, R.color.branco)
-            titulo.setTextColor(corTexto)
+            titulo.setTextColor(corTexto)*/
         }
+
     }
 }
 

@@ -25,8 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="15sp"
+        android:text="@string/elemento_placeholder"
         android:textColor="@color/preto"
-        android:text="Elementos"
         android:textSize="40sp"
         android:textStyle="bold|italic"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,18 +35,17 @@
         />
 
 
-
     <ImageButton
         android:id="@+id/bt_info_categoria"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        app:layout_constraintBottom_toTopOf="@id/rv_elemento_resumo_lista"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="20dp"
-        android:src="@drawable/bt_icon_info"
-        android:tint="@color/branco"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="25dp"
         android:background="@drawable/circulo_vermelho"
-         />
+        android:contentDescription="@string/info_logo"
+        android:src="@drawable/bt_icon_info"
+        app:layout_constraintBottom_toTopOf="@id/rv_elemento_resumo_lista"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/botao_branco_tint" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,30 +6,33 @@
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
     app:cardCornerRadius="8dp"
-    app:cardElevation="4dp">
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/botao_vermelho_tint">
 
     <RelativeLayout
         android:id="@+id/RL_categoria"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
 
         <LinearLayout
             android:id="@+id/lL_categoria"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="0dp"
             android:orientation="vertical"
-            android:padding="16dp">
-
+            android:background="@android:color/transparent"
+            >
 
             <TextView
                 android:id="@+id/categoria_titulo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/botao_branco_tint"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:gravity="center"
+                android:padding="16dp"
                 tools:text="Titulo" />
 
         </LinearLayout>

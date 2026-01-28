@@ -44,4 +44,12 @@
     <string name="referencias_erro">
         Erro ao carregar as referências.
     </string>
+
+    <string name="elemento_placeholder">
+        Elementos
+    </string>
+
+    <string name="info_logo">
+        Logo de Informação
+    </string>
 </resources>

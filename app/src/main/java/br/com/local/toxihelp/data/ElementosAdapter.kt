@@ -1,10 +1,8 @@
 package br.com.local.toxihelp.data
 
-import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
@@ -32,12 +30,13 @@ class ElementosAdapter (
 
         private val nome: TextView = itemView.findViewById(R.id.elemento_resumo_nome)
         // Pegamos o CardView para mudar a cor de fundo dele
-        private val card: androidx.cardview.widget.CardView = itemView as androidx.cardview.widget.CardView
+        //private val card: androidx.cardview.widget.CardView = itemView as androidx.cardview.widget.CardView
 
         fun bind(elemento: ElementoResumo) {
             // 1. Define o nome do elemento
             nome.text = elemento.nomePopular
 
+            /*
             // 2. Busca a cor "vermelho" do arquivo colors.xml e aplica ao fundo do CARD
             val corBotao = androidx.core.content.ContextCompat.getColor(itemView.context, R.color.branco)
             card.setCardBackgroundColor(corBotao)
@@ -45,6 +44,7 @@ class ElementosAdapter (
             // 3. Busca a cor "branco" do arquivo colors.xml e aplica ao texto
             val corTexto = androidx.core.content.ContextCompat.getColor(itemView.context, R.color.vermelho_escuro)
             nome.setTextColor(corTexto)
+            */
         }
     }
 }
