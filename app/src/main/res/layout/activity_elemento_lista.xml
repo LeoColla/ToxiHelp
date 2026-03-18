@@ -43,7 +43,7 @@
         android:background="@drawable/circulo_vermelho"
         android:contentDescription="@string/info_logo"
         android:src="@drawable/bt_icon_info"
-        app:layout_constraintBottom_toTopOf="@id/rv_elemento_resumo_lista"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/botao_branco_tint" />

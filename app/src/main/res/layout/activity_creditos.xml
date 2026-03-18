@@ -43,7 +43,7 @@
     <TextView
         android:id="@+id/Texto_Credito"
         android:layout_width="325dp"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:text="@string/idealizadores"
         android:textColor="@color/preto"
         android:textAlignment="center"
@@ -76,7 +76,7 @@
     <TextView
         android:id="@+id/Texto_Credito2"
         android:layout_width="325dp"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:text="@string/desenvolvedores"
         android:textColor="@color/preto"
         android:textAlignment="center"
