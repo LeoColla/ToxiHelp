@@ -2,6 +2,7 @@ package br.com.local.toxihelp
 
 import android.os.Bundle
 import android.util.Log
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
@@ -10,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
+import br.com.local.toxihelp.data.mapper.ImagemMapper
 import br.com.local.toxihelp.domain.AnimalPeconhento
 import br.com.local.toxihelp.domain.Elemento
 import br.com.local.toxihelp.domain.PlantaToxica
@@ -23,7 +25,7 @@ class ElementoDetalhe : AppCompatActivity() {
     private val reposit by lazy {
         (application as ToxiHelpApplication).repository
     }
-    private lateinit var container : LinearLayout
+    private lateinit var container: LinearLayout
 
     // valor entre 0 e 1
     private val propTexto = 0.7f
@@ -54,43 +56,48 @@ class ElementoDetalhe : AppCompatActivity() {
         lifecycleScope.launch {
             val elemento = reposit.getElementoPorNomePopular(nomePopular)
 
-            if (elemento != null){
+            if (elemento != null) {
                 popularUI(elemento)
             }
         }
     }
 
-    private fun popularUI(elemento: Elemento){
+    private fun popularUI(elemento: Elemento) {
         Log.d("ElementoDetalheActivity", "Iniciando PopularUI")
         // cria um dicionario com a chave e valor
         // é a label / texto
-        val camposEspecificos = when(elemento){
+        val camposEspecificos = when (elemento) {
             is Medicamento -> mapOf(
-                "Príncipio Ativo" to  elemento.nomePopular,
+                "Príncipio Ativo" to elemento.nomePopular,
                 "Nome Popular / Função" to elemento.funcao
             )
+
             is PlantaToxica -> mapOf(
-                "Planta" to  elemento.nomeCientifico,
+                "Planta" to elemento.nomeCientifico,
                 "Nome Popular" to elemento.nomePopular,
                 "Parte Tóxica" to elemento.parteToxica,
                 "Caracteristica" to elemento.caracteristica,
                 "Resumo" to elemento.resumo
             )
+
             is AnimalPeconhento -> mapOf(
-                "Animal" to  elemento.nomeCientifico,
+                "Animal" to elemento.nomeCientifico,
                 "Nome Popular" to elemento.nomePopular,
                 "Substância Tóxica - Características" to elemento.substanciaToxica
             )
+
             is Agrotoxico -> mapOf(
-                "Substância" to  elemento.nomePopular,
+                "Substância" to elemento.nomePopular,
                 "Nome Popular / Função" to elemento.funcao
             )
+
             is Cosmetico -> mapOf(
-                "Substância" to  elemento.nomePopular,
+                "Substância" to elemento.nomePopular,
                 "Produtos que contem a substância" to elemento.produto
             )
+
             is ProdutoLimpeza -> mapOf(
-                "Substância" to  elemento.substancia,
+                "Substância" to elemento.substancia,
                 "Produtos que contem a substância" to elemento.produto,
                 "Nome Popular" to elemento.nomePopular
             )
@@ -104,9 +111,81 @@ class ElementoDetalhe : AppCompatActivity() {
             adicionarCampo(label, texto, isItalic)
         }
 
+        adicionarImagem(elemento.imagemPrincipal)
+
         adicionarCampo("Sintomas de Intoxicação", elemento.sintIntox)
+        adicionarImagem(elemento.imagemSintIntox1, elemento.imagemSintIntox2)
+
         adicionarCampo("Primeiros Socorros", elemento.primSocorro)
+        adicionarImagem(elemento.imagemPrimSocorro1, elemento.imagemPrimSocorro2)
+
         Log.d("ElementoDetalheActivity", "Finalizado PopularUI")
+    }
+
+    private fun adicionarImagem(caminho1: String?, caminho2: String? = null) {
+        if (caminho1.isNullOrBlank() and caminho2.isNullOrBlank()) return
+
+        val linhaLayout = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            ).apply {
+                topMargin = 16
+            }
+        }
+        val peso = if (!caminho1.isNullOrBlank() && !caminho2.isNullOrBlank()) 0.5f else 1f
+
+        fun configurarImageView(): ImageView{
+           val imageView = ImageView(this).apply {
+                layoutParams = LinearLayout.LayoutParams(
+                    0,
+                    240,
+                    peso
+                ).apply {
+                    topMargin = 16
+                    marginEnd = 8
+                }
+                //scaleType = ImageView.ScaleType.CENTER_INSIDE
+            }
+            return imageView
+        }
+
+
+        if (!caminho1.isNullOrBlank()) {
+            val imagemId = ImagemMapper.getImagemId(caminho1)
+
+            if (imagemId != 0){
+                configurarImageView().let { imageView ->
+                    linhaLayout.addView(imageView)
+
+                    com.bumptech.glide.Glide.with(this)
+                        .load(imagemId)
+                        .into(imageView)
+                }
+
+                Log.d("ElementoDetalheActivity", "Imagem $caminho1 adicionada")
+            }
+        }
+
+        if (!caminho2.isNullOrBlank()) {
+            val imagemId = ImagemMapper.getImagemId(caminho2)
+
+            if (imagemId != 0){
+                configurarImageView().let { imageView ->
+                    linhaLayout.addView(imageView)
+
+                    com.bumptech.glide.Glide.with(this)
+                        .load(imagemId)
+                        .into(imageView)
+                }
+
+                Log.d("ElementoDetalheActivity", "Imagem $caminho2 adicionada")
+            }
+        }
+
+        container.addView(linhaLayout)
+        Log.d("ElementoDetalheActivity", "Imagens adicionadas")
     }
 
     private fun adicionarCampo(label: String, texto: String?, isItalic: Boolean = false){

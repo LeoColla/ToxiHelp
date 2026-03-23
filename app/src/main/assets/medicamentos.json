@@ -9,7 +9,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "im_paracetamol",
+    "imagemSintIntox1" : "im_vomito",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "im_nao_provocar_vomito",
+    "imagemPrimSocorro2" : "im_hospital"
   },
   {
     "categoriaNome" : "Medicamento",
@@ -21,7 +27,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -33,7 +45,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -45,7 +63,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -57,7 +81,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -69,7 +99,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -81,7 +117,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -93,7 +135,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -105,7 +153,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -117,7 +171,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -129,7 +189,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -141,7 +207,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -153,7 +225,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -165,7 +243,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -177,7 +261,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -189,7 +279,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -201,7 +297,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -213,7 +315,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -225,7 +333,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -237,7 +351,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -249,7 +369,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -261,7 +387,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -273,7 +405,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -285,7 +423,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -297,7 +441,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -309,7 +459,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -321,7 +477,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -333,7 +495,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -345,7 +513,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -357,7 +531,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
   {
     "categoriaNome" : "Medicamento",
@@ -369,7 +549,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
 
   {
@@ -382,7 +568,13 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   },
 
   {
@@ -395,6 +587,12 @@
     "parteToxica" : "",
     "substanciaToxica" : "",
     "produto" : "",
-    "substancia" : ""
+    "substancia" : "",
+
+    "imagemPrincipal" : "",
+    "imagemSintIntox1" : "",
+    "imagemSintIntox2" : "",
+    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro2" : ""
   }
 ]
