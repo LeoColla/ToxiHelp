@@ -24,5 +24,12 @@ data class ElementoEntity(
     val resumo: String?,           // Apenas para Planta
     val substanciaToxica: String?, // Apenas para Animal
     val produto: String?,          // Apenas para Cosmético e Limpeza
-    val substancia: String?        // Apenas para Limpeza
+    val substancia: String?,        // Apenas para Limpeza
+
+    // Imagens
+    val imagemPrincipal: String?,
+    val imagemSintIntox1: String?,
+    val imagemSintIntox2: String?,
+    val imagemPrimSocorro1: String?,
+    val imagemPrimSocorro2: String?
 )

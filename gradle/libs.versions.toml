@@ -1,5 +1,6 @@
 [versions]
 agp = "8.13.2"
+glide = "5.0.5"
 gson = "2.13.2"
 kotlin = "2.0.21"
 ksp = "2.0.21-1.0.27"
@@ -24,6 +25,7 @@ roomRuntimeJvm = "2.8.4"
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomCompiler" }
 androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomKtx" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }

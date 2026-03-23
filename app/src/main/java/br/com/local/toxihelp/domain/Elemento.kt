@@ -14,14 +14,26 @@ data class Medicamento(
     val funcao: String,
     override val nomePopular: String,
     override val sintIntox: String,
-    override val primSocorro: String
+    override val primSocorro: String,
+
+    override val imagemPrincipal: String?,
+    override val imagemSintIntox1: String?,
+    override val imagemSintIntox2: String?,
+    override val imagemPrimSocorro1: String?,
+    override val imagemPrimSocorro2: String?
 ) : Elemento()
 
 data class Agrotoxico(
     val funcao: String,
     override val nomePopular: String,
     override val sintIntox: String,
-    override val primSocorro: String
+    override val primSocorro: String,
+
+    override val imagemPrincipal: String?,
+    override val imagemSintIntox1: String?,
+    override val imagemSintIntox2: String?,
+    override val imagemPrimSocorro1: String?,
+    override val imagemPrimSocorro2: String?
 ) : Elemento()
 
 data class PlantaToxica(
@@ -31,7 +43,13 @@ data class PlantaToxica(
     override val sintIntox: String,
     override val primSocorro: String,
     val caracteristica: String?,
-    val resumo: String?
+    val resumo: String?,
+
+    override val imagemPrincipal: String?,
+    override val imagemSintIntox1: String?,
+    override val imagemSintIntox2: String?,
+    override val imagemPrimSocorro1: String?,
+    override val imagemPrimSocorro2: String?
 ) : Elemento()
 
 data class AnimalPeconhento(
@@ -39,14 +57,26 @@ data class AnimalPeconhento(
     val substanciaToxica: String,
     override val nomePopular: String,
     override val sintIntox: String,
-    override val primSocorro: String
+    override val primSocorro: String,
+
+    override val imagemPrincipal: String?,
+    override val imagemSintIntox1: String?,
+    override val imagemSintIntox2: String?,
+    override val imagemPrimSocorro1: String?,
+    override val imagemPrimSocorro2: String?
 ) : Elemento()
 
 data class Cosmetico(
     val produto: String,
     override val nomePopular: String,
     override val sintIntox: String,
-    override val primSocorro: String
+    override val primSocorro: String,
+
+    override val imagemPrincipal: String?,
+    override val imagemSintIntox1: String?,
+    override val imagemSintIntox2: String?,
+    override val imagemPrimSocorro1: String?,
+    override val imagemPrimSocorro2: String?
 ) : Elemento()
 
 data class ProdutoLimpeza(
@@ -54,5 +84,11 @@ data class ProdutoLimpeza(
     val produto: String,
     override val nomePopular: String,
     override val sintIntox: String,
-    override val primSocorro: String
+    override val primSocorro: String,
+
+    override val imagemPrincipal: String?,
+    override val imagemSintIntox1: String?,
+    override val imagemSintIntox2: String?,
+    override val imagemPrimSocorro1: String?,
+    override val imagemPrimSocorro2: String?
 ) : Elemento()

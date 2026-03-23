@@ -5,4 +5,10 @@ interface IElemento {
     val nomePopular: String
     val sintIntox: String
     val primSocorro: String
+
+    val imagemPrincipal: String?
+    val imagemSintIntox1: String?
+    val imagemSintIntox2: String?
+    val imagemPrimSocorro1: String?
+    val imagemPrimSocorro2: String?
 }
