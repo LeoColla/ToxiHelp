@@ -182,7 +182,7 @@ class ElementoDetalhe : AppCompatActivity() {
                 setPadding(60, 0, 60, 0)
             }
         }
-
+        //SÒ PRA COMITAR DNV
         // O TEXTO (Conteúdo que começa escondido)
         val textoDescricao = TextView(this).apply {
             text = texto
