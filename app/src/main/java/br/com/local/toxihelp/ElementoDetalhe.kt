@@ -1,20 +1,27 @@
 package br.com.local.toxihelp
 
-import android.graphics.Typeface
 import android.os.Bundle
 import android.util.Log
-import android.widget.ImageView
+
 import android.view.Gravity // Importação necessária para centralizar
 import android.view.View
+
 import android.widget.LinearLayout
+import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+
+import android.graphics.Typeface
+import java.util.Locale
+
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.launch
+
 import br.com.local.toxihelp.data.mapper.ImagemMapper
 import br.com.local.toxihelp.domain.AnimalPeconhento
 import br.com.local.toxihelp.domain.Elemento
@@ -23,18 +30,14 @@ import br.com.local.toxihelp.domain.Medicamento
 import br.com.local.toxihelp.domain.Agrotoxico
 import br.com.local.toxihelp.domain.Cosmetico
 import br.com.local.toxihelp.domain.ProdutoLimpeza
-import br.com.local.toxihelp.domain.*
-import kotlinx.coroutines.launch
-import java.util.* // Importação necessária para o uppercase
+import androidx.core.view.isGone
+import com.google.android.material.button.MaterialButton
 
 class ElementoDetalhe : AppCompatActivity() {
     private val reposit by lazy {
         (application as ToxiHelpApplication).repository
     }
     private lateinit var container : LinearLayout
-
-    // valor entre 0 e 1
-    private val propTexto = 0.7f
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -73,66 +76,6 @@ class ElementoDetalhe : AppCompatActivity() {
     }
 
     private fun popularUI(elemento: Elemento) {
-        Log.d("ElementoDetalheActivity", "Iniciando PopularUI")
-        // cria um dicionario com a chave e valor
-        // é a label / texto
-        val camposEspecificos = when (elemento) {
-            is Medicamento -> mapOf(
-                "Príncipio Ativo" to elemento.nomePopular,
-                "Nome Popular / Função" to elemento.funcao
-            )
-
-            is PlantaToxica -> mapOf(
-                "Planta" to elemento.nomeCientifico,
-                "Nome Popular" to elemento.nomePopular,
-                "Parte Tóxica" to elemento.parteToxica,
-                "Caracteristica" to elemento.caracteristica,
-                "Resumo" to elemento.resumo
-            )
-
-            is AnimalPeconhento -> mapOf(
-                "Animal" to elemento.nomeCientifico,
-                "Nome Popular" to elemento.nomePopular,
-                "Substância Tóxica - Características" to elemento.substanciaToxica
-            )
-
-            is Agrotoxico -> mapOf(
-                "Substância" to elemento.nomePopular,
-                "Nome Popular / Função" to elemento.funcao
-            )
-
-            is Cosmetico -> mapOf(
-                "Substância" to elemento.nomePopular,
-                "Produtos que contem a substância" to elemento.produto
-            )
-
-            is ProdutoLimpeza -> mapOf(
-                "Substância" to elemento.substancia,
-                "Produtos que contem a substância" to elemento.produto,
-                "Nome Popular" to elemento.nomePopular
-            )
-        }
-
-        camposEspecificos.entries.forEachIndexed { index, entry ->
-            val label = entry.key
-            val texto = entry.value
-            val isItalic = (index == 0) // apenas o primeiro item é italico
-
-            adicionarCampo(label, texto, isItalic)
-
-            adicionarImagem(elemento.imagemPrincipal)
-
-            adicionarCampo("Sintomas de Intoxicação", elemento.sintIntox)
-            adicionarImagem(elemento.imagemSintIntox1, elemento.imagemSintIntox2)
-
-            adicionarCampo("Primeiros Socorros", elemento.primSocorro)
-            adicionarImagem(elemento.imagemPrimSocorro1, elemento.imagemPrimSocorro2)
-
-            Log.d("ElementoDetalheActivity", "Finalizado PopularUI")
-        }
-    }
-
-    private fun popularUI2(elemento: Elemento) {
         // 1. O TÍTULO GRANDE E CENTRALIZADO (Identificador Único)
         // Usamos uma nova função para criar o título grande
         when (elemento) {
@@ -155,6 +98,11 @@ class ElementoDetalhe : AppCompatActivity() {
             }
         }
 
+        // Adiciona a imagem principal abaixo do titulo
+        if (!elemento.imagemPrincipal.isNullOrBlank()){
+            container.addView(criarImagemContainer(elemento.imagemPrincipal, null,true))
+        }
+
         // Espaçamento maior entre o título e os botões
         val spacer = View(this).apply {
             layoutParams = LinearLayout.LayoutParams(1, 60)
@@ -164,29 +112,37 @@ class ElementoDetalhe : AppCompatActivity() {
         // 2. TÓPICOS EXPANSÍVEIS (Os Botões, que agora se auto-centralizam)
         // Detalhes específicos de cada tipo
         when (elemento) {
-            is Medicamento -> adicionarCampoExpansivel("Função", elemento.funcao)
+            is Medicamento -> adicionarCampoExpansivel("Função", elemento.funcao, )
+
             is PlantaToxica -> {
                 adicionarCampoExpansivel("Parte Tóxica", elemento.parteToxica)
                 adicionarCampoExpansivel("Características", elemento.caracteristica)
                 adicionarCampoExpansivel("Resumo", elemento.resumo)
             }
+
             is AnimalPeconhento -> {
                 adicionarCampoExpansivel("Toxina e Características", elemento.substanciaToxica)
             }
+
             is Cosmetico -> adicionarCampoExpansivel("Onde é encontrado", elemento.produto)
+
             is ProdutoLimpeza -> adicionarCampoExpansivel("Onde é encontrado", elemento.produto)
+
             is Agrotoxico -> adicionarCampoExpansivel("Função", elemento.funcao)
         }
 
         // Campos Universais (Todo elemento tem esses)
-        adicionarCampoExpansivel("Sintomas de Intoxicação", elemento.sintIntox)
-        adicionarCampoExpansivel("Primeiros Socorros", elemento.primSocorro)
+        adicionarCampoExpansivel("Sintomas de Intoxicação", elemento.sintIntox, elemento.imagemSintIntox1, elemento.imagemSintIntox2)
+        adicionarCampoExpansivel("Primeiros Socorros", elemento.primSocorro, elemento.imagemPrimSocorro1, elemento.imagemPrimSocorro2)
+
+        Log.d("ElementoDetalheActivity", "Finalizado PopularUI")
     }
 
-    private fun adicionarImagem(caminho1: String?, caminho2: String? = null) {
-        if (caminho1.isNullOrBlank() and caminho2.isNullOrBlank()) return
+    private fun criarImagemContainer(caminho1: String?, caminho2: String? = null, visivel: Boolean = false) : LinearLayout?{
+        if (caminho1.isNullOrBlank() and caminho2.isNullOrBlank()) return null
 
         val linhaLayout = LinearLayout(this).apply {
+            visibility = View.GONE
             orientation = LinearLayout.HORIZONTAL
             layoutParams = LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT,
@@ -195,6 +151,11 @@ class ElementoDetalhe : AppCompatActivity() {
                 topMargin = 16
             }
         }
+
+        if (visivel){
+            linhaLayout.visibility = View.VISIBLE
+        }
+
         val peso = if (!caminho1.isNullOrBlank() && !caminho2.isNullOrBlank()) 0.5f else 1f
 
         fun configurarImageView(): ImageView{
@@ -245,57 +206,9 @@ class ElementoDetalhe : AppCompatActivity() {
             }
         }
 
-        container.addView(linhaLayout)
         Log.d("ElementoDetalheActivity", "Imagens adicionadas")
-    }
-
-    private fun adicionarCampo(label: String, texto: String?, isItalic: Boolean = false){
-        Log.d("ElementoDetalheActivity", "Adicionando campos: $label")
-        // vamos criar a linha para cada "linha" da tabela
-        // basicamente, temos um container (a linha em si)
-        // e dentro dela duas caixas de texto (label e texto)
-
-        if (texto.isNullOrBlank()) {
-            return
-            }
-
-        val linhaLayout = LinearLayout(this).apply {
-            orientation = LinearLayout.HORIZONTAL
-            layoutParams = LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT,
-                LinearLayout.LayoutParams.WRAP_CONTENT
-            ).apply {
-                topMargin = 16
-            }
-        }
-
-        val labelTextView = TextView(this).apply {
-            text = label
-            layoutParams = LinearLayout.LayoutParams(
-                0,
-                LinearLayout.LayoutParams.WRAP_CONTENT,
-                1 - propTexto
-            )
-            setTypeface(null, android.graphics.Typeface.BOLD_ITALIC)
-        }
-
-        val textoTextView = TextView(this).apply {
-            text = texto
-            layoutParams = LinearLayout.LayoutParams(
-                0,
-                LinearLayout.LayoutParams.WRAP_CONTENT,
-                propTexto
-            )
-            if (isItalic) {
-                setTypeface(null, android.graphics.Typeface.BOLD_ITALIC)
-            }
-        }
-
-        linhaLayout.addView(labelTextView)
-        linhaLayout.addView(textoTextView)
-
-        container.addView(linhaLayout)
-        Log.d("ElementoDetalheActivity", "$label adicionado")
+        return linhaLayout
+        //container.addView(linhaLayout)
     }
 
     /**
@@ -347,22 +260,23 @@ class ElementoDetalhe : AppCompatActivity() {
     /**
      * Modificada para os botões se auto-centralizarem horizontalmente.
      */
-    private fun adicionarCampoExpansivel(label: String, texto: String?) {
+    private fun adicionarCampoExpansivel(label: String, texto: String?, caminho1: String? = null, caminho2: String? = null) {
         if (texto.isNullOrBlank()) return
 
         // O BOTÃO (Cabeçalho)
-        val botao = androidx.appcompat.widget.AppCompatButton(this).apply {
+        val botao = MaterialButton(this).apply {
             text = label
             textSize = 18f
-            setTextColor(ContextCompat.getColor(context, android.R.color.white))
-            background = ContextCompat.getDrawable(context, R.drawable.botao_arredondado)
+            setTextColor(ContextCompat.getColor(context, R.color.botao_branco_tint))
+            //background = ContextCompat.getDrawable(context, R.drawable.botao_arredondado)
             // Se você usar a cor vermelha da Main:
             backgroundTintList = ContextCompat.getColorStateList(context, R.color.botao_vermelho_tint)
             elevation = 8f
+            cornerRadius = 8
 
             // NOVO: layout_gravity para centralizar o botão na horizontal
             layoutParams = LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.WRAP_CONTENT, // Botão não estica mais
+                LinearLayout.LayoutParams.MATCH_PARENT, // Botão não estica mais
                 LinearLayout.LayoutParams.WRAP_CONTENT
             ).apply {
                 topMargin = 30
@@ -371,7 +285,7 @@ class ElementoDetalhe : AppCompatActivity() {
                 setPadding(60, 0, 60, 0)
             }
         }
-        //SO PRA COMITAR DNV
+
         // O TEXTO (Conteúdo que começa escondido)
         val textoDescricao = TextView(this).apply {
             text = texto
@@ -380,24 +294,40 @@ class ElementoDetalhe : AppCompatActivity() {
             setPadding(40, 20, 40, 20)
             setTextColor(ContextCompat.getColor(context, android.R.color.black))
             setLineSpacing(0f, 1.2f) // Corrige o erro anterior
-            gravity = Gravity.CENTER // Opcional: centraliza o texto da explicação
+            gravity = Gravity.FILL_HORIZONTAL // Opcional: centraliza o texto da explicação
             layoutParams = LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT, // O texto pode usar a largura toda
                 LinearLayout.LayoutParams.WRAP_CONTENT
             )
         }
 
+        val imageContainer = criarImagemContainer(caminho1, caminho2)
+
         // Lógica de Expandir/Recolher
         botao.setOnClickListener {
-            if (textoDescricao.visibility == View.GONE) {
+            if (textoDescricao.isGone) {
                 textoDescricao.visibility = View.VISIBLE
             } else {
                 textoDescricao.visibility = View.GONE
             }
+
+            if (imageContainer != null){
+                if (imageContainer.isGone){
+                    imageContainer.visibility = View.VISIBLE
+                } else {
+                    imageContainer.visibility = View.GONE
+                }
+            }
+
         }
 
         container.addView(botao)
         container.addView(textoDescricao)
+
+        if (imageContainer != null){
+            container.addView(imageContainer)
+        }
+
     }
 }
 
