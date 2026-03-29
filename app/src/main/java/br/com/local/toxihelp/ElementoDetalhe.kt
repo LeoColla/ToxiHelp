@@ -272,7 +272,7 @@ class ElementoDetalhe : AppCompatActivity() {
             // Se você usar a cor vermelha da Main:
             backgroundTintList = ContextCompat.getColorStateList(context, R.color.botao_vermelho_tint)
             elevation = 8f
-            cornerRadius = 8
+            cornerRadius = 16
 
             // NOVO: layout_gravity para centralizar o botão na horizontal
             layoutParams = LinearLayout.LayoutParams(
