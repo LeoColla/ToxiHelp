@@ -33,6 +33,8 @@ import br.com.local.toxihelp.domain.ProdutoLimpeza
 import androidx.core.view.isGone
 import com.google.android.material.button.MaterialButton
 
+
+
 class ElementoDetalhe : AppCompatActivity() {
     private val reposit by lazy {
         (application as ToxiHelpApplication).repository
@@ -77,9 +79,20 @@ class ElementoDetalhe : AppCompatActivity() {
 
     private fun popularUI(elemento: Elemento) {
         // 1. O TÍTULO GRANDE E CENTRALIZADO (Identificador Único)
+
+
+        // Adiciona a imagem principal acima do titulo
+        if (!elemento.imagemPrincipal.isNullOrBlank()) {
+            //caminho1 caminho 2 visivel e afins, eu defino la embaixo, por isso o margin top precisei definir tambem
+            val imgTopo = criarImagemContainer(elemento.imagemPrincipal, null, true, 40)
+            imgTopo?.let { container.addView(it) }
+        }
+
         // Usamos uma nova função para criar o título grande
         when (elemento) {
+
             is Medicamento -> adicionarTituloGrande(elemento.nomePopular)
+
             is PlantaToxica -> {
                 // Para planta, o identificador principal costuma ser o científico
                 adicionarTituloGrande(elemento.nomeCientifico)
@@ -91,23 +104,22 @@ class ElementoDetalhe : AppCompatActivity() {
                 adicionarSubtituloCentrado("Nome Popular", elemento.nomePopular)
             }
             is Agrotoxico -> adicionarTituloGrande(elemento.nomePopular)
+
             is Cosmetico -> adicionarTituloGrande(elemento.nomePopular)
+
             is ProdutoLimpeza -> {
                 adicionarTituloGrande(elemento.nomePopular)
                 adicionarSubtituloCentrado("Substância", elemento.substancia)
             }
         }
 
-        // Adiciona a imagem principal abaixo do titulo
-        if (!elemento.imagemPrincipal.isNullOrBlank()){
-            container.addView(criarImagemContainer(elemento.imagemPrincipal, null,true))
-        }
+
 
         // Espaçamento maior entre o título e os botões
-        val spacer = View(this).apply {
-            layoutParams = LinearLayout.LayoutParams(1, 60)
-        }
-        container.addView(spacer)
+        // Espaçador fixo de 40dp antes de começar a lista de botões
+        container.addView(View(this).apply {
+            layoutParams = LinearLayout.LayoutParams(1, 40.dp)
+        })
 
         // 2. TÓPICOS EXPANSÍVEIS (Os Botões, que agora se auto-centralizam)
         // Detalhes específicos de cada tipo
@@ -119,15 +131,11 @@ class ElementoDetalhe : AppCompatActivity() {
                 adicionarCampoExpansivel("Características", elemento.caracteristica)
                 adicionarCampoExpansivel("Resumo", elemento.resumo)
             }
-
             is AnimalPeconhento -> {
                 adicionarCampoExpansivel("Toxina e Características", elemento.substanciaToxica)
             }
-
             is Cosmetico -> adicionarCampoExpansivel("Onde é encontrado", elemento.produto)
-
             is ProdutoLimpeza -> adicionarCampoExpansivel("Onde é encontrado", elemento.produto)
-
             is Agrotoxico -> adicionarCampoExpansivel("Função", elemento.funcao)
         }
 
@@ -138,7 +146,7 @@ class ElementoDetalhe : AppCompatActivity() {
         Log.d("ElementoDetalheActivity", "Finalizado PopularUI")
     }
 
-    private fun criarImagemContainer(caminho1: String?, caminho2: String? = null, visivel: Boolean = false) : LinearLayout?{
+    private fun criarImagemContainer(caminho1: String?, caminho2: String? = null, visivel: Boolean = false,marginTop: Int = 15) : LinearLayout?{
         if (caminho1.isNullOrBlank() and caminho2.isNullOrBlank()) return null
 
         val linhaLayout = LinearLayout(this).apply {
@@ -148,7 +156,7 @@ class ElementoDetalhe : AppCompatActivity() {
                 LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
             ).apply {
-                topMargin = 16
+                topMargin = marginTop.dp
             }
         }
 
@@ -165,7 +173,7 @@ class ElementoDetalhe : AppCompatActivity() {
                     240,
                     peso
                 ).apply {
-                    topMargin = 16
+                    topMargin = 15
                     marginEnd = 8
                 }
                 //scaleType = ImageView.ScaleType.CENTER_INSIDE
@@ -263,26 +271,29 @@ class ElementoDetalhe : AppCompatActivity() {
     private fun adicionarCampoExpansivel(label: String, texto: String?, caminho1: String? = null, caminho2: String? = null) {
         if (texto.isNullOrBlank()) return
 
-        // O BOTÃO (Cabeçalho)
-        val botao = MaterialButton(this).apply {
+        // O BOTÃO (Cabeçalho) - Voltando para AppCompatButton
+        val botao = androidx.appcompat.widget.AppCompatButton(this).apply {
             text = label
-            textSize = 18f
-            setTextColor(ContextCompat.getColor(context, R.color.botao_branco_tint))
-            //background = ContextCompat.getDrawable(context, R.drawable.botao_arredondado)
-            // Se você usar a cor vermelha da Main:
-            backgroundTintList = ContextCompat.getColorStateList(context, R.color.botao_vermelho_tint)
-            elevation = 8f
-            cornerRadius = 16
+            textSize = 20f
+            setTextColor(ContextCompat.getColor(context, android.R.color.white))
 
-            // NOVO: layout_gravity para centralizar o botão na horizontal
+            // Aplica o seu XML que contém o shape arredondado
+            background = ContextCompat.getDrawable(context, R.drawable.botao_arredondado)
+
+            // Garante a cor vermelha (ou a cor do seu tint)
+            backgroundTintList = ContextCompat.getColorStateList(context, R.color.botao_vermelho_tint)
+
+            // Aplica a sombra (elevation)
+            elevation = 15.dp.toFloat()
+
             layoutParams = LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT, // Botão não estica mais
+                LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
             ).apply {
-                topMargin = 30
-                gravity = Gravity.CENTER_HORIZONTAL // Centraliza o botão no pai
-                // Adicionamos um padding interno lateral para o botão não ficar espremido
-                setPadding(60, 0, 60, 0)
+                topMargin = 20.dp // Usando .dp para consistência
+                gravity = Gravity.CENTER_HORIZONTAL
+                // Padding interno para o texto não encostar nas bordas do botão
+                setPadding(60.dp, 0, 60.dp, 0)
             }
         }
 
@@ -291,12 +302,12 @@ class ElementoDetalhe : AppCompatActivity() {
             text = texto
             visibility = View.GONE
             textSize = 16f
-            setPadding(40, 20, 40, 20)
+            setPadding(15.dp, 15.dp, 15.dp, 15.dp)
             setTextColor(ContextCompat.getColor(context, android.R.color.black))
-            setLineSpacing(0f, 1.2f) // Corrige o erro anterior
-            gravity = Gravity.FILL_HORIZONTAL // Opcional: centraliza o texto da explicação
+            setLineSpacing(0f, 1.2f)
+            gravity = Gravity.FILL_HORIZONTAL
             layoutParams = LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT, // O texto pode usar a largura toda
+                LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
             )
         }
@@ -305,29 +316,24 @@ class ElementoDetalhe : AppCompatActivity() {
 
         // Lógica de Expandir/Recolher
         botao.setOnClickListener {
-            if (textoDescricao.isGone) {
-                textoDescricao.visibility = View.VISIBLE
-            } else {
-                textoDescricao.visibility = View.GONE
-            }
+            val novoEstado = if (textoDescricao.isGone) View.VISIBLE else View.GONE
 
-            if (imageContainer != null){
-                if (imageContainer.isGone){
-                    imageContainer.visibility = View.VISIBLE
-                } else {
-                    imageContainer.visibility = View.GONE
-                }
-            }
-
+            textoDescricao.visibility = novoEstado
+            imageContainer?.visibility = novoEstado
         }
 
         container.addView(botao)
         container.addView(textoDescricao)
 
-        if (imageContainer != null){
+        if (imageContainer != null) {
             container.addView(imageContainer)
         }
-
     }
+    private val Int.dp: Int
+        get() = (this * android.content.res.Resources.getSystem().displayMetrics.density).toInt()
+
+    // NOVA EXTENSÃO PARA FLOAT (Para sombras e espessuras)
+    private val Float.dp: Float
+        get() = this * android.content.res.Resources.getSystem().displayMetrics.density
 }
 
