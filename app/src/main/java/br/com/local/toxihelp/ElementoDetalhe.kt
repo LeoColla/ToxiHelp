@@ -16,7 +16,6 @@ import java.util.Locale
 
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -32,7 +31,6 @@ import br.com.local.toxihelp.domain.Agrotoxico
 import br.com.local.toxihelp.domain.Cosmetico
 import br.com.local.toxihelp.domain.ProdutoLimpeza
 import androidx.core.view.isGone
-import androidx.core.view.marginTop
 import com.google.android.material.button.MaterialButton
 
 class ElementoDetalhe : AppCompatActivity() {
@@ -117,7 +115,7 @@ class ElementoDetalhe : AppCompatActivity() {
 
         // Espaçamento maior entre o título e os botões
         val spacer = View(this).apply {
-            layoutParams = LinearLayout.LayoutParams(1, 60)
+            layoutParams = LinearLayout.LayoutParams(1, 40.dp)
         }
         container.addView(spacer)
 
@@ -278,24 +276,26 @@ class ElementoDetalhe : AppCompatActivity() {
 
         // O BOTÃO (Cabeçalho)
         val botao = MaterialButton(this).apply {
-            text = label
-            textSize = 20f
+            text = label.uppercase()
+            textSize = 14f
             setTextColor(ContextCompat.getColor(context, R.color.botao_branco_tint))
             //background = ContextCompat.getDrawable(context, R.drawable.botao_arredondado)
             // Se você usar a cor vermelha da Main:
             backgroundTintList = ContextCompat.getColorStateList(context, R.color.botao_vermelho_tint)
-            elevation = 15.dp.toFloat()
-            cornerRadius = 16
+
+            stateListAnimator = null
+            elevation = 16.dp.toFloat()
+            cornerRadius = 8.dp
 
             // NOVO: layout_gravity para centralizar o botão na horizontal
             layoutParams = LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT, // Botão não estica mais
                 LinearLayout.LayoutParams.WRAP_CONTENT
             ).apply {
-                topMargin = 20.dp // Usando .dp para consistência
+                setMargins(20.dp, 10.dp, 20.dp, 10.dp) // Usando .dp para consistência
                 gravity = Gravity.CENTER_HORIZONTAL
                 // Padding interno para o texto não encostar nas bordas do botão
-                setPadding(60.dp, 0, 60.dp, 0)
+                setPadding(0.dp, 16, 0.dp, 16)
             }
         }
 
