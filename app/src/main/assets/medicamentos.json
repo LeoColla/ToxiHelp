@@ -11,11 +11,12 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "im_paracetamol",
-    "imagemSintIntox1" : "im_vomito",
+    "imagemPrincipal" : "im_med_paracetamol",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_vomito",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "im_nao_provocar_vomito",
-    "imagemPrimSocorro2" : "im_hospital"
+    "imagemPrimSocorro1" : "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Medicamento",
@@ -29,10 +30,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_med_clonazepam",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_sonolencia",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro1" : "im_diverso_manter_vias",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -47,10 +49,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_dipirona",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_alergia",
+    "imagemSintIntox2" : "im_diverso_febre",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -65,11 +68,12 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_med_ibuprofeno",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_enjoo",
+    "imagemSintIntox2" : "im_diverso_acidose",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro2" : "im_diverso_lactose"
   },
   {
     "categoriaNome" : "Medicamento",
@@ -83,10 +87,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_AAS",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_dor_cabeca",
+    "imagemSintIntox2" : "im_diverso_nariz_sangrando",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -101,10 +106,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_med_diazepam",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_sonolencia",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro1" : "im_diverso_manter_vias",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -119,10 +125,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_amoxicilina",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_enjoo",
+    "imagemSintIntox2" : "im_diverso_pele_irritada",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -137,11 +144,12 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_med_tramadol",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_manter_vias",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Medicamento",
@@ -155,10 +163,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_codeina",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_enjoo",
+    "imagemSintIntox2" : "im_diverso_sonolencia",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -173,10 +182,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_med_ranitidina",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_sinais_vitais",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro1" : "im_diverso_medico2",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -191,10 +201,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_med_fluoxetina",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_taquicardia",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -209,10 +220,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_amitriptilina",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_boca_seca",
+    "imagemSintIntox2" : "im_diverso_urinaria",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -227,10 +239,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_carbamazepina",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_ataxia",
+    "imagemSintIntox2" : "im_diverso_nistagmo",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -245,11 +258,12 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_med_fenitoina",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_ataxia",
+    "imagemSintIntox2" : "im_diverso_nistagmo",
+    "imagemPrimSocorro1" : "im_diverso_manter_vias",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Medicamento",
@@ -263,10 +277,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_metformina",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_fraqueza",
+    "imagemSintIntox2" : "im_diverso_dor_abdominal",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -281,11 +296,12 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_med_insulina",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_sudorese",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_glicose",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Medicamento",
@@ -299,10 +315,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_med_hidroclorotiazida",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_desidratacao",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -317,10 +334,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_enalapril",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_tosse",
+    "imagemSintIntox2" : "im_diverso_fraqueza",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -335,10 +353,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_sinvastatina",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_dor_localizada",
+    "imagemSintIntox2" : "im_diverso_fraqueza",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -353,10 +372,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_omeprazol",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_dor_abdominal",
+    "imagemSintIntox2" : "im_diverso_enjoo",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -371,11 +391,12 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_med_losartana",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_tontura4",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro2" : "im_diverso_sinais_vitais"
   },
   {
     "categoriaNome" : "Medicamento",
@@ -389,10 +410,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_levotiroxina",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_taquicardia",
+    "imagemSintIntox2" : "im_diverso_sudorese",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -407,10 +429,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_cetirizina",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_sonolencia",
+    "imagemSintIntox2" : "im_diverso_tontura4",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -425,10 +448,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_nimesulida",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_enjoo",
+    "imagemSintIntox2" : "im_diverso_dor_abdominal",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -443,10 +467,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_loratadina",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_dor_cabeca",
+    "imagemSintIntox2" : "im_diverso_sonolencia",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -461,10 +486,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_diclofenaco",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_gastrite",
+    "imagemSintIntox2" : "im_diverso_dor_abdominal",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -479,10 +505,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_med_prednisona",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_glicose",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -497,10 +524,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_cloroquina",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_enjoo",
+    "imagemSintIntox2" : "im_diverso_disturbio_visual",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -515,10 +543,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_isotretinoina",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_dor_abdominal",
+    "imagemSintIntox2" : "im_diverso_enjoo",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -533,10 +562,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_med_espironolactona",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_dor_cabeca",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -551,13 +581,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_med_furosemida",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_desidratacao",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
-
   {
     "categoriaNome" : "Medicamento",
     "nomePopular" : "Risperidona",
@@ -570,13 +600,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrincipal" : "im_med_risperidona",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_sonolencia",
+    "imagemSintIntox2" : "im_diverso_sinais_vitais",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
-
   {
     "categoriaNome" : "Medicamento",
     "nomePopular" : "Quetiapina",
@@ -589,10 +619,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_med_queriapina",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_sonolencia",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
+    "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   }
 ]

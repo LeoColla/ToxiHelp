@@ -7,6 +7,7 @@ interface IElemento {
     val primSocorro: String
 
     val imagemPrincipal: String?
+    val imagemSecundaria: String?
     val imagemSintIntox1: String?
     val imagemSintIntox2: String?
     val imagemPrimSocorro1: String?

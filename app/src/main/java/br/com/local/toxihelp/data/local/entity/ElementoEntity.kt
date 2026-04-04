@@ -28,6 +28,7 @@ data class ElementoEntity(
 
     // Imagens
     val imagemPrincipal: String?,
+    val imagemSecundaria: String?,
     val imagemSintIntox1: String?,
     val imagemSintIntox2: String?,
     val imagemPrimSocorro1: String?,

@@ -99,9 +99,21 @@ class ElementoDetalhe : AppCompatActivity() {
         }
 
         // Adiciona a imagem principal abaixo do titulo
-        if (!elemento.imagemPrincipal.isNullOrBlank()){
-            container.addView(criarImagemContainer(elemento.imagemPrincipal, null,true))
+        if (elemento is PlantaToxica){
+            val imagemContainer = criarImagemContainer(elemento.imagemPrincipal, null,true)
+
+            if (imagemContainer != null){
+                container.addView(imagemContainer)
+            }
+        }else{
+            val imagemContainer = criarImagemContainer(elemento.imagemPrincipal, elemento.imagemSecundaria,true)
+
+            if (imagemContainer != null){
+                container.addView(imagemContainer)
+            }
         }
+
+
 
         // Espaçamento maior entre o título e os botões
         val spacer = View(this).apply {
@@ -115,7 +127,7 @@ class ElementoDetalhe : AppCompatActivity() {
             is Medicamento -> adicionarCampoExpansivel("Função", elemento.funcao, )
 
             is PlantaToxica -> {
-                adicionarCampoExpansivel("Parte Tóxica", elemento.parteToxica)
+                adicionarCampoExpansivel("Parte Tóxica", elemento.parteToxica, elemento.imagemSecundaria, null)
                 adicionarCampoExpansivel("Características", elemento.caracteristica)
                 adicionarCampoExpansivel("Resumo", elemento.resumo)
             }
@@ -162,13 +174,14 @@ class ElementoDetalhe : AppCompatActivity() {
            val imageView = ImageView(this).apply {
                 layoutParams = LinearLayout.LayoutParams(
                     0,
-                    240,
+                    400,
                     peso
                 ).apply {
                     topMargin = 16
                     marginEnd = 8
                 }
-                //scaleType = ImageView.ScaleType.CENTER_INSIDE
+                scaleType = ImageView.ScaleType.FIT_CENTER
+                minimumHeight = 300
             }
             return imageView
         }

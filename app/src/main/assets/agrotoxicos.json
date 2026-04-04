@@ -11,11 +11,12 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_glifosato",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -29,11 +30,12 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_agro_paraquat",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_dor_abdominal",
+    "imagemSintIntox2" : "im_diverso_suspiro2",
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -47,11 +49,12 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_malationa",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_sudorese",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_respiracao",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -65,11 +68,12 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_clorpirifos",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_respiracao",
+    "imagemPrimSocorro2" : "im_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -83,11 +87,12 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_imidacloprido",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_fraqueza",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -101,11 +106,12 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_endossulfa",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_tontura4",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -119,11 +125,12 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_atrazina",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_dor_abdominal",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -137,11 +144,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_ciproconazol",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_irritacao_ocular2",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_respiracao",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -155,11 +164,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_tiram",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -173,11 +184,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_ddt",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_suspiro2",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_respiracao",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -191,11 +204,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_fipronil",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -209,11 +224,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_tricloro",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_irritacao_ocular2",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -227,11 +244,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_dicofol",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_tontura2",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -245,11 +264,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_permetrina",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_pele_queimada",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -263,11 +284,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_carbofurano",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -281,11 +304,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_deltametrina",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_tontura2",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -299,11 +324,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_tiofanato",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -317,11 +344,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_toxafeno",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_dor_abdominal",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -335,11 +364,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_fenthion",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_suspiro2",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -353,11 +384,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_abamectina",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -371,11 +404,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_acefato",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_suspiro2",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_respiracao",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -389,11 +424,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_piperonila",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_irritacao_ocular2",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_respiracao",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -407,11 +444,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_ziram",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_dor_abdominal",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -425,11 +464,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_hexaconazol",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_pele_queimada",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -443,11 +484,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_chlorothalonil",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -461,11 +504,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_mancozeb",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_irritacao_ocular2",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -479,11 +524,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_metomil",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_sudorese",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -497,11 +544,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_oxicloreto",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_dor_abdominal",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_respiracao",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -515,11 +564,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_diazinon",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -533,11 +584,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_fosmet",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -551,11 +604,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_isoprothiolano",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_dor_abdominal",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -569,11 +624,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_piriproxifeno",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -587,11 +644,13 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_acetamiprido",
+
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_fraqueza",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Agrotóxico",
@@ -605,10 +664,11 @@
     "produto" : "",
     "substancia" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_agro_triazofos",
+    "imagemSecundaria" : "",
+    "imagemSintIntox1" : "im_diverso_dor_abdominal",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_arejado",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   }
 ]

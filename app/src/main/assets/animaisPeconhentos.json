@@ -13,11 +13,12 @@
     "caracteristica" : "Corpo e padrão: geralmente marrom ou oliva, com manchas mais escuras em forma de trapézio ou triângulo ao longo do dorso\nCabeça: triangular, com uma faixa lateral marrom que vai por trás do olho até o ângulo da boca \nTamanho: adultos medem em torno de 1 metro, podendo chegar a 1,5 m ",
     "resumo" : "A Bothrops jararaca é uma serpente típica da Mata Atlântica, de porte médio, padrão excelente de camuflagem e potencial venenoso significativo. Embora geralmente evite o confronto, exige cuidados extremos ao caminhar em áreas naturais. É agressiva quando acuada, com alta frequência de acidentes ofídicos envolvendo humanos. Durante o dia permanece escondida sob folhas, troncos ou rochas.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_anima_jararaca",
+    "imagemSecundaria" : "im_anima_jararaca2",
+    "imagemSintIntox1" : "im_diverso_necrose",
+    "imagemSintIntox2" : "im_diverso_nariz_sangrando",
+    "imagemPrimSocorro1" : "im_diverso_lava_mao5",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -33,11 +34,12 @@
     "caracteristica" : "Corpo: coloração variável entre tons de marrom e cinza, com losangos claros no dorso\nCauda: presença de chocalho formado por segmentos queratinizados\nTamanho: pode atingir até 1,5 metro",
     "resumo" : "A Crotalus durissus, popularmente conhecida como cascavel, é uma serpente amplamente distribuída no território brasileiro, predominando em regiões de cerrado, campos abertos, áreas semiáridas e também em pastagens. Seu comportamento é reservado: prefere a fuga ao confronto e, quando ameaçada, emite um som característico através do guizo presente em sua cauda, como forma de alerta. ",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_anima_cascavel",
+    "imagemSecundaria" : "im_anima_cascavel2",
+    "imagemSintIntox1" : "im_diverso_substancia",
+    "imagemSintIntox2" : "im_diverso_sonolencia",
+    "imagemPrimSocorro1" : "im_diverso_repouso3",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -53,11 +55,12 @@
     "caracteristica" : "Corpo: corpo anelado com padrões de vermelho, preto e branco/amarelo\nCabeça: pequena, pouco distinta do corpo\nTamanho: geralmente pequena, até 1 metro",
     "resumo" : "As serpentes do gênero Micrurus, conhecidas como corais verdadeiras, habitam uma variedade de ecossistemas no Brasil, incluindo matas atlânticas, cerrados, florestas amazônicas e áreas de transição. São mais frequentemente encontradas em ambientes úmidos e com boa cobertura vegetal, como folhiço e solo de mata. São animais fossoriais, ou seja, passam grande parte do tempo enterradas ou escondidas sob troncos e folhas, o que dificulta o encontro com humanos. ",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_anima_coral_vdd",
+    "imagemSecundaria" : "im_anima_coral_vdd2",
+    "imagemSintIntox1" : "im_diverso_substancia",
+    "imagemSintIntox2" : "im_diverso_formigamento3",
+    "imagemPrimSocorro1" : "im_diverso_repouso3",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -73,11 +76,12 @@
     "caracteristica" : "Corpo: marrom-claro, com marca em forma de violino no dorso do cefalotórax\nTamanho: pequena (cerca de 1-3 cm)\nHábitos: noturna, encontrada em locais escuros e secos",
     "resumo" : "As aranhas do gênero Loxosceles, conhecidas popularmente como aranhas-marrom, são amplamente distribuídas em áreas urbanas e rurais de diversas regiões do Brasil. Adaptam-se muito bem a ambientes antropizados, sendo comumente encontradas em residências, depósitos, telhados, entulhos, pilhas de madeira, móveis antigos e roupas guardadas por longos períodos. Preferem locais escuros, secos, quentes e com pouca movimentação. A aranha-marrom só ataca se for comprimida ou ameaçada, como em casos em que é vestida junto com roupas ou calçados.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_anima_aranha_marrom",
+    "imagemSecundaria" : "im_anima_aranha_marrom2",
+    "imagemSintIntox1" : "im_diverso_coceira2",
+    "imagemSintIntox2" : "im_diverso_febre",
+    "imagemPrimSocorro1" : "im_diverso_nao_aplica_gelo",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -93,11 +97,12 @@
     "caracteristica" : "Corpo: coloração marrom, pernas longas e comportamento agressivo\nTamanho: até 5 cm de corpo, com pernas chegando a 15 cm de envergadura\nPostura defensiva: ergue as patas dianteiras em forma de ameaça",
     "resumo" : "Comum em regiões tropicais da América do Sul, especialmente no Brasil, em áreas urbanas e rurais. Habita locais escuros e úmidos como entulhos, folhas secas, cascas de árvores, troncos caídos, pilhas de madeira, frestas de muros e até dentro de residências — sapatos, roupas e armários.\nCaça ativamente suas presas, não utilizando teias para capturá-las. Tem comportamento errático e rápido, podendo picar ao ser pressionada ou acuada — o que a torna uma das principais responsáveis por acidentes com aranhas no Brasil.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_anima_aranha_armadeira",
+    "imagemSecundaria" : "im_anima_aranha_armadeira2",
+    "imagemSintIntox1" : "im_diverso_dor_peito4",
+    "imagemSintIntox2" : "im_diverso_sudorese",
+    "imagemPrimSocorro1" : "im_diverso_repouso3",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -113,11 +118,12 @@
     "caracteristica" : "Corpo: preto brilhante, com marca vermelha ou alaranjada na região ventral do abdome\nTamanho: até 1,5 cm (corpo), com pernas longas e finas",
     "resumo" : "Costuma viver em locais escuros, secos e protegidos, como pilhas de madeira, entulhos, galpões, telhas empilhadas e sótãos. Pode ser encontrada em áreas rurais e urbanas.  É uma aranha reclusa e pouco agressiva, picando apenas quando se sente ameaçada. A fêmea é mais venenosa que o macho e tende a permanecer próxima à sua teia. Alimenta-se de pequenos insetos. O nome “viúva-negra” vem do comportamento de algumas espécies de matar o macho após a cópula, embora isso não ocorra sempre.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_anima_viuva_negra",
+    "imagemSecundaria" : "im_anima_viuva_negra2",
+    "imagemSintIntox1" : "im_diverso_dor_abdominal",
+    "imagemSintIntox2" : "im_diverso_taquicardia",
+    "imagemPrimSocorro1" : "im_diverso_repouso3",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -133,11 +139,12 @@
     "caracteristica" : " Tamanho: mede entre 6 a 7 cm.\nCorpo: corpo amarelo-claro com pernas e cauda do mesmo tom; pinças mais finas em comparação com outras espécies. A cauda termina em um ferrão escuro, visível.",
     "resumo" : "Encontrado principalmente no Sudeste do Brasil, em áreas urbanas e periurbanas. Vive escondido em entulhos, calhas, ralos, telhados, caixas de esgoto e frestas de construções. Prefere locais escuros, úmidos e com presença de insetos (como baratas), sua principal presa. Não é agressivo, mas reage rapidamente ao toque, adotando postura defensiva com a cauda erguida sobre o corpo.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_anima_escorpiao_amarelo",
+    "imagemSecundaria" : "im_anima_escorpiao_amarelo2",
+    "imagemSintIntox1" : "im_diverso_enjoo",
+    "imagemSintIntox2" : "im_diverso_taquicardia",
+    "imagemPrimSocorro1" : "im_diverso_lava_mao5",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -153,11 +160,12 @@
     "caracteristica" : "Tamanho: mede cerca de 6 a 7 cm\nCorpo: corpo marrom-escuro a negro, com pernas mais claras e pinças longas e finas.",
     "resumo" : "Espécie encontrada em áreas rurais e urbanas, sob pedras, entulhos, cascas de árvores e dentro de residências. Comportamento noturno, solitário e pouco agressivo, mas pode picar ao ser pressionado. Frequente em ambientes com acúmulo de material orgânico e insetos.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_anima_marrom",
+    "imagemSecundaria" : "im_anima_marrom2",
+    "imagemSintIntox1" : "im_diverso_substancia",
+    "imagemSintIntox2" : "im_diverso_enjoo",
+    "imagemPrimSocorro1" : "im_diverso_repouso3",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -173,11 +181,12 @@
     "caracteristica" : "Tamanho: Pequenos a médios (5 a 9 cm); \nCorpo: coloração variada (amarelada a castanha), com pinças delgadas e cauda espessa.",
     "resumo" : "Distribuídos por América Central e América do Norte, em áreas tropicais e semiáridas, sob pedras, cascas de árvores e estruturas humanas. Comportamento ativos à noite, predadores de insetos. Espécies como C. sculpturatus têm potencial tóxico significativo.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_anima_novomundo",
+    "imagemSecundaria" : "im_anima_novomundo2",
+    "imagemSintIntox1" : "im_diverso_substancia",
+    "imagemSintIntox2" : "im_diverso_convulsao",
+    "imagemPrimSocorro1" : "im_diverso_lava_mao5",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -193,11 +202,12 @@
     "caracteristica" : "Tamanho: mede cerca de 5 a 7 cm; \nCorpo: achatado, coloração amarelada ou bege, com pinças largas e cauda fina.",
     "resumo" : "Encontrado em regiões desérticas e semiáridas do Oriente Médio, norte da África e partes da Ásia.  Esconde-se durante o dia em fendas de rochas ou sob detritos. Comportamento discreto, porém picadas podem causar necrose extensa.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_anima_iraniano",
+    "imagemSecundaria" : "im_anima_iraniano2",
+    "imagemSintIntox1" : "im_diverso_substancia",
+    "imagemSintIntox2" : "im_diverso_necrose",
+    "imagemPrimSocorro1" : "im_diverso_repouso3",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -213,11 +223,12 @@
     "caracteristica" : "Tamanho: Mede cerca de 1,2 cm;\nCorpo: peludo com faixas amarelas e pretas; possui ferrão.",
     "resumo" : "Presente em quase todo o mundo, em colmeias naturais ou artificiais (apicultura). Possio comportamento social, vive em colônias organizadas. Defende a colmeia em grupo, podendo atacar em enxame quando ameaçada.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_anima_abelhaeuropeia",
+    "imagemSecundaria" : "im_anima_abelhaeuropeia2",
+    "imagemSintIntox1" : "im_diverso_substancia",
+    "imagemSintIntox2" : "im_diverso_coceira3",
+    "imagemPrimSocorro1" : "im_diverso_repouso3",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -233,11 +244,12 @@
     "caracteristica" : "Tamanho: Mede entre 1 a 1,5 cm;\n Corpo:  amarelo com listras pretas, asas escuras e sem pelos evidentes.",
     "resumo" : "Cosmopolita, encontrada em áreas urbanas, florestas e campos. Constrói ninhos de papel em telhados ou árvores. Comportamento muito territorial, pode atacar repetidamente. Voa em busca de alimentos doces e proteínas.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_anima_vespaeuropeia",
+    "imagemSecundaria" : "im_anima_vespaeuropeia2",
+    "imagemSintIntox1" : "im_diverso_inchaco2",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_removerferrao",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -253,11 +265,12 @@
     "caracteristica" : "Tamanho: 1,5 a 2,5 cm\nCorpo: delgado, coloração marrom ou preta com marcas amareladas. Pernas longas pendentes em voo.",
     "resumo" : "Ninhos em áreas externas de edificações, vegetações e estruturas humanas.\nComportamento semissocial. Defesa agressiva do ninho; ferroada dolorosa e repetitiva.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_anima_marimbondo",
+    "imagemSecundaria" : "im_anima_marimbondo2",
+    "imagemSintIntox1" : "im_diverso_veia",
+    "imagemSintIntox2" : "im_diverso_inchaco2",
+    "imagemPrimSocorro1" : "im_diverso_lava_mao5",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -273,11 +286,12 @@
     "caracteristica" : "Corpo: robusto, com espinhos na cabeça e nadadeiras dorsais venenosas; coloração camuflada (marrom, vermelho).",
     "resumo" : "Geralmente encontrado em águas rasas e recifes rochosos, Atlântico e Pacífico. Comportamento sedentário e camuflado, usa espinhos para defesa passiva contra predadores.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_anima_peixeescorpiao",
+    "imagemSecundaria" : "im_anima_peixeescorpiao2",
+    "imagemSintIntox1" : "im_diverso_necrose",
+    "imagemSintIntox2" : "im_diverso_inchaco2",
+    "imagemPrimSocorro1" : "im_diverso_lava_mao5",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -293,11 +307,12 @@
     "caracteristica" : "Tamanho:  10 a 15 cm; \n Corpo: achatado, coloração escura com nadadeiras curtas e espinhos ocos venenosos na cabeça e nadadeira dorsal.",
     "resumo" : "Encontrado nos mangues e águas salobras do litoral brasileiro.Costuma enterra-se parcialmente na areia. Inofensivo até ser pisado.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_anima_niquim",
+    "imagemSecundaria" : "im_anima_niquim2",
+    "imagemSintIntox1" : "im_diverso_necrose",
+    "imagemSintIntox2" : "im_diverso_febre",
+    "imagemPrimSocorro1" : "im_diverso_aguaquente",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -313,11 +328,12 @@
     "caracteristica" : "Tamanho: até 40 cm\n Corpo robusto, coloração irregular que se camufla entre rochas e corais; espinhos dorsais com veneno",
     "resumo" : "Habita recifes de coral e fundos rochosos do Indo-Pacífico. Comportamento extremamente imóvel e camuflado. Um dos peixes mais venenosos do mundo.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_anima_peixepedra",
+    "imagemSecundaria" : "im_anima_peixepedra2",
+    "imagemSintIntox1" : "im_diverso_hipotensao",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_repouso3",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -333,11 +349,12 @@
     "caracteristica" : "Corpo achatado com \"asas\" (nadadeiras peitorais) amplas; cauda longa com espinhos venenosos.",
     "resumo" : "Encontradas nas águas costeiras rasas, fundos arenosos ou lodosos. Costuma permanecer sob a areia; acidentes comuns por pisões acidentais.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_anima_arraia",
+    "imagemSecundaria" : "im_anima_arraia2",
+    "imagemSintIntox1" : "im_diverso_inchaco2",
+    "imagemSintIntox2" : "im_diverso_sudorese",
+    "imagemPrimSocorro1" : "im_diverso_lava_mao5",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -353,11 +370,12 @@
     "caracteristica" : " Corpo alongado, cilíndrico e sem nadadeira dorsal; cores acastanhadas.",
     "resumo" : "Comumente encontrado em rios e igarapés da América do Sul, especialmente Amazônia. Possuem comportamentos noturnos e solitários. Usam impulsos elétricos para navegação, caça e comunicação.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_anima_peixeletrico",
+    "imagemSecundaria" : "im_anima_peixeletrico2",
+    "imagemSintIntox1" : "im_diverso_tremor",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_primeiro_socorro",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -373,11 +391,12 @@
     "caracteristica" : "Corpo: ovalado e inflável; pele rugosa com espinhos; olhos grandes; \nTamanho: 15–30 cm.",
     "resumo" : "Habita mares tropicais e subtropicais; recifes e estuários. Estes animais são nadadores lentos, inflacionam-se como defesa. Algumas espécies contêm tetrodotoxina altamente letal.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_anima_baiacu",
+    "imagemSecundaria" : "im_anima_baiacu2",
+    "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -393,11 +412,12 @@
     "caracteristica" : "Tamanho: até 20 cm de diâmetro.\nCorpo: radial com cinco braços; superfície granulada e rígida;",
     "resumo" : "Habitam recifes de coral, substratos rochosos e fundos arenosos tropicais. Possuem movimentação lenta; comportamento bentônico. Se manuseada, pode liberar substâncias irritantes.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_anima_estrela",
+    "imagemSecundaria" : "im_anima_estrela2",
+    "imagemSintIntox1" : "im_diverso_necrose",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_aguaquente",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -413,11 +433,12 @@
     "caracteristica" : "Tamanho: pode medir até 60 cm; \nCorpo: coberto de espinhos longos e venenosos, coloração variada.",
     "resumo" : "Encontram-se nos recifes de coral do Indo-Pacífico. São predadoras de corais ativa à noite. Manipulação provoca feridas dolorosas.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_anima_estrelacoroa",
+    "imagemSecundaria" : "im_anima_estrelacoroa2",
+    "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_mao5",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -433,11 +454,12 @@
     "caracteristica" : "Tamanho: concha espiralada com até 20 cm; \nCorpo: mole marrom acinzentado.",
     "resumo" : "Encontrado em áreas úmidas, jardins, hortas e zonas urbanas tropicais. Possui comportamento noturno, alimenta-se de vegetação. Pode ser vetor de parasitas como Angiostrongylus sp.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_anima_caracol",
+    "imagemSecundaria" : "im_anima_caracol2",
+    "imagemSintIntox1" : "im_diverso_sinal_neurologico",
     "imagemSintIntox2" : "",
     "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -453,11 +475,12 @@
     "caracteristica" : "Tamanho: flutuador translúcido e tentáculos com até 30 m;\nCorpo: aparência de água-viva.",
     "resumo" : " Encontrada nos oceanos tropicais e subtropicais, superfície do mar.. São colônias de pólipos. Tentáculos urticantes usados para captura de presas. Tóxica ao contato.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_anima_caravela",
+    "imagemSecundaria" : "im_anima_caravela2",
+    "imagemSintIntox1" : "im_diverso_marcas_lineares",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lupa_agua",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -473,11 +496,12 @@
     "caracteristica" : "Tamanho: até 3 m.\nCorpo: cúbico e transparente com até 60 tentáculos;",
     "resumo" : "Encontrada no litoral da Austrália e Sudeste Asiático. Possui nado ativo, altamente tóxica. Contato pode ser fatal.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_anima_cubomedusa",
+    "imagemSecundaria" : "im_anima_cubomedusa2",
+    "imagemSintIntox1" : "im_diverso_hipotensao",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_primeiro_socorro",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -493,11 +517,12 @@
     "caracteristica" : "Tamanho: 5 a 7 cm.\nCorpo: lagarta com pelos urticantes (cerdas); verde com faixas marrons, ",
     "resumo" : "Habita árvores frutíferas e vegetação da Mata Atlântica. A liberação de toxinas ocorre ao toque, podendo causar distúrbios hemorrágicos graves.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_anima_taturana",
+    "imagemSecundaria" : "im_anima_taturana2",
+    "imagemSintIntox1" : "im_diverso_sangramento",
+    "imagemSintIntox2" : "im_diverso_renal",
+    "imagemPrimSocorro1" : "im_diverso_lava_mao5",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -513,11 +538,12 @@
     "caracteristica" : " Tamanho: 5 a 8 cm\nCorpo: verde com cerdas urticantes; olhos falsos nas asas na fase adulta.",
     "resumo" : "Habitam a América Central e do Sul, especialmente em florestas tropicais. Alimenta-se de folhas; quando perturbada, libera toxinas por espinhos.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_anima_taturana_verde",
+    "imagemSecundaria" : "im_anima_taturana_verde2",
+    "imagemSintIntox1" : "im_diverso_pele_irritacao",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_mao5",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -533,11 +559,12 @@
     "caracteristica" : "Tamanho: até 30 cm;\nCorpo: segmentado, coloração avermelhada ou marrom; mandíbula com veneno.",
     "resumo" : "Encontrada em florestas tropicais da América do Sul.  Predadora ágil e agressiva. Caça insetos, pequenos roedores e répteis.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_anima_lacraia",
+    "imagemSecundaria" : "im_anima_lacraia2",
+    "imagemSintIntox1" : "im_diverso_inchaco2",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_bolsa_gelo",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -553,11 +580,12 @@
     "caracteristica" : "Tamanho: pequenas (2 a 6 cm)\n Corpo: coloração vibrante (azul, amarelo, laranja); pele lisa.",
     "resumo" : "Habita florestas tropicais da América Central e do Sul. São ativas durante o dia; pele excreta toxinas. Predadores naturais evitam contato.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_anima_ra",
+    "imagemSecundaria" : "im_anima_ra2",
+    "imagemSintIntox1" : "im_diverso_taquicardia",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_mao5",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -573,11 +601,12 @@
     "caracteristica" : "Tamanho:  até 15 cm.\nCorpo: concha cônica com desenhos geométricos;",
     "resumo" : "Habitam recifes de coral do Indo-Pacífico. São predadores de peixes; usa dente tipo arpão com veneno neurotóxico. Pode ser letal ao ser humano.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_anima_conus",
+    "imagemSecundaria" : "im_anima_conus2",
+    "imagemSintIntox1" : "im_diverso_pulmao",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_ambulancia",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Animal Peçonhento",
@@ -593,11 +622,12 @@
     "caracteristica" : " Tamanho: pequeno (10 a 20 cm);\nCorpo: possui anéis azuis brilhantes visíveis quando ameaçado.",
     "resumo" : "Encontrados nas costas da Austrália e Japão, em recifes e piscinas de maré. São recluso, mas defensivo se perturbado. Veneno contém tetrodotoxina.",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_anima_polvo_azul",
+    "imagemSecundaria" : "im_anima_polvo_azul2",
+    "imagemSintIntox1" : "im_diverso_pulmao",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_ambulancia",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   }
 ]
 

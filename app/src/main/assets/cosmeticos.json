@@ -13,11 +13,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_produto_parabenos",
+    "imagemSecundaria" : "im_subs_parabenos",
+    "imagemSintIntox1" : "im_diverso_olho_vermelho",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -33,11 +34,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_produto_folmaldeido",
+    "imagemSecundaria" : "im_subs_folmaldeido",
+    "imagemSintIntox1" : "im_diverso_olho_vermelho",
+    "imagemSintIntox2" : "im_diverso_queimadura_quimica",
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_oftalmolo2"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -53,11 +55,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_produto_metilisotiazolonona",
+    "imagemSecundaria" : "im_subs_metilisotiazolonona",
+    "imagemSintIntox1" : "im_diverso_olho_vermelho",
+    "imagemSintIntox2" : "im_diverso_coceira2",
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_oftalmolo2"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -73,11 +76,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_produto_hidroquinona",
+    "imagemSecundaria" : "im_subs_hidroquinona",
+    "imagemSintIntox1" : "im_diverso_olho_vermelho",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_oftalmolo2"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -93,11 +97,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_produto_acido_salicilico",
+    "imagemSecundaria" : "im_subs_acido_salicilico",
+    "imagemSintIntox1" : "im_diverso_olho_vermelho",
+    "imagemSintIntox2" : "im_diverso_pele_irritada",
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_oftalmolo2"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -113,11 +118,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_produto_fitalato_dibutila",
+    "imagemSecundaria" : "im_subs_fitalato_dibutila",
+    "imagemSintIntox1" : "im_diverso_olho_vermelho",
+    "imagemSintIntox2" : "im_diverso_pele_irritada",
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_oftalmolo2"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -133,11 +139,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_produto_dea",
+    "imagemSecundaria" : "im_subs_dea",
+    "imagemSintIntox1" : "im_diverso_olho_vermelho",
+    "imagemSintIntox2" : "im_diverso_pele_irritada",
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_oftalmolo2"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -153,11 +160,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_produto_aluminio",
+    "imagemSecundaria" : "im_subs_aluminio",
+    "imagemSintIntox1" : "im_diverso_coceira2",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_oftalmolo2"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -173,11 +181,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_produto_propilenoglicol",
+    "imagemSecundaria" : "im_subs_propilenoglicol",
+    "imagemSintIntox1" : "im_diverso_olho_vermelho",
+    "imagemSintIntox2" : "im_diverso_pele_irritada",
+    "imagemPrimSocorro1" : "im_diverso_banho2",
+    "imagemPrimSocorro2" : "im_diverso_oftalmolo2"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -193,11 +202,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_produto_triclosan",
+    "imagemSecundaria" : "im_subs_triclosan",
+    "imagemSintIntox1" : "im_diverso_olho_vermelho",
+    "imagemSintIntox2" : "im_diverso_pele_irritada",
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_oftalmolo2"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -213,11 +223,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_produto_resorcinol",
+    "imagemSecundaria" : "im_subs_resorcinol",
+    "imagemSintIntox1" : "im_diverso_olho_vermelho",
+    "imagemSintIntox2" : "im_diverso_pele_queimada",
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_oftalmolo2"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -233,11 +244,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_produto_amonia",
+    "imagemSecundaria" : "im_subs_amonia",
+    "imagemSintIntox1" : "im_diverso_olho_vermelho",
+    "imagemSintIntox2" : "im_diverso_pele_irritada",
+    "imagemPrimSocorro1" : "im_diverso_banho2",
+    "imagemPrimSocorro2" : "im_diverso_oftalmolo2"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -253,11 +265,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_produto_alcatrao_hulha",
+    "imagemSecundaria" : "im_subs_alcatrao_hulha",
+    "imagemSintIntox1" : "im_diverso_olho_vermelho",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_oftalmolo2"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -273,11 +286,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_produto_lauril",
+    "imagemSecundaria" : "im_subs_lauril",
+    "imagemSintIntox1" : "im_diverso_olho_vermelho",
+    "imagemSintIntox2" : "im_diverso_coceira2",
+    "imagemPrimSocorro1" : "im_diverso_banho2",
+    "imagemPrimSocorro2" : "im_diverso_oftalmolo2"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -293,11 +307,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_produto_benzofenoma",
+    "imagemSecundaria" : "im_subs_benzofenoma",
+    "imagemSintIntox1" : "im_diverso_olho_vermelho",
+    "imagemSintIntox2" : "im_diverso_pele_queimada",
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_oftalmolo2"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -313,11 +328,12 @@
     "caracteristica" : "",
     "resumo" : "",
 
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_produto_nitrocelulose",
+    "imagemSecundaria" : "im_subs_nitrocelulose",
+    "imagemSintIntox1" : "im_diverso_olho_vermelho",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -333,11 +349,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_produto_isopropanol",
+    "imagemSecundaria" : "im_subs_isopropanol",
+    "imagemSintIntox1" : "im_diverso_dor_cabeca",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_oftalmolo2"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -353,11 +370,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_produto_silicato_magnesio",
+    "imagemSecundaria" : "im_subs_silicato_magnesio",
+    "imagemSintIntox1" : "im_diverso_tosse",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lbanho2",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -373,11 +391,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_produto_bht",
+    "imagemSecundaria" : "im_subs_bht",
+    "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -393,11 +412,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
-    "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrincipal" : "im_produto_retinol",
+    "imagemSecundaria" : "im_subs_retinol",
+    "imagemSintIntox1" : "im_diverso_rosto_irritado",
+    "imagemSintIntox2" : "im_diverso_ficar_velha",
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -413,11 +433,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_produto_canfora",
+    "imagemSecundaria" : "im_subs_canfora",
+    "imagemSintIntox1" : "im_diverso_confusao3",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_banho2",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -433,11 +454,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_produto_eucaliptol",
+    "imagemSecundaria" : "im_subs_eucaliptol",
+    "imagemSintIntox1" : "im_diverso_sonolencia",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -453,11 +475,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_produto_alumen",
+    "imagemSecundaria" : "im_subs_alumen",
+    "imagemSintIntox1" : "im_diverso_dor_abdominal",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -473,11 +496,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_produto_ppd",
+    "imagemSecundaria" : "im_subs_ppd",
+    "imagemSintIntox1" : "im_diverso_febre",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_banho2",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -493,11 +517,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_produto_mentol",
+    "imagemSecundaria" : "im_subs_mentol",
+    "imagemSintIntox1" : "im_diverso_dor_abdominal",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -513,11 +538,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_produto_limoneno",
+    "imagemSecundaria" : "im_subs_limoneno",
+    "imagemSintIntox1" : "im_diverso_sintoma_geral2",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -533,11 +559,12 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_produto_mica",
+    "imagemSecundaria" : "im_subs_mica",
+    "imagemSintIntox1" : "im_diverso_olho_vermelho",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
     "categoriaNome" : "Cosmético",
@@ -553,10 +580,11 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "",
-    "imagemSintIntox1" : "",
+    "imagemPrincipal" : "im_produto_lanolina",
+    "imagemSecundaria" : "im_subs_lanolina",
+    "imagemSintIntox1" : "im_diverso_sintoma_geral2",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "",
-    "imagemPrimSocorro2" : ""
+    "imagemPrimSocorro1" : "im_diverso_lava_rosto",
+    "imagemPrimSocorro2" : "im_diverso_hospital"
   }
 ]

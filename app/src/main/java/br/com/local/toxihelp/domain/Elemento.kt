@@ -17,6 +17,7 @@ data class Medicamento(
     override val primSocorro: String,
 
     override val imagemPrincipal: String?,
+    override val imagemSecundaria: String?,
     override val imagemSintIntox1: String?,
     override val imagemSintIntox2: String?,
     override val imagemPrimSocorro1: String?,
@@ -30,6 +31,7 @@ data class Agrotoxico(
     override val primSocorro: String,
 
     override val imagemPrincipal: String?,
+    override val imagemSecundaria: String?,
     override val imagemSintIntox1: String?,
     override val imagemSintIntox2: String?,
     override val imagemPrimSocorro1: String?,
@@ -46,6 +48,7 @@ data class PlantaToxica(
     val resumo: String?,
 
     override val imagemPrincipal: String?,
+    override val imagemSecundaria: String?,
     override val imagemSintIntox1: String?,
     override val imagemSintIntox2: String?,
     override val imagemPrimSocorro1: String?,
@@ -60,6 +63,7 @@ data class AnimalPeconhento(
     override val primSocorro: String,
 
     override val imagemPrincipal: String?,
+    override val imagemSecundaria: String?,
     override val imagemSintIntox1: String?,
     override val imagemSintIntox2: String?,
     override val imagemPrimSocorro1: String?,
@@ -73,6 +77,7 @@ data class Cosmetico(
     override val primSocorro: String,
 
     override val imagemPrincipal: String?,
+    override val imagemSecundaria: String?,
     override val imagemSintIntox1: String?,
     override val imagemSintIntox2: String?,
     override val imagemPrimSocorro1: String?,
@@ -87,6 +92,7 @@ data class ProdutoLimpeza(
     override val primSocorro: String,
 
     override val imagemPrincipal: String?,
+    override val imagemSecundaria: String?,
     override val imagemSintIntox1: String?,
     override val imagemSintIntox2: String?,
     override val imagemPrimSocorro1: String?,
