@@ -16,6 +16,7 @@ import java.util.Locale
 
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -31,6 +32,7 @@ import br.com.local.toxihelp.domain.Agrotoxico
 import br.com.local.toxihelp.domain.Cosmetico
 import br.com.local.toxihelp.domain.ProdutoLimpeza
 import androidx.core.view.isGone
+import androidx.core.view.marginTop
 import com.google.android.material.button.MaterialButton
 
 class ElementoDetalhe : AppCompatActivity() {
@@ -77,6 +79,21 @@ class ElementoDetalhe : AppCompatActivity() {
 
     private fun popularUI(elemento: Elemento) {
         // 1. O TÍTULO GRANDE E CENTRALIZADO (Identificador Único)
+
+        if (elemento is PlantaToxica){
+            val imagemContainer = criarImagemContainer(elemento.imagemPrincipal, null,true)
+
+            if (imagemContainer != null){
+                container.addView(imagemContainer)
+            }
+        }else{
+            val imagemContainer = criarImagemContainer(elemento.imagemPrincipal, elemento.imagemSecundaria,true)
+
+            if (imagemContainer != null){
+                container.addView(imagemContainer)
+            }
+        }
+
         // Usamos uma nova função para criar o título grande
         when (elemento) {
             is Medicamento -> adicionarTituloGrande(elemento.nomePopular)
@@ -97,23 +114,6 @@ class ElementoDetalhe : AppCompatActivity() {
                 adicionarSubtituloCentrado("Substância", elemento.substancia)
             }
         }
-
-        // Adiciona a imagem principal abaixo do titulo
-        if (elemento is PlantaToxica){
-            val imagemContainer = criarImagemContainer(elemento.imagemPrincipal, null,true)
-
-            if (imagemContainer != null){
-                container.addView(imagemContainer)
-            }
-        }else{
-            val imagemContainer = criarImagemContainer(elemento.imagemPrincipal, elemento.imagemSecundaria,true)
-
-            if (imagemContainer != null){
-                container.addView(imagemContainer)
-            }
-        }
-
-
 
         // Espaçamento maior entre o título e os botões
         val spacer = View(this).apply {
@@ -150,7 +150,7 @@ class ElementoDetalhe : AppCompatActivity() {
         Log.d("ElementoDetalheActivity", "Finalizado PopularUI")
     }
 
-    private fun criarImagemContainer(caminho1: String?, caminho2: String? = null, visivel: Boolean = false) : LinearLayout?{
+    private fun criarImagemContainer(caminho1: String?, caminho2: String? = null, visivel: Boolean = false, marginTop: Int = 15) : LinearLayout?{
         if (caminho1.isNullOrBlank() and caminho2.isNullOrBlank()) return null
 
         val linhaLayout = LinearLayout(this).apply {
@@ -160,7 +160,7 @@ class ElementoDetalhe : AppCompatActivity() {
                 LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
             ).apply {
-                topMargin = 16
+                topMargin = marginTop.dp
             }
         }
 
@@ -177,11 +177,11 @@ class ElementoDetalhe : AppCompatActivity() {
                     400,
                     peso
                 ).apply {
-                    topMargin = 16
+                    topMargin = 15
                     marginEnd = 8
                 }
-                scaleType = ImageView.ScaleType.FIT_CENTER
-                minimumHeight = 300
+               scaleType = ImageView.ScaleType.FIT_CENTER
+               minimumHeight = 300
             }
             return imageView
         }
@@ -279,12 +279,12 @@ class ElementoDetalhe : AppCompatActivity() {
         // O BOTÃO (Cabeçalho)
         val botao = MaterialButton(this).apply {
             text = label
-            textSize = 18f
+            textSize = 20f
             setTextColor(ContextCompat.getColor(context, R.color.botao_branco_tint))
             //background = ContextCompat.getDrawable(context, R.drawable.botao_arredondado)
             // Se você usar a cor vermelha da Main:
             backgroundTintList = ContextCompat.getColorStateList(context, R.color.botao_vermelho_tint)
-            elevation = 8f
+            elevation = 15.dp.toFloat()
             cornerRadius = 16
 
             // NOVO: layout_gravity para centralizar o botão na horizontal
@@ -292,10 +292,10 @@ class ElementoDetalhe : AppCompatActivity() {
                 LinearLayout.LayoutParams.MATCH_PARENT, // Botão não estica mais
                 LinearLayout.LayoutParams.WRAP_CONTENT
             ).apply {
-                topMargin = 30
-                gravity = Gravity.CENTER_HORIZONTAL // Centraliza o botão no pai
-                // Adicionamos um padding interno lateral para o botão não ficar espremido
-                setPadding(60, 0, 60, 0)
+                topMargin = 20.dp // Usando .dp para consistência
+                gravity = Gravity.CENTER_HORIZONTAL
+                // Padding interno para o texto não encostar nas bordas do botão
+                setPadding(60.dp, 0, 60.dp, 0)
             }
         }
 
@@ -304,7 +304,7 @@ class ElementoDetalhe : AppCompatActivity() {
             text = texto
             visibility = View.GONE
             textSize = 16f
-            setPadding(40, 20, 40, 20)
+            setPadding(15.dp, 15.dp, 15.dp, 15.dp)
             setTextColor(ContextCompat.getColor(context, android.R.color.black))
             setLineSpacing(0f, 1.2f) // Corrige o erro anterior
             gravity = Gravity.FILL_HORIZONTAL // Opcional: centraliza o texto da explicação
@@ -318,20 +318,10 @@ class ElementoDetalhe : AppCompatActivity() {
 
         // Lógica de Expandir/Recolher
         botao.setOnClickListener {
-            if (textoDescricao.isGone) {
-                textoDescricao.visibility = View.VISIBLE
-            } else {
-                textoDescricao.visibility = View.GONE
-            }
+            val novoEstado = if (textoDescricao.isGone) View.VISIBLE else View.GONE
 
-            if (imageContainer != null){
-                if (imageContainer.isGone){
-                    imageContainer.visibility = View.VISIBLE
-                } else {
-                    imageContainer.visibility = View.GONE
-                }
-            }
-
+            textoDescricao.visibility = novoEstado
+            imageContainer?.visibility = novoEstado
         }
 
         container.addView(botao)
@@ -342,5 +332,12 @@ class ElementoDetalhe : AppCompatActivity() {
         }
 
     }
+
+    private val Int.dp: Int
+        get() = (this * android.content.res.Resources.getSystem().displayMetrics.density).toInt()
+
+    // NOVA EXTENSÃO PARA FLOAT (Para sombras e espessuras)
+    private val Float.dp: Float
+        get() = this * android.content.res.Resources.getSystem().displayMetrics.density
 }
 
