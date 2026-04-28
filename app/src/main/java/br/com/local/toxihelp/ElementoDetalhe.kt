@@ -131,7 +131,7 @@ class ElementoDetalhe : AppCompatActivity() {
             }
 
             is AnimalPeconhento -> {
-                adicionarCampoExpansivel("Toxina e Características", elemento.substanciaToxica)
+                adicionarCampoExpansivel("Substâncias Tóxicas e Características", elemento.substanciaToxica)
             }
 
             is Cosmetico -> adicionarCampoExpansivel("Produtos que Contêm a Substância", elemento.produto)

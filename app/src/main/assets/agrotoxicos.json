@@ -96,7 +96,7 @@
   },
   {
     "categoriaNome" : "Agrotóxicos",
-    "nomePopular" : "Endossulfã",
+    "nomePopular" : "Endossulfan",
     "sintIntox" : "Tontura, convulsões, hipotensão, fraqueza muscular, náuseas e dificuldade respiratória.",
     "primSocorro" : "Ambiente contaminado:\nRetirar a pessoa da área contaminada e levá-la para um ambiente arejado.\n\n Contato com pele e olhos:\nRemover roupas contaminadas.\nLavar imediatamente a pele e os olhos com água abundante por pelo menos 15 minutos.\nManter os olhos abertos durante a lavagem.\nNão utilizar colírios ou cremes sem orientação médica.\n\nIngestão acidental:\nNÃO provocar vômito.\nEnxaguar a boca com água limpa, sem engolir.\nLevar a embalagem ou rótulo do produto ao atendimento médico.\n\nAcompanhamento e primeiros cuidados:\nMonitorar sinais vitais, como respiração, pulso e nível de consciência.\nManter a pessoa em repouso, deitada em posição confortável, até a chegada do socorro",
     "nomeCientifico" : "",
@@ -117,7 +117,7 @@
     "categoriaNome" : "Agrotóxicos",
     "nomePopular" : "Atrazina",
     "sintIntox" : "Náusea, vômito, dor abdominal, sonolência, tontura e possível irritação nas vias respiratórias.",
-    "primSocorro" : "Ambiente contaminado:\nRetirar a pessoa da área contaminada e levá-la para local arejado.\n\nContato com pele ou olhos:\nLavar imediatamente a pele ou os olhos expostos com água em abundância por pelo menos 15 minutos.\nManter os olhos abertos durante a lavagem.\nNão aplicar produtos ou medicamentos sem orientação.\n\nIngestão acidental:\nNÃO provocar vômito.\nEnxaguar a boca com água limpa, sem engolir.\n\nAcompanhamento e primeiros cuidados:znEncaminhar para avaliação hospitalar caso os sintomas persistam ou piorem.\nManter a vítima em repouso.\nMonitorar sinais vitais, como respiração, pulso e consciência, até o atendimento especializado.",
+    "primSocorro" : "Ambiente contaminado:\nRetirar a pessoa da área contaminada e levá-la para local arejado.\n\nContato com pele ou olhos:\nLavar imediatamente a pele ou os olhos expostos com água em abundância por pelo menos 15 minutos.\nManter os olhos abertos durante a lavagem.\nNão aplicar produtos ou medicamentos sem orientação.\n\nIngestão acidental:\nNÃO provocar vômito.\nEnxaguar a boca com água limpa, sem engolir.\n\nAcompanhamento e primeiros cuidados:\nEncaminhar para avaliação hospitalar caso os sintomas persistam ou piorem.\nManter a vítima em repouso.\nMonitorar sinais vitais, como respiração, pulso e consciência, até o atendimento especializado.",
     "nomeCientifico" : "",
     "funcao" : "Herbicida utilizado para controle de plantas invasoras em culturas agrícolas.",
     "parteToxica" : "",
@@ -174,7 +174,7 @@
   },
   {
     "categoriaNome" : "Agrotóxicos",
-    "nomePopular" : "DiclorodifeniltricloroetanoDDT",
+    "nomePopular" : "Diclorodifeniltricloroetano - DDT",
     "sintIntox" : "Náusea, vômito, dificuldade respiratória, tremores e irritação no sistema nervoso.",
     "primSocorro" : "Ambiente contaminado:\nRetirar a pessoa da área contaminada e conduzi-la para um local arejado.\n\n Contato com pele ou olhos:\nLavar imediatamente a pele ou os olhos expostos com água em abundância por pelo menos 15 minutos.\nManter os olhos abertos durante a lavagem.\nEvitar uso de produtos ou medicamentos sem orientação médica.\n\nIngestão acidental:\nNÃO provocar vômito.\nEnxaguar a boca com água limpa, sem engolir.\nBuscar atendimento médico urgente, levando a embalagem ou identificação do produto.\n\n Acompanhamento e primeiros cuidados:\nMonitorar os sinais vitais da vítima, como respiração, pulso e consciência, até o atendimento especializado.\nManter a pessoa em repouso, em posição segura e confortável.\n\nEncaminhamento para avaliação:\nEncaminhar ao hospital para avaliação e tratamento adequados, mesmo que os sintomas pareçam leves.",
     "nomeCientifico" : "",
