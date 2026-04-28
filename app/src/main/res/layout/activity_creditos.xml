@@ -90,5 +90,38 @@
         android:layout_marginTop="30dp"
         />
 
+    <TextView
+        android:id="@+id/Subt_credito3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_Subt_credito3"
+        android:textColor="@color/preto"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="132dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Texto_Credito2"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/Texto_Credito3"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:text="@string/coordenadores"
+        android:textColor="@color/preto"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="254dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Subt_credito3"
+        android:layout_marginTop="30dp"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/b_categoria"
+        android:id="@+id/b_introducao"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:minHeight="55dp"
@@ -19,12 +19,12 @@
         android:background="@drawable/botao_arredondado"
         android:paddingHorizontal="20dp"
         android:paddingVertical="10dp"
-        android:text="Categorias"
+        android:text="Introdução"
         android:elevation="15dp"
         android:textColor="@color/botao_branco_tint"
         android:textSize="20sp"
         android:textAllCaps="false"
-        app:layout_constraintBottom_toTopOf="@id/b_introducao"
+        app:layout_constraintBottom_toTopOf="@id/b_categoria"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -32,7 +32,7 @@
         />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/b_introducao"
+        android:id="@+id/b_categoria"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:minHeight="55dp"
@@ -41,7 +41,7 @@
         android:background="@drawable/botao_arredondado"
         android:paddingHorizontal="20dp"
         android:paddingVertical="10dp"
-        android:text="Introdução"
+        android:text="Categorias"
         android:textAllCaps="false"
         android:elevation="15dp"
         android:textColor="@color/botao_branco_tint"
@@ -49,7 +49,7 @@
         app:layout_constraintBottom_toTopOf="@id/b_referencia"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b_categoria" />
+        app:layout_constraintTop_toBottomOf="@+id/b_introducao" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/b_referencia"
@@ -69,7 +69,7 @@
         app:layout_constraintBottom_toTopOf="@id/b_credito"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b_introducao" />
+        app:layout_constraintTop_toBottomOf="@+id/b_categoria" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/b_credito"

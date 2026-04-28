@@ -21,7 +21,7 @@ fun ElementoEntity.toDomain(): Elemento {
     // Usamos o 'categoriaNome' para decidir qual tipo de objeto de domínio criar.
     // Isso é mais robusto do que verificar campos nulos.
     return when (categoriaNome) {
-        "Agrotóxico" -> Agrotoxico(
+        "Agrotóxicos" -> Agrotoxico(
             funcao = funcao ?: "Não especificada",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
@@ -33,7 +33,7 @@ fun ElementoEntity.toDomain(): Elemento {
             imagemPrimSocorro1 = imagemPrimSocorro1,
             imagemPrimSocorro2 = imagemPrimSocorro2
         )
-        "Planta Tóxica" -> PlantaToxica(
+        "Plantas Tóxicas" -> PlantaToxica(
             nomeCientifico = nomeCientifico ?: "Não especificado",
             parteToxica = parteToxica ?: "Não especificada",
             nomePopular = nomePopular,
@@ -48,7 +48,7 @@ fun ElementoEntity.toDomain(): Elemento {
             imagemPrimSocorro1 = imagemPrimSocorro1,
             imagemPrimSocorro2 = imagemPrimSocorro2
         )
-        "Animal Peçonhento" -> AnimalPeconhento(
+        "Animais Peçonhentos" -> AnimalPeconhento(
             nomeCientifico = nomeCientifico ?: "Não especificado",
             substanciaToxica = substanciaToxica ?: "Não especificada",
             nomePopular = nomePopular,
@@ -61,7 +61,7 @@ fun ElementoEntity.toDomain(): Elemento {
             imagemPrimSocorro1 = imagemPrimSocorro1,
             imagemPrimSocorro2 = imagemPrimSocorro2
         )
-        "Cosmético" -> Cosmetico(
+        "Cosméticos" -> Cosmetico(
             produto = produto ?: "Não especificado",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
@@ -73,7 +73,7 @@ fun ElementoEntity.toDomain(): Elemento {
             imagemPrimSocorro1 = imagemPrimSocorro1,
             imagemPrimSocorro2 = imagemPrimSocorro2
         )
-        "Produto de Limpeza" -> ProdutoLimpeza(
+        "Produtos de Limpeza" -> ProdutoLimpeza(
             substancia = substancia ?: "Não especificada",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
@@ -86,7 +86,7 @@ fun ElementoEntity.toDomain(): Elemento {
             imagemPrimSocorro1 = imagemPrimSocorro1,
             imagemPrimSocorro2 = imagemPrimSocorro2
         )
-        "Medicamento" -> Medicamento(
+        "Medicamentos" -> Medicamento(
             funcao = funcao ?: "Não especificada",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
@@ -111,7 +111,7 @@ fun Elemento.toEntity(): ElementoEntity {
     // Determina o nome da categoria e os campos específicos
     return when (this) {
         is AnimalPeconhento -> ElementoEntity(
-            categoriaNome = "Animal Peconhento",
+            categoriaNome = "Animais Peconhentos",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
             primSocorro = primSocorro,
@@ -126,7 +126,7 @@ fun Elemento.toEntity(): ElementoEntity {
             imagemPrimSocorro2 = this.imagemPrimSocorro2
         )
         is PlantaToxica -> ElementoEntity(
-            categoriaNome = "Planta Toxica",
+            categoriaNome = "Plantas Toxicas",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
             primSocorro = primSocorro,
@@ -143,7 +143,7 @@ fun Elemento.toEntity(): ElementoEntity {
             imagemPrimSocorro2 = this.imagemPrimSocorro2
         )
         is Medicamento -> ElementoEntity(
-            categoriaNome = "Medicamento",
+            categoriaNome = "Medicamentos",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
             primSocorro = primSocorro,
@@ -157,7 +157,7 @@ fun Elemento.toEntity(): ElementoEntity {
             imagemPrimSocorro2 = this.imagemPrimSocorro2
         )
         is Agrotoxico -> ElementoEntity(
-            categoriaNome = "Agrotoxico",
+            categoriaNome = "Agrotoxicos",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
             primSocorro = primSocorro,
@@ -171,7 +171,7 @@ fun Elemento.toEntity(): ElementoEntity {
             imagemPrimSocorro2 = this.imagemPrimSocorro2
         )
         is Cosmetico -> ElementoEntity(
-            categoriaNome = "Cosmetico",
+            categoriaNome = "Cosmeticos",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
             primSocorro = primSocorro,
@@ -185,7 +185,7 @@ fun Elemento.toEntity(): ElementoEntity {
             imagemPrimSocorro2 = this.imagemPrimSocorro2
         )
         is ProdutoLimpeza -> ElementoEntity(
-            categoriaNome = "Produto Limpeza",
+            categoriaNome = "Produtos de Limpeza",
             nomePopular = nomePopular,
             sintIntox = sintIntox,
             primSocorro = primSocorro,

@@ -29,12 +29,20 @@
         Desenvolvedores
     </string>
 
+    <string name="texto_Subt_credito3">
+        Coordenadores
+    </string>
+
     <string name="idealizadores">
-        Bárbara Stephani Silva\nBruna Natasha Moura de Almeida\nCarlos Roberto Escrivão Grignoli\nDaniela Teixeira Schuartz\nJulia Guedes Maretti\nLetícia Cristina Gonçalves\nMariana Dias\nMaurício Acconcia Dias\nVitória Roberta Felipe da Silva
+        Bárbara Stephani Silva\nBruna Natasha Moura de Almeida\nDaniela Teixeira Schuartz\nJulia Guedes Maretti\nLetícia Cristina Gonçalves\nMariana Dias\nVitória Roberta Felipe da Silva
     </string>
 
     <string name="desenvolvedores">
         Gabriel Barbosa\nLeonardo Henrique Barbosa Colla
+    </string>
+
+    <string name="coordenadores">
+        Biomedicina\nCarlos Roberto Escrivão Grignoli\n\nEngenharia da Computação\nMaurício Acconcia Dias
     </string>
 
     <string name="referencias_titulo">

@@ -1,6 +1,6 @@
 [
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Espirradeira",
     "sintIntox" : "Náuseas e vômitos\nDiarreia intensa e dor abdominal\nBatimentos cardíacos irregulares (arritmias)\nTontura, fraqueza e confusão mental\nTremores ou sonolência\nDificuldade respiratória\nEm casos mais graves: convulsões, perda de consciência, coma ou parada cardíaca",
     "primSocorro" : "Ingestão acidental:\nNão provocar vômito\nNão dar nada por via oral se a vítima estiver sonolenta ou com dificuldade de engolir\nManter a vítima em repouso e sob observação\nEncaminhar imediatamente ao hospital, levando, se possível, uma amostra ou foto da planta\n\n Contato com pele ou olhos:\nRemover roupas contaminadas com cuidado\nLavar a área atingida com água e sabão neutro por pelo menos 15 minutos\nProcurar atendimento médico se houver irritação persistente\n\n Inalação da fumaça:\nLevar a vítima para local arejado\n Observar sinais como tosse, tontura ou falta de ar\n Procurar atendimento médico se os sintomas forem intensos ou durarem mais que alguns minutos",
@@ -21,7 +21,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Mamona",
     "sintIntox" : "Náuseas e vômitos intensos\nCólicas abdominais e diarreia severa\nDesidratação rápida\nTontura, fraqueza geral e tremores\nConvulsões, febre e confusão mental\nEm casos graves, pode evoluir para falência de órgãos e morte se não houver atendimento imediato",
     "primSocorro" : " Ingestão acidental:\n Não provocar vômito, mesmo que a vítima esteja consciente\n Não oferecer alimentos, água ou leite sem avaliação médica\n Manter a vítima em repouso, deitada de lado se houver náuseas\n Observar sinais como vômitos persistentes, dor abdominal, tontura ou confusão mental\nEncaminhar imediatamente ao hospital, levando amostras das sementes ou da planta, se possível\n\nContato com pele ou olhos:\n Lavar a área atingida com água corrente e sabão neutro por pelo menos 15 minutos\n Evitar coçar ou esfregar os olhos\n Procurar atendimento médico se houver vermelhidão, ardência, ou irritação persistente\n\nInalação (pouco comum, mas possível em ambiente agrícola):\n Levar a vítima para ambiente ventilado\n Observar sinais respiratórios como tosse, dificuldade para respirar ou irritação nasal\n Procurar auxílio médico se os sintomas persistirem",
@@ -42,7 +42,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Comigo-ninguém-pode",
     "sintIntox" : "A intoxicação ocorre principalmente por mastigação ou contato com partes da planta. Os principais sintomas incluem ardência intensa na boca, língua e garganta, salivação excessiva, dificuldade para engolir e falar, edema (inchaço) na região oral e, em casos mais graves, edema de glote com risco de asfixia. O contato com os olhos pode causar dor, vermelhidão e lacrimejamento. Animais também são suscetíveis à toxidade da planta e podem apresentar sinais semelhantes.",
     "primSocorro" : " Ingestão acidental:\n Lavar imediatamente a boca da vítima com água corrente em abundância. Oferecer cubos de gelo ou água gelada para aliviar a dor e reduzir o inchaço. Não induzir vômito. Observar se há sinais de dificuldade para respirar ou falar. Encaminhar ao hospital o mais rápido possível, especialmente em casos com edema de glote ou sintomas persistentes.\n\n Contato com os olhos:\n Lavar os olhos com água corrente por pelo menos 15 minutos, mantendo as pálpebras abertas. Evitar coçar os olhos. Procurar atendimento médico oftalmológico se houver dor persistente ou visão turva.\n\nContato com a pele:\n Lavar a região com água e sabão neutro. Se houver irritação ou coceira persistente, procurar atendimento médico.",
@@ -63,7 +63,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Trombeteira",
     "sintIntox" : "Alucinações, delírios, taquicardia, midríase (dilatação das pupilas), boca seca, pele quente e avermelhada, retenção urinária, visão turva, confusão mental, agitação psicomotora e, em casos graves, convulsões e coma. Os sintomas aparecem geralmente entre 30 minutos e 1 hora após a ingestão.",
     "primSocorro" : "Ingestão acidental:\n Não provocar vômito. Lavar cuidadosamente a boca com água. Manter a vítima em repouso, preferencialmente deitada de lado, em ambiente calmo e bem ventilado, evitando estímulos visuais ou auditivos que possam intensificar os delírios. Monitorar os sinais vitais (respiração, pulso e consciência). Levar imediatamente ao hospital, informando que a intoxicação pode estar relacionada ao consumo de Datura stramonium. Se possível, levar partes da planta para facilitar a identificação e o tratamento.\n\nContato com os olhos: \nLavar abundantemente com água corrente por no mínimo 15 minutos, mantendo as pálpebras abertas. Não utilizar colírios ou pomadas sem prescrição médica. Procurar atendimento oftalmológico caso haja vermelhidão, dor, visão turva ou ardência persistente.\n\nContato com a pele: \nRemover roupas contaminadas com cuidado. Lavar as áreas expostas com água e sabão neutro. Se surgirem sinais de irritação, ardência ou coceira persistente, procurar orientação médica.",
@@ -84,7 +84,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Chapéu-de-napoleão",
     "sintIntox" : "Náuseas, vômitos, dor abdominal, diarreia, tontura, visão turva, bradicardia (batimentos cardíacos lentos), arritmias cardíacas graves, fraqueza, sudorese intensa, desmaios e, em casos severos, parada cardíaca. Os sintomas geralmente se iniciam entre 1 e 3 horas após a ingestão.",
     "primSocorro" : "Ingestão acidental:\n Não induzir vômito. Enxaguar a boca com água limpa. Manter a vítima consciente em repouso absoluto e levá-la imediatamente ao hospital, mesmo que os sintomas sejam leves. Monitorar sinais de batimento cardíaco e respiração. Levar partes da planta para facilitar a identificação pelo corpo médico.\n\nContato com os olhos:\n Lavar com água corrente abundante por pelo menos 15 minutos, evitando esfregar os olhos. Procurar atendimento médico se houver dor, irritação persistente ou visão embaçada.\n\nContato com a pele: \nLavar a área afetada com água e sabão. Se surgirem vermelhidão, coceira ou bolhas, buscar orientação médica.",
@@ -105,7 +105,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Taioba-brava",
     "sintIntox" : "Irritação intensa na boca, língua e garganta; sensação de queimação; dor ao engolir; salivação excessiva; edema de glote (em casos mais severos); dificuldade para falar ou respirar. Os sintomas surgem geralmente logo após o consumo de folhas cruas ou mal cozidas.",
     "primSocorro" : "Ingestão acidental:\nLavar imediatamente a boca da vítima com água corrente, várias vezes, para remoção de resíduos da planta.\nNão provocar vômito nem forçar ingestão de alimentos.\nOferecer pequenos goles de água fria ou cubos de gelo para aliviar a dor e reduzir o inchaço, caso a vítima esteja consciente e sem risco de engasgar.\n\nCaso haja sinais respiratórios: \nEncaminhar com urgência para atendimento hospitalar, pois pode haver risco de asfixia.\nDurante o transporte, manter a vítima em posição sentada e tranquila, evitando esforço físico ou fala excessiva.\n\nContato com pele ou olhos:\nLavar abundantemente com água corrente por pelo menos 15 minutos.\nProcurar atendimento médico se houver irritação persistente, vermelhidão ou dor.",
@@ -126,7 +126,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Saia-branca",
     "sintIntox" : "Delírios, confusão mental, alucinações, midríase (dilatação das pupilas), boca seca, taquicardia, visão turva, dificuldade para urinar, agitação, convulsões e coma em casos graves.",
     "primSocorro" : "Ingestão acidental:\n Não provocar vômito. Enxaguar a boca com água. Manter a vítima em repouso, deitada de lado, em ambiente calmo e ventilado. Monitorar respiração, pulso e consciência. Levar ao hospital imediatamente, levando partes da planta, se possível.\n\nContato com os olhos:\n Lavar com água corrente por pelo menos 15 minutos, mantendo as pálpebras abertas. Não usar colírios ou pomadas sem orientação médica. Buscar atendimento se houver irritação ou dor persistente.\n\nContato com a pele:\n  Lavar a pele com água e sabão neutro. Procurar ajuda médica se houver irritação persistente.",
@@ -147,7 +147,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Pinhão-bravo",
     "sintIntox" : " Vômito, cólica abdominal, diarreia, desidratação, dor abdominal intensa, e em casos mais graves, insuficiência renal e queda de pressão arterial.",
     "primSocorro" : "Ingestão:\nNão provocar vômito. Lavar a boca com água corrente. Manter a vítima hidratada, oferecendo pequenos goles de água ou soro caseiro. Levar imediatamente ao hospital, se necessário, para avaliação e tratamento de possíveis complicações como desidratação ou problemas renais.\n\nContato com os olhos:\n Lavar os olhos com água corrente por no mínimo 15 minutos. Procurar atendimento médico imediato caso haja dor, vermelhidão ou visão turva persistente.\n\nContato com a pele:\nLavar as áreas expostas com água corrente e sabão neutro. Se houver sinais de irritação persistente, procurar orientação médica.",
@@ -168,7 +168,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Olho-de-cabra",
     "sintIntox" : "Náuseas intensas, vômitos persistentes, dor abdominal severa, diarreia, desidratação, hemorragia gastrointestinal, taquicardia, hipotensão, confusão mental, convulsões e colapso circulatório. Pode haver falência múltipla de órgãos e morte, especialmente se as sementes forem mastigadas e ingeridas.",
     "primSocorro" : "Ingestão:\nNão provocar vômito.\nLavar imediatamente a boca com água corrente, retirando resíduos visíveis.\nManter a vítima hidratada, oferecendo pequenos goles de água ou soro caseiro, apenas se estiver consciente e sem dificuldade para engolir.\nLevar imediatamente ao hospital para avaliação médica, pois podem ocorrer complicações graves como desidratação, hemorragia ou insuficiência renal.\nLevar amostra ou foto da planta para identificação.\n\nContato com os olhos:\nLavar abundantemente com água corrente por no mínimo 15 minutos, mantendo as pálpebras abertas.\nEvitar esfregar os olhos.\nProcurar atendimento médico imediato se houver dor, vermelhidão, lacrimejamento intenso ou visão turva persistente.\n\nContato com a pele:\nLavar as áreas expostas com água corrente e sabão neutro.\nRetirar roupas ou acessórios contaminados.\nObservar se há irritação, vermelhidão ou coceira persistente e procurar orientação médica caso os sintomas continuem.",
@@ -189,7 +189,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Mandioca-brava",
     "sintIntox" : "Convulsões, confusão mental, tontura, dor de cabeça, dificuldade para respirar, cianose (coloração azulada da pele e mucosas), náuseas, vômitos, dor abdominal, fraqueza muscular, arritmias e, em casos graves, coma e morte devido à liberação de cianeto durante a digestão.",
     "primSocorro" : "Ingestão:\nNão consumir a raiz crua. O cozimento adequado destrói a maior parte do composto tóxico (linamarina, que libera cianeto).\nCaso haja ingestão de raiz crua ou mal cozida: não provocar vômito.\nLavar a boca com água corrente.\nManter a vítima hidratada, oferecendo pequenos goles de água ou soro caseiro, apenas se estiver consciente e sem dificuldade para engolir.\nLevar imediatamente ao hospital para avaliação, pois o quadro pode evoluir rapidamente para hipóxia grave, convulsões e falência respiratória.\nLevar amostra da raiz para identificação.\n\nContato com os olhos:\nLavar abundantemente com água corrente ou soro fisiológico por no mínimo 15 minutos.\nEvitar esfregar os olhos.\nProcurar atendimento médico imediato se houver dor, vermelhidão, lacrimejamento intenso ou visão turva persistente.\n\nContato com a pele:\nLavar a área exposta com água corrente e sabão neutro.\nRetirar roupas e acessórios contaminados.\nSe houver irritação persistente, procurar orientação médica.",
@@ -210,7 +210,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Tinhorão",
     "sintIntox" : "Dor e ardência intensa na boca e garganta, edema de língua e lábios, dificuldade para engolir, salivação excessiva, náuseas, vômitos, rouquidão e, em casos mais graves, dificuldade respiratória devido ao edema de vias aéreas.",
     "primSocorro" : "Ingestão:\nLavar imediatamente a boca com água corrente, removendo eventuais fragmentos de folhas.\nNão provocar vômito.\nProcurar atendimento médico imediato, especialmente se houver inchaço significativo, dificuldade para respirar ou engolir.\nLevar amostra ou foto da planta para identificação.\n\nContato com os olhos:\nLavar abundantemente com água corrente ou soro fisiológico por no mínimo 15 minutos.\nEvitar esfregar os olhos.\nProcurar atendimento oftalmológico se houver dor intensa, vermelhidão, lacrimejamento persistente ou alteração visual.\n\nContato com a pele:\nLavar a área exposta com água corrente e sabão neutro.\nRetirar roupas ou acessórios contaminados.\nSe houver irritação persistente ou formação de bolhas, procurar orientação médica.",
@@ -231,7 +231,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Acônito",
     "sintIntox" : "Formigamento e dormência (parestesia) na boca, face e extremidades, que podem progredir para fraqueza muscular, náuseas, vômitos, dor abdominal, tontura, hipotensão, arritmias graves, dificuldade respiratória, convulsões e, em casos severos, parada cardíaca e morte. O início dos sintomas costuma ser rápido, entre 10 minutos e 1 hora após ingestão.",
     "primSocorro" : "Ingestão:\nNão provocar vômito.\nLavar imediatamente a boca com água corrente.\n\nContato com os olhos:\nLavar abundantemente com água corrente ou soro fisiológico por no mínimo 15 minutos.\nEvitar esfregar os olhos.\nProcurar atendimento médico imediato se houver dor, vermelhidão, lacrimejamento persistente ou visão turva.\n\nContato com a pele:\nLavar a área exposta com água corrente e sabão neutro.\nRetirar roupas e acessórios contaminados.\nProcurar atendimento médico se houver formigamento, dormência ou irritação persistente.",
@@ -252,7 +252,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Dedaleira",
     "sintIntox" : "Náuseas, vômitos, dor abdominal, diarreia, tontura, visão turva ou amarelada, confusão mental, bradicardia (batimentos cardíacos lentos), arritmias, dificuldade para respirar, convulsões e, em casos graves, parada cardíaca. Os sintomas podem surgir entre 30 minutos e 2 horas após ingestão.",
     "primSocorro" : "Ingestão:\nNão provocar vômito.\nLavar a boca imediatamente com água corrente.\nLevar amostra ou foto da planta para identificação.\nNo ambiente hospitalar, o tratamento inclui monitorização cardíaca contínua, correção de arritmias, suporte ventilatório e uso de carvão ativado se indicado.\n\nContato com os olhos:\nLavar abundantemente com água corrente ou soro fisiológico por no mínimo 15 minutos.\nEvitar esfregar os olhos.\nProcurar atendimento médico se houver dor, vermelhidão, lacrimejamento persistente ou visão turva.\n\nContato com a pele:\nLavar a área atingida com água corrente e sabão neutro.\nRetirar roupas e acessórios contaminados.\nProcurar atendimento médico se houver irritação, vermelhidão persistente ou sintomas sistêmicos.",
@@ -273,7 +273,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Teixo",
     "sintIntox" : "Náuseas, vômitos, dor abdominal, tontura, fraqueza muscular, confusão mental, convulsões, dificuldade respiratória, bradicardia ou taquicardia, arritmias graves e parada cardíaca súbita. Os sintomas podem surgir rapidamente, geralmente entre 30 minutos e 3 horas após ingestão, e a evolução pode ser fatal.",
     "primSocorro" : "Ingestão:\nNão provocar vômito.\nLavar a boca imediatamente com água corrente.\n\nContato com os olhos:\nLavar abundantemente com água corrente ou soro fisiológico por no mínimo 15 minutos.\nEvitar esfregar os olhos.\nProcurar atendimento médico se houver dor, vermelhidão, lacrimejamento persistente ou visão turva.\n\nContato com a pele:\nLavar a área exposta com água corrente e sabão neutro.\nRetirar roupas e acessórios contaminados.\nProcurar atendimento médico se houver irritação persistente ou sintomas sistêmicos (raro, mas possível em contato prolongado).",
@@ -294,7 +294,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Lírio-do-brejo",
     "sintIntox" : "Dor e ardência intensa na boca e garganta, inchaço (edema) de língua e lábios, dificuldade para engolir, salivação excessiva, náuseas, vômitos, diarreia e, em casos mais graves, dificuldade respiratória devido ao edema de vias aéreas.",
     "primSocorro" : "Ingestão:\nLavar imediatamente a boca com água corrente, removendo fragmentos de planta.\nNão provocar vômito.\nProcurar atendimento médico imediato, especialmente se houver inchaço significativo ou dificuldade para respirar ou engolir.\nLevar amostra ou foto da planta para identificação.\n\nContato com os olhos:\nLavar abundantemente com água corrente ou soro fisiológico por no mínimo 15 minutos.\nEvitar esfregar os olhos.\nProcurar atendimento oftalmológico se houver dor intensa, vermelhidão, lacrimejamento persistente ou visão turva.\n\nContato com a pele:\nLavar a área exposta com água corrente e sabão neutro.\nRetirar roupas e acessórios contaminados.\nProcurar atendimento médico se houver irritação persistente ou formação de bolhas.",
@@ -315,7 +315,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Muguet",
     "sintIntox" : "Náuseas, vômitos, dor abdominal, diarreia, tontura, fraqueza, visão turva, confusão mental, arritmias, bradicardia, dificuldade respiratória e, em casos graves, parada cardíaca. Os sintomas podem aparecer de 1 a 3 horas após ingestão.",
     "primSocorro" : "Ingestão:\nNão provocar vômito, pois as sementes contêm toxalbumina (abrina) que pode causar lesões graves.\nLavar a boca abundantemente com água para retirar resíduos das sementes.\nOferecer pequenos goles de água ou soro caseiro se a vítima estiver consciente.\nLevar imediatamente ao hospital para tratamento intensivo e monitoramento de hemorragias.\n\nContato com os olhos:\nLavar com água corrente por no mínimo 15 minutos, pois toxinas podem irritar as mucosas.\nProcurar atendimento médico caso haja dor ou vermelhidão persistente.\n\nContato com a pele:\nLavar área exposta com água e sabão neutro.\nProcurar orientação médica se houver irritação persistente.",
@@ -336,7 +336,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Rosa de Natal",
     "sintIntox" : "Náuseas, vômitos, diarreia, dor abdominal, tontura, fraqueza, convulsões, arritmias cardíacas e, em casos graves, insuficiência cardíaca e respiratória.",
     "primSocorro" : "Ingestão:\nNão provocar vômito.\nLavar a boca imediatamente com água corrente para remover resíduos da planta.\nProcurar atendimento hospitalar urgente para monitorização cardíaca e tratamento de suporte.\nLevar amostra ou foto da planta para auxiliar na identificação.\n\nContato com os olhos:\nLavar abundantemente com água corrente ou soro fisiológico por no mínimo 15 minutos.\nEvitar esfregar os olhos.\nProcurar atendimento oftalmológico se persistirem dor, vermelhidão ou visão turva.\n\nContato com a pele:\nLavar a área exposta com água corrente e sabão neutro.\nRemover roupas e acessórios contaminados.\nProcurar orientação médica se surgir irritação persistente ou sintomas sistêmicos.",
@@ -357,7 +357,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Filodendro",
     "sintIntox" : "Irritação e queimação na boca, lábios e garganta, edema (inchaço) das mucosas, salivação excessiva, dificuldade para engolir, náuseas e, em casos raros, dificuldade respiratória devido ao edema.",
     "primSocorro" : "Ingestão:\nLavar imediatamente a boca com água corrente para remover resíduos das folhas.\nNão provocar vômito.\nProcurar atendimento médico urgente, principalmente se houver edema significativo ou dificuldade para engolir ou respirar.\nLevar amostra ou foto da planta para identificação.\n\nContato com os olhos:\nLavar abundantemente com água corrente ou soro fisiológico por no mínimo 15 minutos.\nEvitar esfregar os olhos.\nProcurar atendimento oftalmológico se houver dor intensa, vermelhidão ou alteração visual persistente.\n\nContato com a pele:\nLavar a área exposta com água corrente e sabão neutro.\nRetirar roupas e acessórios contaminados.\nProcurar orientação médica se houver irritação persistente, vermelhidão ou coceira.",
@@ -378,7 +378,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Babosa",
     "sintIntox" : " Diarreia intensa, cólicas abdominais, desidratação, fraqueza, alterações eletrolíticas (hipocalemia), náuseas e vômitos em casos graves.",
     "primSocorro" : "Ingestão:\nSuspender imediatamente o uso do produto que contenha látex ou aloína.\nEm casos de diarreia intensa e sinais de desidratação (tontura, boca seca, fraqueza), procurar atendimento médico para reposição hídrica e correção eletrolítica.\nNão provocar vômito.\n\nContato com os olhos:\nRaramente ocorre intoxicação por contato ocular, mas se houver, lavar abundantemente com água corrente por no mínimo 15 minutos.\nProcurar atendimento médico se persistir irritação ou desconforto.\n\nContato com a pele:\nLavar a área exposta com água corrente e sabão neutro.\nEm casos de irritação ou alergia, procurar orientação médica.",
@@ -399,7 +399,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Cambará",
     "sintIntox" : "Náuseas, vômitos, dor abdominal, icterícia, febre, diarreia, insuficiência hepática, alterações no funcionamento dos rins, e em casos graves, choque e morte.",
     "primSocorro" : "Ingestão:\nNão provocar vômito.\nLavar imediatamente a boca com água corrente para remover resíduos.\nLevar urgentemente ao hospital para avaliação clínica, monitoramento hepático e suporte intensivo.\nLevar amostra ou foto da planta para identificação.\n\nContato com os olhos:\nLavar abundantemente com água corrente ou soro fisiológico por no mínimo 15 minutos.\nProcurar atendimento médico em caso de dor, vermelhidão ou visão turva persistente.\n\nContato com a pele:\nLavar a área exposta com água corrente e sabão neutro.\nRetirar roupas e acessórios contaminados.\nProcurar orientação médica se houver irritação persistente.",
@@ -420,7 +420,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Aroeira",
     "sintIntox" : "Dermatite de contato caracterizada por vermelhidão, coceira, edema e possível formação de bolhas na pele.",
     "primSocorro" : "Ingestão:\nIntoxicação por ingestão é rara e geralmente não ocorre.\n\nContato com os olhos:\nLavar abundantemente com água corrente por no mínimo 15 minutos.\nProcurar atendimento médico se houver dor, vermelhidão ou irritação persistente.\n\nContato com a pele:\nLavar imediatamente a área afetada com água corrente e sabão neutro para remover a seiva.\nEvitar coçar para não agravar a irritação.\nAplicar compressas frias para aliviar coceira e edema.\nProcurar orientação médica para uso de antialérgicos ou corticosteroides tópicos caso a reação seja intensa ou persistente.",
@@ -441,7 +441,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Bico-de-papagaio",
     "sintIntox" : "Irritação e queimadura nas mucosas oculares, vermelhidão, lacrimejamento, dor; na pele, vermelhidão, coceira, sensação de queimação e possível dermatite de contato.",
     "primSocorro" : "Ingestão:\nIngestão é rara e geralmente causa irritação local. Procurar atendimento médico se houver desconforto gastrointestinal.\n\nContato com os olhos:\nLavar imediatamente e abundantemente com água corrente ou soro fisiológico por no mínimo 15 minutos.\nEvitar esfregar os olhos.\nProcurar atendimento oftalmológico urgente se persistirem dor, vermelhidão intensa, lacrimejamento ou visão turva.\n\nContato com a pele:\nLavar imediatamente a área exposta com água corrente e sabão neutro.\nRemover roupas e acessórios contaminados.\nAplicar compressas frias para aliviar o desconforto.\nProcurar orientação médica se a irritação for intensa, persistente ou se houver formação de bolhas.",
@@ -462,7 +462,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Erva-moura",
     "sintIntox" : "Náuseas, vômitos, dor abdominal, diarreia, distúrbios gastrointestinais, fraqueza, tontura e, em casos graves, alterações neurológicas e respiratórias.",
     "primSocorro" : "Ingestão:\nNão provocar vômito inicialmente, a menos que indicado por médico.\nLavar a boca com água corrente.\nProcurar atendimento médico imediatamente, principalmente se houver sintomas intensos como vômitos persistentes, diarreia severa, confusão mental ou dificuldade respiratória.\nLevar amostra ou foto da planta para identificação.\n\nContato com os olhos:\nLavar abundantemente com água corrente ou soro fisiológico por no mínimo 15 minutos.\nProcurar atendimento médico se houver dor, vermelhidão ou visão turva persistente.\n\nContato com a pele:\nLavar a área exposta com água corrente e sabão neutro.\nProcurar orientação médica se houver irritação persistente.",
@@ -483,7 +483,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Dama-da-noite",
     "sintIntox" : " Delírio, midríase (dilatação anormal das pupilas), confusão mental, alucinações, convulsões, taquicardia, boca seca, dificuldade para urinar e em casos graves, parada respiratória.",
     "primSocorro" : "Ingestão:\nNão provocar vômito.\nLavar a boca com água corrente para remover resíduos.\nLevar imediatamente ao hospital para monitoramento neurológico e suporte clínico.\nLevar amostra ou foto da planta para identificação.\n\nContato com os olhos:\nLavar abundantemente com água corrente ou soro fisiológico por no mínimo 15 minutos.\nProcurar atendimento médico se persistirem dor, vermelhidão, lacrimejamento ou visão turva.\n\nContato com a pele:\nLavar a área exposta com água corrente e sabão neutro.\nProcurar orientação médica se houver irritação persistente ou sintomas sistêmicos.",
@@ -504,7 +504,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Fedegoso",
     "sintIntox" : "Miopatia (fraqueza muscular progressiva), pupilas dilatadas, dor muscular, urina escura (indicação de possível rabdomiólise), fadiga, fraqueza geral, e em casos graves, insuficiência renal.",
     "primSocorro" : "Ingestão:\nNão provocar vômito.\nLavar a boca com água corrente para remover resíduos das sementes.\nLevar urgentemente ao hospital para monitoramento clínico, avaliação renal e suporte intensivo.\nLevar amostra ou foto da planta para identificação.\n\nContato com os olhos:\nLavar abundantemente com água corrente ou soro fisiológico por no mínimo 15 minutos.\nProcurar atendimento médico se houver dor, vermelhidão ou visão turva persistente.\n\nContato com a pele:\nLavar a área exposta com água corrente e sabão neutro.\nProcurar orientação médica se houver irritação persistente.",
@@ -525,7 +525,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Tabaco",
     "sintIntox" : "Náuseas, tremores, convulsões",
     "primSocorro" : "Ingestão:\nNão provocar vômito, pois a nicotina pode causar complicações ao ser regurgitada.\nLavar a boca com água corrente várias vezes para remover resíduos das folhas.\n\nContato com os olhos:\nLavar imediatamente com água corrente ou soro fisiológico por no mínimo 15 minutos para remover qualquer resíduo da seiva ou folha.\nEvitar esfregar para não agravar a irritação.\nProcurar atendimento oftalmológico caso haja dor intensa, vermelhidão, lacrimejamento persistente ou visão turva.\n\nContato com a pele:\nLavar a área exposta com água corrente e sabão neutro o mais rápido possível para remover a seiva tóxica.\nRemover roupas contaminadas para evitar contato prolongado.\nObservar sinais de irritação local, como vermelhidão, coceira ou sensação de queimação.\nProcurar orientação médica caso a irritação persista ou haja sinais de reação alérgica.",
@@ -546,7 +546,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Alamanda",
     "sintIntox" : "Vômitos, cólicas",
     "primSocorro" : "Ingestão:\n Não provocar vômito para evitar irritação adicional no trato gastrointestinal. Lavar abundantemente a boca com água corrente para eliminar resíduos do látex.. Levar imediatamente ao hospital para avaliação e controle dos sintomas gastrointestinais, como vômitos e cólicas intensas. Levar amostra ou foto da planta para facilitar a identificação.\n\nContato com os olhos:\n Lavar abundantemente com água corrente ou soro fisiológico por no mínimo 15 minutos para remover o látex irritante. Evitar esfregar os olhos para não agravar a irritação. Procurar atendimento oftalmológico caso persistam dor, vermelhidão ou visão turva.\n\nContato com a pele:\n Lavar a área afetada com água corrente e sabão neutro o mais rápido possível para remover o látex tóxico. Remover roupas e acessórios contaminados para evitar contato contínuo. Aplicar compressas frias para aliviar a coceira e o desconforto. Procurar orientação médica se a irritação persistir ou houver reação alérgica significativa.",
@@ -567,7 +567,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Flor-de-barba",
     "sintIntox" : "Náusea, cólicas, febre",
     "primSocorro" : "Ingestão:\nNão provocar vômito para evitar irritação do trato gastrointestinal. Lavar abundantemente a boca com água corrente para remover resíduos das sementes tóxicas. Oferecer pequenos goles de água ou soro caseiro somente se a vítima estiver consciente e sem dificuldade para engolir. Levar imediatamente ao hospital para avaliação e controle dos sintomas. Levar amostra ou foto da planta para identificação.\n\nContato com os olhos:\nLavar abundantemente com água corrente ou soro fisiológico por no mínimo 15 minutos para remover resíduos. Evitar esfregar os olhos para não agravar a irritação. Procurar atendimento oftalmológico se persistirem dor, vermelhidão ou visão turva.\n\nContato com a pele:\nLavar a área afetada com água corrente e sabão neutro rapidamente para remover resíduos da planta. Remover roupas e acessórios contaminados. Procurar orientação médica se houver irritação persistente ou reação alérgica significativa.",
@@ -588,7 +588,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Pó-de-mico",
     "sintIntox" : "Coceira intensa, dermatite",
     "primSocorro" : "Ingestão:\nA intoxicação por ingestão é rara. Caso ocorra ingestão acidental, não provocar vômito. Procurar atendimento médico para avaliação.\n\nContato com os olhos:\nLavar imediatamente com água corrente por no mínimo 15 minutos. Procurar atendimento médico se houver irritação persistente.\n\nContato com a pele:\nLavar a área afetada com água corrente e sabão neutro para remover os pelos irritantes. Evitar coçar para não agravar a dermatite. Procurar orientação médica se a coceira ou irritação persistirem.",
@@ -609,7 +609,7 @@
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
-    "categoriaNome" : "Planta Tóxica",
+    "categoriaNome" : "Plantas Tóxicas",
     "nomePopular" : "Cássia-imperial",
     "sintIntox" : "Diarreia, desidratação",
     "primSocorro" : "Ingestão:\nNão provocar vômito. Manter a vítima hidratada, oferecendo pequenos goles de água ou soro caseiro. Procurar atendimento hospitalar para avaliação e tratamento da desidratação. Levar amostra ou foto da planta para identificação.\n\nContato com os olhos:\nLavar abundantemente com água corrente por no mínimo 15 minutos. Procurar atendimento médico se houver irritação persistente.\n\nContato com a pele:\nLavar a área afetada com água e sabão neutro. Procurar orientação médica em caso de irritação persistente.",
