@@ -36,7 +36,7 @@
 
     "imagemPrincipal" : "im_anima_cascavel",
     "imagemSecundaria" : "im_anima_cascavel2",
-    "imagemSintIntox1" : "im_diverso_substancia",
+    "imagemSintIntox1" : "im_diverso_substancia_neurotoxin",
     "imagemSintIntox2" : "im_diverso_sonolencia",
     "imagemPrimSocorro1" : "im_diverso_repouso3",
     "imagemPrimSocorro2" : "im_diverso_hospital"
@@ -57,7 +57,7 @@
 
     "imagemPrincipal" : "im_anima_coral_vdd",
     "imagemSecundaria" : "im_anima_coral_vdd2",
-    "imagemSintIntox1" : "im_diverso_substancia",
+    "imagemSintIntox1" : "im_diverso_substancia_neurotoxin",
     "imagemSintIntox2" : "im_diverso_formigamento3",
     "imagemPrimSocorro1" : "im_diverso_repouso3",
     "imagemPrimSocorro2" : "im_diverso_hospital"
@@ -160,9 +160,9 @@
     "caracteristica" : "Tamanho: mede cerca de 6 a 7 cm\nCorpo: corpo marrom-escuro a negro, com pernas mais claras e pinças longas e finas.",
     "resumo" : "Espécie encontrada em áreas rurais e urbanas, sob pedras, entulhos, cascas de árvores e dentro de residências. Comportamento noturno, solitário e pouco agressivo, mas pode picar ao ser pressionado. Frequente em ambientes com acúmulo de material orgânico e insetos.",
 
-    "imagemPrincipal" : "im_anima_marrom",
-    "imagemSecundaria" : "im_anima_marrom2",
-    "imagemSintIntox1" : "im_diverso_substancia",
+    "imagemPrincipal" : "im_anima_escorpiao_marrom",
+    "imagemSecundaria" : "im_anima_escorpiao_marrom2",
+    "imagemSintIntox1" : "im_diverso_substancia_neurotoxin",
     "imagemSintIntox2" : "im_diverso_enjoo",
     "imagemPrimSocorro1" : "im_diverso_repouso3",
     "imagemPrimSocorro2" : "im_diverso_hospital"
@@ -181,9 +181,9 @@
     "caracteristica" : "Tamanho: Pequenos a médios (5 a 9 cm); \nCorpo: coloração variada (amarelada a castanha), com pinças delgadas e cauda espessa.",
     "resumo" : "Distribuídos por América Central e América do Norte, em áreas tropicais e semiáridas, sob pedras, cascas de árvores e estruturas humanas. Comportamento ativos à noite, predadores de insetos. Espécies como C. sculpturatus têm potencial tóxico significativo.",
 
-    "imagemPrincipal" : "im_anima_novomundo",
-    "imagemSecundaria" : "im_anima_novomundo2",
-    "imagemSintIntox1" : "im_diverso_substancia",
+    "imagemPrincipal" : "im_anima_escorpiao_novomundo",
+    "imagemSecundaria" : "im_anima_escorpiao_novomundo2",
+    "imagemSintIntox1" : "im_diverso_substancia_neurotoxin",
     "imagemSintIntox2" : "im_diverso_convulsao",
     "imagemPrimSocorro1" : "im_diverso_lava_mao5",
     "imagemPrimSocorro2" : "im_diverso_hospital"
@@ -202,9 +202,9 @@
     "caracteristica" : "Tamanho: mede cerca de 5 a 7 cm; \nCorpo: achatado, coloração amarelada ou bege, com pinças largas e cauda fina.",
     "resumo" : "Encontrado em regiões desérticas e semiáridas do Oriente Médio, norte da África e partes da Ásia.  Esconde-se durante o dia em fendas de rochas ou sob detritos. Comportamento discreto, porém picadas podem causar necrose extensa.",
 
-    "imagemPrincipal" : "im_anima_iraniano",
-    "imagemSecundaria" : "im_anima_iraniano2",
-    "imagemSintIntox1" : "im_diverso_substancia",
+    "imagemPrincipal" : "im_anima_escorpiao_iraniano",
+    "imagemSecundaria" : "im_anima_escorpiao_iraniano2",
+    "imagemSintIntox1" : "im_diverso_substancia_cytotoxin",
     "imagemSintIntox2" : "im_diverso_necrose",
     "imagemPrimSocorro1" : "im_diverso_repouso3",
     "imagemPrimSocorro2" : "im_diverso_hospital"
@@ -225,7 +225,7 @@
 
     "imagemPrincipal" : "im_anima_abelhaeuropeia",
     "imagemSecundaria" : "im_anima_abelhaeuropeia2",
-    "imagemSintIntox1" : "im_diverso_substancia",
+    "imagemSintIntox1" : "im_diverso_substancia_alpitoxina",
     "imagemSintIntox2" : "im_diverso_coceira3",
     "imagemPrimSocorro1" : "im_diverso_repouso3",
     "imagemPrimSocorro2" : "im_diverso_hospital"
