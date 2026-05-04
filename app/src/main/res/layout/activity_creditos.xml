@@ -8,37 +8,32 @@
     android:background="@color/cinza_fundo"
     tools:context=".Creditos">
 
-    <TextView
-        android:id="@+id/Titulo_Credito"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/texto_titulo_credito"
-        android:textColor="@color/preto"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="40dp"
-        app:layout_constraintStart_toStartOf="parent"
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_creditos"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/vermelho_escuro"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="50dp"
-        />
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:navigationIconTint="@color/botao_branco_tint"
+        app:title="Créditos"
+        app:titleTextColor="@color/white" />
 
     <TextView
         android:id="@+id/Subt_credito"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         android:text="@string/texto_Subt_credito"
         android:textColor="@color/preto"
         android:textSize="25sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="132dp"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Titulo_Credito"
-        android:layout_marginTop="30dp"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_creditos" />
 
     <TextView
         android:id="@+id/Texto_Credito"

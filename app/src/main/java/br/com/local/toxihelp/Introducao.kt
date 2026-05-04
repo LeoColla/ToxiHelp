@@ -28,6 +28,18 @@ class Introducao : AppCompatActivity() {
             insets
         }
 
+        val toolbar = findViewById<com.google.android.material.appbar.MaterialToolbar>(R.id.toolbar_intro)
+        setSupportActionBar(toolbar)
+
+        // Ativa o botão de "Home" (que por padrão é o voltar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayShowHomeEnabled(true)
+
+        // Simula o voltar do sistema
+        toolbar.setNavigationOnClickListener {
+            onBackPressedDispatcher.onBackPressed()
+        }
+
         val introInfo = intent.getStringExtra("INTRO")
 
         // validacao de nulo
@@ -40,10 +52,10 @@ class Introducao : AppCompatActivity() {
             }
             "introGeral" -> {
                 lifecycleScope.launch {
-                    val tituloTextView: TextView = findViewById(R.id.titulo_intro)
+                    //val tituloTextView: TextView = findViewById(R.id.titulo_intro)
                     val textoTextView: TextView = findViewById(R.id.texto_intro)
 
-                    tituloTextView.text = getString(R.string.intro_geral_nome)
+                    toolbar.title = getString(R.string.intro_geral_nome)
                     textoTextView.text = getString(R.string.intro_geral_intro)
                 }
             }
@@ -52,10 +64,10 @@ class Introducao : AppCompatActivity() {
                     val categoria = reposit.getCategoriaPorNome(introInfo)
 
                     if (categoria != null){
-                        val tituloTextView: TextView = findViewById(R.id.titulo_intro)
+                        //val tituloTextView: TextView = findViewById(R.id.titulo_intro)
                         val textoTextView: TextView = findViewById(R.id.texto_intro)
 
-                        tituloTextView.text = categoria.nome
+                        toolbar.title = categoria.nome
                         textoTextView.text = categoria.intro
                     }
                 }

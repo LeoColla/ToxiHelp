@@ -8,34 +8,32 @@
     android:background="@color/cinza_fundo"
     tools:context=".Categorias">
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_categorias"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/vermelho_escuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:navigationIconTint="@color/botao_branco_tint"
+        app:title="Categorias"
+        app:titleTextColor="@color/white" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_categorias"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titulo_categorias"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_categorias"
+
         tools:itemCount="5"
-        tools:listitem="@layout/layout_rv_categorias"
+        tools:listitem="@layout/layout_rv_categorias" />
 
-        />
-
-
-    <TextView
-        android:id="@+id/titulo_categorias"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Categorias"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        android:paddingTop="20dp"
-        android:gravity="center"
-        android:textColor="@color/preto"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
-        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

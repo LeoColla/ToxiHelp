@@ -29,6 +29,18 @@ class Categorias : AppCompatActivity() {
             insets
         }
 
+        val toolbar = findViewById<com.google.android.material.appbar.MaterialToolbar>(R.id.toolbar_categorias)
+        setSupportActionBar(toolbar)
+
+        // Ativa o botão de "Home" (que por padrão é o voltar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayShowHomeEnabled(true)
+
+        // Simula o voltar do sistema
+        toolbar.setNavigationOnClickListener {
+            onBackPressedDispatcher.onBackPressed()
+        }
+
         val rv = findViewById<RecyclerView>(R.id.rv_categorias)
         rv.layoutManager = LinearLayoutManager(this)
 

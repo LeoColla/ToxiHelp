@@ -8,18 +8,19 @@
     android:background="@color/cinza_fundo"
     tools:context=".Introducao">
 
-    <TextView
-        android:id="@+id/titulo_intro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="@string/intro_geral_nome"
-        android:textColor="@color/preto"
-        android:textSize="40sp"
-        android:textStyle="bold"
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_intro"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/vermelho_escuro"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:navigationIconTint="@color/botao_branco_tint"
+        app:title="@string/intro_geral_nome"
+        app:titleTextColor="@color/white" />
 
     <TextView
         android:id="@+id/intro_BoaNav"
@@ -40,13 +41,13 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="23dp"
         app:layout_constraintBottom_toTopOf="@+id/intro_BoaNav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_intro">
 
         <TextView
             android:id="@+id/texto_intro"

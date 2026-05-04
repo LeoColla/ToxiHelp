@@ -8,32 +8,30 @@
     android:background="@color/cinza_fundo"
     tools:context=".ElementoLista">
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_elementos"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/vermelho_escuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:navigationIconTint="@color/botao_branco_tint"
+        app:title="@string/elemento_placeholder"
+        app:titleTextColor="@color/white" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_elemento_resumo_lista"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:paddingTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titulo_elemento_resumo_lista"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_elementos"
         tools:itemCount="5"
         tools:listitem="@layout/layout_rv_elementos" />
-
-
-    <TextView
-        android:id="@+id/titulo_elemento_resumo_lista"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:padding="15sp"
-        android:text="@string/elemento_placeholder"
-        android:textColor="@color/preto"
-        android:textSize="40sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintEnd_toStartOf="@+id/bt_info_categoria"
-        app:layout_constraintStart_toStartOf="parent"
-
-        app:layout_constraintTop_toTopOf="parent" />
-
 
     <ImageButton
         android:id="@+id/bt_info_categoria"
@@ -43,7 +41,7 @@
         android:background="@drawable/circulo_vermelho"
         android:contentDescription="@string/info_logo"
         android:src="@drawable/bt_icon_info"
-        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar_elementos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/botao_branco_tint" />

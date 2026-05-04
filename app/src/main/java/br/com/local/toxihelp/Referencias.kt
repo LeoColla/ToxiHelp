@@ -19,6 +19,18 @@ class Referencias : AppCompatActivity() {
             insets
         }
 
+        val toolbar = findViewById<com.google.android.material.appbar.MaterialToolbar>(R.id.toolbar_referencias)
+        setSupportActionBar(toolbar)
+
+        // Ativa o botão de "Home" (que por padrão é o voltar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayShowHomeEnabled(true)
+
+        // Simula o voltar do sistema
+        toolbar.setNavigationOnClickListener {
+            onBackPressedDispatcher.onBackPressed()
+        }
+
         val textViewReferencias = findViewById<TextView>(R.id.texto_Referencias)
 
         try {

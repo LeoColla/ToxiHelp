@@ -33,6 +33,18 @@ class ElementoLista : AppCompatActivity() {
             insets
         }
 
+        val toolbar = findViewById<com.google.android.material.appbar.MaterialToolbar>(R.id.toolbar_elementos)
+        setSupportActionBar(toolbar)
+
+        // Ativa o botão de "Home" (que por padrão é o voltar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayShowHomeEnabled(true)
+
+        // Simula o voltar do sistema
+        toolbar.setNavigationOnClickListener {
+            onBackPressedDispatcher.onBackPressed()
+        }
+
         // nome da categoria a partir do Intent
         val nomeCategoria = intent.getStringExtra("NOME_CATEGORIA")
 
@@ -44,6 +56,8 @@ class ElementoLista : AppCompatActivity() {
             return // Para a execução do onCreate aqui
         }
 
+        /*
+        Removendo  intro no primeiro acesso
         val prefs = getSharedPreferences("toxihelp_prefs", MODE_PRIVATE)
         val chaveCategoriaVista = "vista_intro_$nomeCategoria"
 
@@ -55,7 +69,7 @@ class ElementoLista : AppCompatActivity() {
             startActivity(intent)
             prefs.edit { putBoolean(chaveCategoriaVista, true) }
         }
-
+        */
 
 
         // torna o botao de intro clicavel
@@ -70,8 +84,8 @@ class ElementoLista : AppCompatActivity() {
 
 
 
-        val titulo: TextView = this.findViewById(R.id.titulo_elemento_resumo_lista)
-        titulo.text = nomeCategoria
+        //val titulo: TextView = this.findViewById(R.id.titulo_elemento_resumo_lista)
+        toolbar.title = nomeCategoria
 
         val rv = findViewById<RecyclerView>(R.id.rv_elemento_resumo_lista)
         rv.layoutManager = LinearLayoutManager(this)

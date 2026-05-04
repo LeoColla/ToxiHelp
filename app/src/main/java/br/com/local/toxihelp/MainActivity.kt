@@ -20,7 +20,8 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-
+        /*
+        Removendo  intro no primeiro acesso
         val prefs = getSharedPreferences("toxihelp_prefs", MODE_PRIVATE)
         val chaveCategoriaVista = "vista_intro_geral"
 
@@ -29,6 +30,7 @@ class MainActivity : AppCompatActivity() {
             GoIntroducao()
             prefs.edit { putBoolean(chaveCategoriaVista, true) }
         }
+         */
 
         val botaoIntroducao: Button = findViewById(R.id.b_introducao)
         botaoIntroducao.setOnClickListener{ GoIntroducao() }

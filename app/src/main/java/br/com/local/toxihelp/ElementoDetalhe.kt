@@ -12,6 +12,7 @@ import android.widget.TextView
 import android.widget.Toast
 
 import android.graphics.Typeface
+import android.widget.ScrollView
 import java.util.Locale
 
 import androidx.activity.enableEdgeToEdge
@@ -38,6 +39,7 @@ class ElementoDetalhe : AppCompatActivity() {
         (application as ToxiHelpApplication).repository
     }
     private lateinit var container : LinearLayout
+    private lateinit var scrollView : ScrollView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,6 +52,19 @@ class ElementoDetalhe : AppCompatActivity() {
             insets
         }
 
+
+        val toolbar = findViewById<com.google.android.material.appbar.MaterialToolbar>(R.id.toolbar_detalhe)
+        setSupportActionBar(toolbar)
+
+        // Ativa o botão de "Home" (que por padrão é o voltar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayShowHomeEnabled(true)
+
+        // Simula o voltar do sistema
+        toolbar.setNavigationOnClickListener {
+            onBackPressedDispatcher.onBackPressed()
+        }
+
         val nomePopular = intent.getStringExtra("NOME_POPULAR")
 
         // validacao de nulo
@@ -59,6 +74,9 @@ class ElementoDetalhe : AppCompatActivity() {
             finish()
             return // Para a execução do onCreate aqui
         }
+
+        // Usado para rodar a tela ao clicar no botao
+        scrollView = this.findViewById(R.id.scroll_detalhe)
 
         container = this.findViewById(R.id.element_container)
         container.removeAllViews()
@@ -318,10 +336,29 @@ class ElementoDetalhe : AppCompatActivity() {
 
         // Lógica de Expandir/Recolher
         botao.setOnClickListener {
-            val novoEstado = if (textoDescricao.isGone) View.VISIBLE else View.GONE
+            val naoVisivel = textoDescricao.isGone
+            val novoEstado = if (naoVisivel) View.VISIBLE else View.GONE
 
             textoDescricao.visibility = novoEstado
             imageContainer?.visibility = novoEstado
+
+            if (naoVisivel){
+                // Pequeno atraso para rolar
+                // Permite que a tela expanda o conteudo antes de rolar
+                container.postDelayed({
+                    val lugarVertical = botao.top
+
+                    val scrollAnimator = android.animation.ObjectAnimator.ofInt(
+                        scrollView,
+                        "scrollY",
+                        lugarVertical
+                    )
+
+                    scrollAnimator.duration = 500
+                    scrollAnimator.interpolator = android.view.animation.AccelerateDecelerateInterpolator()
+                    scrollAnimator.start()
+                }, 200)
+            }
         }
 
         container.addView(botao)
