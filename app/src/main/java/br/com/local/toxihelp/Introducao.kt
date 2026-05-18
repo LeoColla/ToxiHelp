@@ -2,6 +2,7 @@ package br.com.local.toxihelp
 
 import android.os.Bundle
 import android.util.Log
+import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -9,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
+import br.com.local.toxihelp.data.mapper.ImagemMapper
 import kotlinx.coroutines.launch
 
 class Introducao : AppCompatActivity() {
@@ -30,6 +32,8 @@ class Introducao : AppCompatActivity() {
 
         val toolbar = findViewById<com.google.android.material.appbar.MaterialToolbar>(R.id.toolbar_intro)
         setSupportActionBar(toolbar)
+
+        val textoFinal: TextView = findViewById(R.id.intro_BoaNav)
 
         // Ativa o botão de "Home" (que por padrão é o voltar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
@@ -57,6 +61,7 @@ class Introducao : AppCompatActivity() {
 
                     toolbar.title = getString(R.string.intro_geral_nome)
                     textoTextView.text = getString(R.string.intro_geral_intro)
+                    textoFinal.text = getString(R.string.intro_fim)
                 }
             }
             else -> {
@@ -67,8 +72,20 @@ class Introducao : AppCompatActivity() {
                         //val tituloTextView: TextView = findViewById(R.id.titulo_intro)
                         val textoTextView: TextView = findViewById(R.id.texto_intro)
 
+                        val introImageView : ImageView = findViewById(R.id.imageView)
+
                         toolbar.title = categoria.nome
                         textoTextView.text = categoria.intro
+
+                        textoFinal.text = getString(R.string.intro_categoria_fim)
+
+                        val imagemId = ImagemMapper.getImagemId(introInfo)
+
+                        if (imagemId != 0){
+                            com.bumptech.glide.Glide.with(this@Introducao)
+                                .load(imagemId)
+                                .into(introImageView)
+                            }
                     }
                 }
             }

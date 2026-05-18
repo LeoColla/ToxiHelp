@@ -60,4 +60,12 @@
     <string name="info_logo">
         Logo de Informação
     </string>
+
+    <string name="intro_fim">
+        Boa Navegação!
+    </string>
+
+    <string name="intro_categoria_fim">
+        Desejamos uma experiência informativa e esclarecedora!
+    </string>
 </resources>

@@ -4,6 +4,14 @@ import br.com.local.toxihelp.R
 
 object ImagemMapper {
     private val imagemMap = mapOf(
+        // Categorias
+        "Agrotóxicos" to R.drawable.im_agro_carbofurano,
+        "Animais Peçonhentos" to R.drawable.im_anima_escorpiao_amarelo2,
+        "Cosméticos" to R.drawable.im_subs_silicato_magnesio,
+        "Plantas Tóxicas" to R.drawable.im_parte_napoleao,
+        "Produtos de Limpeza" to R.drawable.im_agro_abamectina,
+        "Medicamentos" to R.drawable.im_produto_cloro,
+
         // Agrotoxico
         "im_agro_abamectina" to R.drawable.im_agro_abamectina,
         "im_agro_acefato" to R.drawable.im_agro_acefato,

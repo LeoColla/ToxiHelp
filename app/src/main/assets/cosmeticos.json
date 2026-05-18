@@ -244,8 +244,8 @@
     "caracteristica" : "",
     "resumo" : "",
     
-    "imagemPrincipal" : "im_produto_amonia",
-    "imagemSecundaria" : "im_subs_amonia",
+    "imagemPrincipal" : "im_produto_amoniacosmetico",
+    "imagemSecundaria" : "im_subs_amoniacosmetico",
     "imagemSintIntox1" : "im_diverso_olho_vermelho",
     "imagemSintIntox2" : "im_diverso_pele_irritada",
     "imagemPrimSocorro1" : "im_diverso_banho2",

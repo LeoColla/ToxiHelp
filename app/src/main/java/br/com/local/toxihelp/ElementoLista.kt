@@ -4,8 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.ImageButton
-import android.widget.ImageView
-import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -16,7 +14,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import br.com.local.toxihelp.data.ElementosAdapter
 import kotlinx.coroutines.launch
-import androidx.core.content.edit
+import java.text.Collator
+import java.util.Locale
 
 class ElementoLista : AppCompatActivity() {
     private val reposit by lazy {
@@ -108,7 +107,13 @@ class ElementoLista : AppCompatActivity() {
             reposit.getElementosResumoPorCategoria(nomeCategoria).collect { elementos ->
                 Log.d("ElementoActivity", "Flow coletado. Novo número de Elementos: ${elementos.size}")
 
-                val elementosOrdenados = elementos.sortedBy { it.nomePopular }
+                val collator = Collator.getInstance(Locale.forLanguageTag("pt-BR")).apply{
+                    strength = Collator.PRIMARY
+                }
+
+                val elementosOrdenados = elementos.sortedWith {
+                    e1, e2 -> collator.compare(e1.nomePopular, e2.nomePopular)
+                }
                 // Atualizamos a lista de dados no adapter
                 adapter.submitList(elementosOrdenados)
             }

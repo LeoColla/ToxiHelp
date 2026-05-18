@@ -54,6 +54,8 @@ fun ElementoEntity.toDomain(): Elemento {
             nomePopular = nomePopular,
             sintIntox = sintIntox,
             primSocorro = primSocorro,
+            caracteristica = caracteristica ?: "Não especificada",
+            resumo = resumo ?: "Não especificada",
             imagemPrincipal = imagemPrincipal,
             imagemSecundaria = imagemSecundaria,
             imagemSintIntox1 = imagemSintIntox1,

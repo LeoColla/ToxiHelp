@@ -61,6 +61,8 @@ data class AnimalPeconhento(
     override val nomePopular: String,
     override val sintIntox: String,
     override val primSocorro: String,
+    val caracteristica: String?,
+    val resumo: String?,
 
     override val imagemPrincipal: String?,
     override val imagemSecundaria: String?,

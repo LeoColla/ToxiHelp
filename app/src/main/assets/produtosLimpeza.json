@@ -119,7 +119,7 @@
     "resumo" : "",
 
     "imagemPrincipal" : "im_produto_alcool70",
-    "imagemSecundaria" : "im_subs_alcool70",
+    "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_sonolencia",
     "imagemSintIntox2" : "",
     "imagemPrimSocorro1" : "im_diverso_local_arejado",
