@@ -113,14 +113,16 @@ class ElementoDetalhe : AppCompatActivity() {
         // Usamos uma nova função para criar o título grande
         when (elemento) {
             is Medicamento -> adicionarTituloGrande(elemento.nomePopular)
+
             is PlantaToxica -> {
                 // Para planta, o identificador principal costuma ser o científico
-                adicionarTituloGrande(elemento.nomeCientifico)
+                adicionarTituloGrande(elemento.nomeCientifico, emItalico = true)
                 // Adicionamos o nome popular como um subtítulo
                 adicionarSubtituloCentrado("Nome Popular", elemento.nomePopular)
             }
+
             is AnimalPeconhento -> {
-                adicionarTituloGrande(elemento.nomeCientifico)
+                adicionarTituloGrande(elemento.nomeCientifico, emItalico = true)
                 adicionarSubtituloCentrado("Nome Popular", elemento.nomePopular)
             }
             is Agrotoxico -> adicionarTituloGrande(elemento.nomePopular)
@@ -246,13 +248,16 @@ class ElementoDetalhe : AppCompatActivity() {
      * NOVA FUNÇÃO: Cria o título principal, grande, bold, uppercase e centralizado.
      * Não tem label (ex: "Medicamento:"). É só o nome puro.
      */
-    private fun adicionarTituloGrande(texto: String?) {
+    private fun adicionarTituloGrande(texto: String?, emItalico: Boolean = false) {
         if (texto.isNullOrBlank()) return
 
         val tituloTv = TextView(this).apply {
             text = texto.uppercase(Locale.getDefault()) // Força o MAIÚSCULO
             textSize = 32f // Tamanho bem grande
-            setTypeface(null, Typeface.BOLD) // Negrito
+
+            val estiloFonte = if (emItalico) Typeface.BOLD_ITALIC else Typeface.BOLD
+            setTypeface(null, estiloFonte) // Negrito
+
             setTextColor(ContextCompat.getColor(context, android.R.color.black))
             gravity = Gravity.CENTER // Centraliza o texto dentro da view
             layoutParams = LinearLayout.LayoutParams(
