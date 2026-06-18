@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.widget.TextView
-
+import androidx.core.text.HtmlCompat
 class Referencias : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,11 +36,23 @@ class Referencias : AppCompatActivity() {
         try {
             val textoCompleto = assets.open("referencias.txt").bufferedReader().use { it.readText() }
 
-            textViewReferencias.text = textoCompleto
+            textViewReferencias.text = formataTexto(textoCompleto)
         } catch (e: Exception) {
             Log.e("Referencias", "Erro ao carregar as referencias: " + e.message)
             textViewReferencias.text = getString(R.string.referencias_erro)
         }
 
+
+
+    }
+
+    private fun formataTexto(texto : String) : CharSequence{
+        val textoProcessado = texto.replace("\n", "<br>")
+
+        val textoFormatado = HtmlCompat.fromHtml(
+            textoProcessado,
+            HtmlCompat.FROM_HTML_MODE_LEGACY)
+
+        return textoFormatado
     }
 }

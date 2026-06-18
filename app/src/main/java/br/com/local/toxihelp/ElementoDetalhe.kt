@@ -13,7 +13,6 @@ import android.widget.Toast
 
 import android.graphics.Typeface
 import android.widget.ScrollView
-import java.util.Locale
 
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -33,6 +32,8 @@ import br.com.local.toxihelp.domain.Cosmetico
 import br.com.local.toxihelp.domain.ProdutoLimpeza
 import androidx.core.view.isGone
 import com.google.android.material.button.MaterialButton
+
+import androidx.core.text.HtmlCompat
 
 class ElementoDetalhe : AppCompatActivity() {
     private val reposit by lazy {
@@ -116,13 +117,13 @@ class ElementoDetalhe : AppCompatActivity() {
 
             is PlantaToxica -> {
                 // Para planta, o identificador principal costuma ser o científico
-                adicionarTituloGrande(elemento.nomeCientifico, emItalico = true)
+                adicionarTituloGrande(elemento.nomeCientifico)
                 // Adicionamos o nome popular como um subtítulo
                 adicionarSubtituloCentrado("Nome Popular", elemento.nomePopular)
             }
 
             is AnimalPeconhento -> {
-                adicionarTituloGrande(elemento.nomeCientifico, emItalico = true)
+                adicionarTituloGrande(elemento.nomeCientifico)
                 adicionarSubtituloCentrado("Nome Popular", elemento.nomePopular)
             }
             is Agrotoxico -> adicionarTituloGrande(elemento.nomePopular)
@@ -248,15 +249,12 @@ class ElementoDetalhe : AppCompatActivity() {
      * NOVA FUNÇÃO: Cria o título principal, grande, bold, uppercase e centralizado.
      * Não tem label (ex: "Medicamento:"). É só o nome puro.
      */
-    private fun adicionarTituloGrande(texto: String?, emItalico: Boolean = false) {
+    private fun adicionarTituloGrande(texto: String?) {
         if (texto.isNullOrBlank()) return
 
         val tituloTv = TextView(this).apply {
-            text = texto.uppercase(Locale.getDefault()) // Força o MAIÚSCULO
+            text = formataTexto(texto)
             textSize = 32f // Tamanho bem grande
-
-            val estiloFonte = if (emItalico) Typeface.BOLD_ITALIC else Typeface.BOLD
-            setTypeface(null, estiloFonte) // Negrito
 
             setTextColor(ContextCompat.getColor(context, android.R.color.black))
             gravity = Gravity.CENTER // Centraliza o texto dentro da view
@@ -326,7 +324,7 @@ class ElementoDetalhe : AppCompatActivity() {
 
         // O TEXTO (Conteúdo que começa escondido)
         val textoDescricao = TextView(this).apply {
-            text = texto
+            text = formataTexto(texto)
             visibility = View.GONE
             textSize = 16f
             setPadding(15.dp, 15.dp, 15.dp, 15.dp)
@@ -375,6 +373,16 @@ class ElementoDetalhe : AppCompatActivity() {
             container.addView(imageContainer)
         }
 
+    }
+
+    private fun formataTexto(texto : String) : CharSequence{
+        val textoProcessado = texto.replace("\n", "<br>")
+
+        val textoFormatado = HtmlCompat.fromHtml(
+            textoProcessado,
+            HtmlCompat.FROM_HTML_MODE_LEGACY)
+
+        return textoFormatado
     }
 
     private val Int.dp: Int
