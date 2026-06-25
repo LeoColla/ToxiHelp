@@ -330,7 +330,13 @@ class ElementoDetalhe : AppCompatActivity() {
             setPadding(15.dp, 15.dp, 15.dp, 15.dp)
             setTextColor(ContextCompat.getColor(context, android.R.color.black))
             setLineSpacing(0f, 1.2f) // Corrige o erro anterior
-            gravity = Gravity.FILL_HORIZONTAL // Opcional: centraliza o texto da explicação
+            //gravity = Gravity.FILL_HORIZONTAL // Opcional: centraliza o texto da explicação
+
+            // LINHAS NOVAS: Ativa o alinhamento justificado se o celular for Android 8.0 ou superior
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                justificationMode = android.graphics.text.LineBreaker.JUSTIFICATION_MODE_INTER_WORD
+            }
+
             layoutParams = LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT, // O texto pode usar a largura toda
                 LinearLayout.LayoutParams.WRAP_CONTENT

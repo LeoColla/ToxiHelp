@@ -420,7 +420,7 @@
   {
     "categoriaNome" : "Medicamentos",
     "nomePopular" : "Cetirizina",
-    "sintIntox" : "Sonolência, tontura, agitaAntialérgico da classe dos antihistamínicos, utilizado no tratamento de rinites alérgicas, urticária e outras manifestações alérgicas cutâneas ou respiratóriasção.",
+    "sintIntox" : "Taquicardia (aumento da frequência cardíaca)\nTremores finos\nAnsiedade, insônia, irritabilidade\nSudorese, perda de peso, intolerância ao calor\nEm casos graves: fibrilação atrial, crise tireotóxica (situação de emergência).",
     "primSocorro" : "Suspender o uso do medicamento imediatamente\nOferecer ambiente calmo e seguro até avaliação médica\nSe os sintomas forem leves e a pessoa estiver consciente e orientada, o tratamento pode ser apenas sintomático e domiciliar\nEncaminhar ao hospital se houver agitação intensa, sonolência profunda ou outros sinais de comprometimento neurológico.",
     "nomeCientifico" : "",
     "funcao" : "Antialérgico da classe dos antihistamínicos, utilizado no tratamento de rinites alérgicas, urticária e outras manifestações alérgicas cutâneas ou respiratórias",

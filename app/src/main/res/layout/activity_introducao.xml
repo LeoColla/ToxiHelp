@@ -22,35 +22,46 @@
         app:title="@string/intro_geral_nome"
         app:titleTextColor="@color/white" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_intro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
     <TextView
         android:id="@+id/intro_BoaNav"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="70dp"
         android:text="@string/intro_fim"
         android:textAlignment="center"
         android:textColor="@color/preto"
         android:textSize="16sp"
         android:textStyle="bold"
 
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="80dp"
+
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="23dp"
-        app:layout_constraintBottom_toTopOf="@+id/intro_BoaNav"
+
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar_intro">
+        app:layout_constraintTop_toBottomOf="@id/imageView">
 
         <TextView
             android:id="@+id/texto_intro"
@@ -64,15 +75,31 @@
     </ScrollView>
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="80dp"
-        android:layout_height="0dp"
+        android:id="@+id/imageLogoBiomed"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/im_logo_biomed"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="669dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
-        tools:srcCompat="@drawable/logo" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/intro_BoaNav"
+        android:layout_marginBottom="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageLogoComp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/im_logo_comp"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="710dp"
+
+        app:layout_constraintStart_toEndOf="@id/imageLogoBiomed"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="15dp"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
