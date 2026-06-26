@@ -113,7 +113,16 @@ class ElementoDetalhe : AppCompatActivity() {
 
         // Usamos uma nova função para criar o título grande
         when (elemento) {
-            is Medicamento -> adicionarTituloGrande(elemento.nomePopular)
+            is Medicamento -> {
+                val nome = elemento.nomePopular ?: ""
+                if (nome.contains( " - ")){
+                    val partes = nome.split(" - ")
+                    adicionarTituloGrande(partes[1])
+                    adicionarSubtituloCentrado(texto = partes[0])
+                }else {
+                    adicionarTituloGrande(elemento.nomePopular)
+                }
+            }
 
             is PlantaToxica -> {
                 // Para planta, o identificador principal costuma ser o científico
@@ -126,8 +135,26 @@ class ElementoDetalhe : AppCompatActivity() {
                 adicionarTituloGrande(elemento.nomeCientifico)
                 adicionarSubtituloCentrado("Nome Popular", elemento.nomePopular)
             }
-            is Agrotoxico -> adicionarTituloGrande(elemento.nomePopular)
-            is Cosmetico -> adicionarTituloGrande(elemento.nomePopular)
+            is Agrotoxico -> {
+                val nome = elemento.nomePopular ?: ""
+                if (nome.contains( " - ")){
+                    val partes = nome.split(" - ")
+                    adicionarTituloGrande(partes[1])
+                    adicionarSubtituloCentrado(texto = partes[0])
+                }else {
+                    adicionarTituloGrande(elemento.nomePopular)
+                }
+            }
+            is Cosmetico -> {
+                val nome = elemento.nomePopular ?: ""
+                if (nome.contains( " - ")){
+                    val partes = nome.split(" - ")
+                    adicionarTituloGrande(partes[1])
+                    adicionarSubtituloCentrado(texto = partes[0])
+                }else {
+                    adicionarTituloGrande(elemento.nomePopular)
+                }
+            }
             is ProdutoLimpeza -> {
                 adicionarTituloGrande(elemento.nomePopular)
                 adicionarSubtituloCentrado("Substância", elemento.substancia)
@@ -273,11 +300,16 @@ class ElementoDetalhe : AppCompatActivity() {
      * NOVA FUNÇÃO: Cria um subtítulo centralizado para informações secundárias
      * (ex: Nome Popular de uma planta). Formato: **Nome Popular:** *Texto*
      */
-    private fun adicionarSubtituloCentrado(label: String, texto: String?) {
+    private fun adicionarSubtituloCentrado(label: String? = null, texto: String?) {
         if (texto.isNullOrBlank()) return
 
         val subtituloTv = TextView(this).apply {
-            text = "$label: $texto"
+            if (label != null){
+                text = "$label: $texto"
+            }else{
+                text = "$texto"
+            }
+
             textSize = 16f
             setTextColor(ContextCompat.getColor(context, android.R.color.darker_gray))
             gravity = Gravity.CENTER

@@ -239,7 +239,7 @@ object ImagemMapper {
         "im_parte_taioba" to R.drawable.im_parte_taioba,
         "im_parte_teixo" to R.drawable.im_parte_teixo,
         "im_parte_tinhorao" to R.drawable.im_parte_tinhorao,
-        "im_parte_trombadeira" to R.drawable.im_parte_trombadeira,
+        "im_parte_trombeteira" to R.drawable.im_parte_trombeteira,
         "im_plan_aconito" to R.drawable.im_plan_aconito,
         "im_plan_aconito2" to R.drawable.im_plan_aconito2,
         "im_plan_alamanda" to R.drawable.im_plan_alamanda,
@@ -298,8 +298,8 @@ object ImagemMapper {
         "im_plan_teixo2" to R.drawable.im_plan_teixo2,
         "im_plan_tinhorao" to R.drawable.im_plan_tinhorao,
         "im_plan_tinhorao2" to R.drawable.im_plan_tinhorao2,
-        "im_plan_trombadeira" to R.drawable.im_plan_trombadeira,
-        "im_plan_trombadeira2" to R.drawable.im_plan_trombadeira2,
+        "im_plan_trombeteira" to R.drawable.im_plan_trombeteira,
+        "im_plan_trombeteira2" to R.drawable.im_plan_trombeteira2,
 
         // Produto Limpeza
         "im_produto_acido_oxalico" to R.drawable.im_produto_acido_oxalico,
@@ -384,6 +384,8 @@ object ImagemMapper {
         "im_diverso_glicose" to R.drawable.im_diverso_glicose,
         "im_diverso_hipotensao" to R.drawable.im_diverso_hipotensao,
         "im_diverso_hospital" to R.drawable.im_diverso_hospital,
+        "im_diverso_hospital2" to R.drawable.im_diverso_hospital2,
+        "im_diverso_hospital3" to R.drawable.im_diverso_hospital3,
         "im_diverso_inalacao" to R.drawable.im_diverso_inalacao,
         "im_diverso_inchaco2" to R.drawable.im_diverso_inchaco2,
         "im_diverso_inchaco_anel" to R.drawable.im_diverso_inchaco_anel,

@@ -5,7 +5,7 @@
     android:id="@+id/main_introducao"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/im_fundo"
+    android:background="@drawable/fundo_repeat"
     tools:context=".Introducao">
 
     <com.google.android.material.appbar.MaterialToolbar
@@ -22,46 +22,35 @@
         app:title="@string/intro_geral_nome"
         app:titleTextColor="@color/white" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:scaleType="fitCenter"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar_intro"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <TextView
         android:id="@+id/intro_BoaNav"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="100dp"
         android:text="@string/intro_fim"
-        android:textAlignment="center"
+        android:textAlignment="viewEnd"
         android:textColor="@color/preto"
+
         android:textSize="16sp"
         android:textStyle="bold"
-
-        app:layout_constraintTop_toBottomOf="@id/scrollView2"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="32dp"
-
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="32dp"
-
-        android:layout_marginBottom="120dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/intro_BoaNav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView">
+        app:layout_constraintTop_toBottomOf="@+id/imageCategoria">
 
         <TextView
             android:id="@+id/texto_intro"
@@ -75,31 +64,63 @@
     </ScrollView>
 
     <ImageView
-        android:id="@+id/imageLogoBiomed"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:srcCompat="@drawable/im_logo_biomed"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="669dp"
+        android:id="@+id/imageCategoria"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_intro"
+        tools:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/categoria_nome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
+        android:layout_marginEnd="10dp"
+        android:text=""
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toStartOf="@+id/imageCategoria"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/intro_BoaNav"
-        android:layout_marginBottom="15dp"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_intro" />
 
     <ImageView
-        android:id="@+id/imageLogoComp"
-        android:layout_width="200dp"
-        android:layout_height="60dp"
-        app:srcCompat="@drawable/im_logo_comp"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="710dp"
-
-        app:layout_constraintStart_toEndOf="@id/imageLogoBiomed"
-        android:layout_marginStart="20dp"
+        android:id="@+id/im_intro_background"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:alpha="0.3"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="15dp"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/im_intro_logoBiomed"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intro_BoaNav"
+        app:srcCompat="@drawable/im_logo_biomed" />
+
+    <ImageView
+        android:id="@+id/im_intro_logoComp"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/im_intro_logoBiomed"
+        app:layout_constraintTop_toBottomOf="@+id/intro_BoaNav"
+        app:srcCompat="@drawable/im_logo_comp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

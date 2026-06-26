@@ -121,7 +121,7 @@
   },
   {
     "categoriaNome": "Cosméticos",
-    "nomePopular": "Dietanolamina (DEA)",
+    "nomePopular": "Dietanolamina - DEA",
     "sintIntox": "<b>Contato com a pele:</b>\nIrritação, vermelhidão e sensação de queimação;\nDermatite de contato, podendo causar ressecamento e descamação;\nEm casos de exposição prolongada, possível sensibilização e reações alérgicas.\n<b>Contato com os olhos:</b>\nIrritação ocular com vermelhidão e ardência;\nLacrimejamento e sensação de corpo estranho;\nEm exposições mais severas, pode ocorrer conjuntivite química.\n",
     "primSocorro": "<b>Contato com a pele:</b>\nLavar imediatamente a área afetada com água corrente e sabão neutro;\nRemover roupas contaminadas para evitar contato contínuo;\nEvitar coçar ou esfregar a pele;\nProcurar atendimento médico se a irritação persistir ou piorar.\n<b>Contato com os olhos:</b>\nLavar os olhos com água corrente em abundância por pelo menos 15 minutos, mantendo as pálpebras abertas;\nNão aplicar colírios ou pomadas sem orientação médica;\nProcurar atendimento oftalmológico em caso de dor intensa, vermelhidão persistente ou visão turva.\n",
     "nomeCientifico": "",
@@ -221,7 +221,7 @@
   },
   {
     "categoriaNome": "Cosméticos",
-    "nomePopular": "Amônia ",
+    "nomePopular": "Amônia",
     "sintIntox": "<b>Contato com a pele:</b>\nArdência intensa, vermelhidão e dor;\nIrritação e queimaduras químicas em exposições prolongadas ou com alta concentração;\nFormação de bolhas e necrose em casos graves.\n<b>Contato com os olhos:</b>\nDor intensa, vermelhidão e lacrimejamento;\nSensação de corpo estranho e edema das pálpebras;\nQueimaduras químicas e possível lesão da córnea em exposições severas.\n",
     "primSocorro": "<b>Contato com a pele:</b>\nLavar imediatamente a área afetada com água corrente em abundância e sabão neutro;\nRemover roupas contaminadas para evitar contato contínuo;\nEvitar esfregar a pele;\nProcurar atendimento médico urgente em casos de queimaduras ou irritação persistente.\n<b>Contato com os olhos:</b>\nLavar os olhos com água corrente em abundância por pelo menos 15 minutos, mantendo as pálpebras abertas;\nNão aplicar colírios ou pomadas sem orientação médica;\nProcurar atendimento oftalmológico urgente em caso de dor intensa, visão turva ou vermelhidão persistente.\n",
     "nomeCientifico": "",
@@ -317,7 +317,7 @@
     "imagemSintIntox1": "im_diverso_olho_vermelho",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_rosto",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Cosméticos",
@@ -357,11 +357,11 @@
     "imagemSintIntox1": "im_diverso_tosse",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lbanho2",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Cosméticos",
-    "nomePopular": "BHT (Butilhidroxitolueno)",
+    "nomePopular": "Butilhidroxitolueno - BHT",
     "sintIntox": "<b>Contato com a pele:</b>\nIrritação leve, vermelhidão e coceira;\nEm casos de exposição prolongada, possível dermatite de contato;\nSensação de ressecamento da pele.\n<b>Contato com os olhos:</b>\nIrritação ocular com vermelhidão e ardência;\nLacrimejamento e desconforto;\nPossível conjuntivite química em exposições significativas.\n<b>Ingestão:</b>\nNáuseas, vômitos e desconforto gastrointestinal;\nEm casos graves, pode haver alterações no sistema nervoso central, como tontura e dor de cabeça.\n",
     "primSocorro": "<b>Contato com a pele:</b>\nLavar imediatamente a área afetada com água corrente e sabão neutro;\nRemover roupas contaminadas para evitar contato contínuo;\nEvitar coçar ou esfregar a pele;\nProcurar atendimento médico se a irritação persistir.\n<b>Contato com os olhos:</b>\nLavar os olhos com água corrente em abundância por pelo menos 15 minutos, mantendo as pálpebras abertas;\nNão aplicar colírios ou pomadas sem orientação médica;\nProcurar atendimento oftalmológico em caso de dor intensa, vermelhidão persistente ou visão turva.\n<b>Ingestão:</b>\nNão provocar vômito;\nEnxaguar a boca com água;\nProcurar atendimento médico imediatamente.\n",
     "nomeCientifico": "",
@@ -397,7 +397,7 @@
     "imagemSintIntox1": "im_diverso_rosto_irritado",
     "imagemSintIntox2": "im_diverso_ficar_velha",
     "imagemPrimSocorro1": "im_diverso_lava_rosto",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Cosméticos",
@@ -417,7 +417,7 @@
     "imagemSintIntox1": "im_diverso_confusao3",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_banho2",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Cosméticos",
@@ -457,11 +457,11 @@
     "imagemSintIntox1": "im_diverso_dor_abdominal",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_rosto",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Cosméticos",
-    "nomePopular": "P-fenilenodiamina (PPD)",
+    "nomePopular": "P-Fenilenodiamina - PPD",
     "sintIntox": "<b>Contato com a pele:</b>\nIrritação intensa, vermelhidão e edema;\nDermatite de contato com possível formação de bolhas;\nSensação de queimação e coceira;\nEm casos graves, pode causar reação alérgica sistêmica.\n<b>Contato com os olhos:</b>\nIrritação grave, vermelhidão intensa e lacrimejamento;\nDor ocular e sensação de corpo estranho;\nPode causar conjuntivite química e lesão da córnea.\n<b>Ingestão:</b>\nNáuseas, vômitos e dor abdominal;\nEdema facial e da orofaringe, dificultando a respiração;\nInsuficiência renal aguda em casos graves;\nPode levar a choque e óbito se não tratado rapidamente.\n",
     "primSocorro": "<b>Contato com a pele:</b>\nLavar imediatamente a área afetada com água corrente e sabão neutro;\nRemover roupas contaminadas para evitar contato contínuo;\nProcurar atendimento médico urgente em caso de irritação intensa ou sintomas sistêmicos.\n<b>Contato com os olhos:</b>\nLavar os olhos com água corrente em abundância por pelo menos 15 minutos, mantendo as pálpebras abertas;\nProcurar atendimento oftalmológico urgente;\nNão aplicar colírios ou pomadas sem orientação médica.\n<b>Ingestão:</b>\nNão provocar vômito;\nProcurar atendimento médico de emergência imediatamente;\nManter a vítima em repouso e monitorar sinais vitais até o atendimento.\n",
     "nomeCientifico": "",
@@ -477,7 +477,7 @@
     "imagemSintIntox1": "im_diverso_febre",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_banho2",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Cosméticos",
@@ -517,7 +517,7 @@
     "imagemSintIntox1": "im_diverso_sintoma_geral2",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_rosto",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Cosméticos",
@@ -537,7 +537,7 @@
     "imagemSintIntox1": "im_diverso_olho_vermelho",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_rosto",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Cosméticos",

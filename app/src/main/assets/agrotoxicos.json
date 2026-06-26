@@ -33,7 +33,7 @@
     "imagemSintIntox1": "im_diverso_dor_abdominal",
     "imagemSintIntox2": "im_diverso_suspiro2",
     "imagemPrimSocorro1": "im_diverso_lava_rosto",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -51,7 +51,7 @@
     "imagemSintIntox1": "im_diverso_sudorese",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_respiracao",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -105,7 +105,7 @@
     "imagemSintIntox1": "im_diverso_tontura4",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_arejado",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -123,7 +123,7 @@
     "imagemSintIntox1": "im_diverso_dor_abdominal",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_arejado",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -159,7 +159,7 @@
     "imagemSintIntox1": "im_diverso_enjoo",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_arejado",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -177,7 +177,7 @@
     "imagemSintIntox1": "im_diverso_suspiro2",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_respiracao",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -213,7 +213,7 @@
     "imagemSintIntox1": "im_diverso_irritacao_ocular2",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_arejado",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -231,7 +231,7 @@
     "imagemSintIntox1": "im_diverso_tontura2",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_arejado",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -267,7 +267,7 @@
     "imagemSintIntox1": "im_diverso_enjoo",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_arejado",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -285,7 +285,7 @@
     "imagemSintIntox1": "im_diverso_tontura2",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_arejado",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -321,7 +321,7 @@
     "imagemSintIntox1": "im_diverso_dor_abdominal",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_arejado",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -339,7 +339,7 @@
     "imagemSintIntox1": "im_diverso_suspiro2",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_arejado",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -375,7 +375,7 @@
     "imagemSintIntox1": "im_diverso_suspiro2",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_respiracao",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -393,7 +393,7 @@
     "imagemSintIntox1": "im_diverso_irritacao_ocular2",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_respiracao",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -429,7 +429,7 @@
     "imagemSintIntox1": "im_diverso_pele_queimada",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_arejado",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -447,7 +447,7 @@
     "imagemSintIntox1": "im_diverso_enjoo",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_arejado",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -483,7 +483,7 @@
     "imagemSintIntox1": "im_diverso_sudorese",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_arejado",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -501,7 +501,7 @@
     "imagemSintIntox1": "im_diverso_dor_abdominal",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_respiracao",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -537,7 +537,7 @@
     "imagemSintIntox1": "im_diverso_enjoo",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_arejado",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -555,7 +555,7 @@
     "imagemSintIntox1": "im_diverso_dor_abdominal",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_arejado",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -591,7 +591,7 @@
     "imagemSintIntox1": "im_diverso_fraqueza",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_arejado",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Agrotóxicos",
@@ -609,6 +609,6 @@
     "imagemSintIntox1": "im_diverso_dor_abdominal",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_arejado",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   }
 ]

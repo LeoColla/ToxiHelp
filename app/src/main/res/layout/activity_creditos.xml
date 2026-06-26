@@ -5,7 +5,7 @@
     android:id="@+id/main_creditos"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/im_fundo"
+    android:background="@drawable/fundo_repeat"
     tools:context=".Creditos">
 
     <com.google.android.material.appbar.MaterialToolbar

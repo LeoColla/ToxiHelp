@@ -53,7 +53,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_alergia",
     "imagemSintIntox2" : "im_diverso_febre",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital2",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -72,12 +72,12 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "im_diverso_acidose",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital3",
     "imagemPrimSocorro2" : "im_diverso_lactose"
   },
   {
     "categoriaNome" : "Medicamentos",
-    "nomePopular" : "AAS (ácido acetilsalicílico)",
+    "nomePopular" : "Ácido Acetilsalicílico - AAS",
     "sintIntox" : "Zumbido nos ouvidos (tinnitus)\nTontura, náusea, vômitos\nHiperventilação (respiração rápida e profunda)\nConfusão mental, febre\nSangramentos (gengivas, nariz ou trato digestivo)\nEm casos graves: acidose metabólica, convulsões, coma.",
     "primSocorro" : "Encaminhar imediatamente ao hospital\nNão provocar vômitos, mesmo em casos de ingestão recente\nManter a vítima em repouso, em local arejado\nNão administrar alimentos, leite ou medicamentos caseiros\nTratamentos hospitalares podem incluir carvão ativado, correção do equilíbrio ácido-base, suporte respiratório e, em casos graves, hemodiálise.",
     "nomeCientifico" : "",
@@ -129,7 +129,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "im_diverso_pele_irritada",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital2",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -149,7 +149,7 @@
     "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "",
     "imagemPrimSocorro1" : "im_diverso_manter_vias",
-    "imagemPrimSocorro2" : "im_diverso_hospital"
+    "imagemPrimSocorro2" : "im_diverso_hospital3"
   },
   {
     "categoriaNome" : "Medicamentos",
@@ -205,7 +205,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_taquicardia",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital2",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -224,7 +224,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_boca_seca",
     "imagemSintIntox2" : "im_diverso_urinaria",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital3",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -263,7 +263,7 @@
     "imagemSintIntox1" : "im_diverso_ataxia",
     "imagemSintIntox2" : "im_diverso_nistagmo",
     "imagemPrimSocorro1" : "im_diverso_manter_vias",
-    "imagemPrimSocorro2" : "im_diverso_hospital"
+    "imagemPrimSocorro2" : "im_diverso_hospital2"
   },
   {
     "categoriaNome" : "Medicamentos",
@@ -281,7 +281,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_fraqueza",
     "imagemSintIntox2" : "im_diverso_dor_abdominal",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital3",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -319,7 +319,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_desidratacao",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital2",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -338,7 +338,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_tosse",
     "imagemSintIntox2" : "im_diverso_fraqueza",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital3",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -376,7 +376,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_dor_abdominal",
     "imagemSintIntox2" : "im_diverso_enjoo",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital2",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -395,7 +395,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_tontura4",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital3",
     "imagemPrimSocorro2" : "im_diverso_sinais_vitais"
   },
   {
@@ -433,7 +433,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_sonolencia",
     "imagemSintIntox2" : "im_diverso_tontura4",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital2",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -452,7 +452,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_enjoo",
     "imagemSintIntox2" : "im_diverso_dor_abdominal",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital3",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -490,7 +490,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_gastrite",
     "imagemSintIntox2" : "im_diverso_dor_abdominal",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital2",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -509,7 +509,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_glicose",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital3",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -547,7 +547,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_dor_abdominal",
     "imagemSintIntox2" : "im_diverso_enjoo",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital2",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -566,7 +566,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_dor_cabeca",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital3",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -604,7 +604,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_sonolencia",
     "imagemSintIntox2" : "im_diverso_sinais_vitais",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital2",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -623,7 +623,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_sonolencia",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "im_diverso_hospital",
+    "imagemPrimSocorro1" : "im_diverso_hospital3",
     "imagemPrimSocorro2" : ""
   }
 ]

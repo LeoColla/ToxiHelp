@@ -71,10 +71,12 @@ class Introducao : AppCompatActivity() {
                     if (categoria != null){
                         //val tituloTextView: TextView = findViewById(R.id.titulo_intro)
                         val textoTextView: TextView = findViewById(R.id.texto_intro)
+                        val categoriaNameTextView : TextView = findViewById(R.id.categoria_nome)
+                        val introImageView : ImageView = findViewById(R.id.imageCategoria)
+                        val introImageBack = findViewById<ImageView>(R.id.im_intro_background)
 
-                        val introImageView : ImageView = findViewById(R.id.imageView)
-
-                        toolbar.title = categoria.nome
+                        categoriaNameTextView.text = categoria.nome
+                        toolbar.title = "Categoria:"
                         textoTextView.text = categoria.intro
 
                         textoFinal.text = getString(R.string.intro_categoria_fim)
@@ -84,8 +86,12 @@ class Introducao : AppCompatActivity() {
                         if (imagemId != 0){
                             com.bumptech.glide.Glide.with(this@Introducao)
                                 .load(imagemId)
+                                .into(introImageBack)
+
+                            com.bumptech.glide.Glide.with(this@Introducao)
+                                .load(imagemId)
                                 .into(introImageView)
-                            }
+                        }
                     }
                 }
             }

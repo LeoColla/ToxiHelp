@@ -37,7 +37,7 @@
     "imagemSintIntox1": "im_diverso_enjoo",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -57,7 +57,7 @@
     "imagemSintIntox1": "im_diverso_formigamento3",
     "imagemSintIntox2": "im_diverso_irritacao_ocular2",
     "imagemPrimSocorro1": "im_diverso_lava_mao5",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -97,7 +97,7 @@
     "imagemSintIntox1": "im_diverso_enjoo",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_boca",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -117,7 +117,7 @@
     "imagemSintIntox1": "im_diverso_dor_boca",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_mao5",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -157,7 +157,7 @@
     "imagemSintIntox1": "im_diverso_enjoo",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_bebeagua2",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -177,7 +177,7 @@
     "imagemSintIntox1": "im_diverso_nariz_sangrando",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -217,7 +217,7 @@
     "imagemSintIntox1": "im_diverso_convulsao",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -237,7 +237,7 @@
     "imagemSintIntox1": "im_diverso_sinais_vitais",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -277,7 +277,7 @@
     "imagemSintIntox1": "im_diverso_vomito",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_boca",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -297,7 +297,7 @@
     "imagemSintIntox1": "im_diverso_vomito",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_mao5",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -337,7 +337,7 @@
     "imagemSintIntox1": "im_diverso_diarreia",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -357,7 +357,7 @@
     "imagemSintIntox1": "im_diverso_salivacao",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_boca",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -397,7 +397,7 @@
     "imagemSintIntox1": "im_diverso_vomito",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -417,7 +417,7 @@
     "imagemSintIntox1": "im_diverso_pele_queimada",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_rosto",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -457,7 +457,7 @@
     "imagemSintIntox1": "im_diverso_sintoma_geral",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -477,7 +477,7 @@
     "imagemSintIntox1": "im_diverso_disturbio_visual",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_boca",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -517,7 +517,7 @@
     "imagemSintIntox1": "im_diverso_tremor",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -537,7 +537,7 @@
     "imagemSintIntox1": "im_diverso_vomito",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_boca",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -577,7 +577,7 @@
     "imagemSintIntox1": "im_diverso_pele_irritada",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Plantas Tóxicas",
@@ -597,6 +597,6 @@
     "imagemSintIntox1": "im_diverso_diarreia",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_bebeagua2",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   }
 ]

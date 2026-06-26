@@ -37,7 +37,7 @@
     "imagemSintIntox1": "im_diverso_substancia_neurotoxin",
     "imagemSintIntox2": "im_diverso_sonolencia",
     "imagemPrimSocorro1": "im_diverso_repouso3",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -57,7 +57,7 @@
     "imagemSintIntox1": "im_diverso_substancia_neurotoxin",
     "imagemSintIntox2": "im_diverso_formigamento3",
     "imagemPrimSocorro1": "im_diverso_repouso3",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -97,7 +97,7 @@
     "imagemSintIntox1": "im_diverso_dor_peito4",
     "imagemSintIntox2": "im_diverso_sudorese",
     "imagemPrimSocorro1": "im_diverso_repouso3",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -117,7 +117,7 @@
     "imagemSintIntox1": "im_diverso_dor_abdominal",
     "imagemSintIntox2": "im_diverso_taquicardia",
     "imagemPrimSocorro1": "im_diverso_repouso3",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -157,7 +157,7 @@
     "imagemSintIntox1": "im_diverso_substancia_neurotoxin",
     "imagemSintIntox2": "im_diverso_enjoo",
     "imagemPrimSocorro1": "im_diverso_repouso3",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -177,7 +177,7 @@
     "imagemSintIntox1": "im_diverso_substancia_neurotoxin",
     "imagemSintIntox2": "im_diverso_convulsao",
     "imagemPrimSocorro1": "im_diverso_lava_mao5",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -217,7 +217,7 @@
     "imagemSintIntox1": "im_diverso_substancia_alpitoxina",
     "imagemSintIntox2": "im_diverso_coceira3",
     "imagemPrimSocorro1": "im_diverso_repouso3",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -237,7 +237,7 @@
     "imagemSintIntox1": "im_diverso_inchaco2",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_removerferrao",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -277,7 +277,7 @@
     "imagemSintIntox1": "im_diverso_necrose",
     "imagemSintIntox2": "im_diverso_inchaco2",
     "imagemPrimSocorro1": "im_diverso_lava_mao5",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -297,7 +297,7 @@
     "imagemSintIntox1": "im_diverso_necrose",
     "imagemSintIntox2": "im_diverso_febre",
     "imagemPrimSocorro1": "im_diverso_aguaquente",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -337,7 +337,7 @@
     "imagemSintIntox1": "im_diverso_inchaco2",
     "imagemSintIntox2": "im_diverso_sudorese",
     "imagemPrimSocorro1": "im_diverso_lava_mao5",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -357,7 +357,7 @@
     "imagemSintIntox1": "im_diverso_tremor",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_primeiro_socorro",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -397,7 +397,7 @@
     "imagemSintIntox1": "im_diverso_necrose",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_aguaquente",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -417,7 +417,7 @@
     "imagemSintIntox1": "im_diverso_enjoo",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_mao5",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -457,7 +457,7 @@
     "imagemSintIntox1": "im_diverso_marcas_lineares",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lupa_agua",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -477,7 +477,7 @@
     "imagemSintIntox1": "im_diverso_hipotensao",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_primeiro_socorro",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -517,7 +517,7 @@
     "imagemSintIntox1": "im_diverso_pele_irritacao",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_mao5",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -537,7 +537,7 @@
     "imagemSintIntox1": "im_diverso_inchaco2",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_bolsa_gelo",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -577,7 +577,7 @@
     "imagemSintIntox1": "im_diverso_pulmao",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_ambulancia",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
     "categoriaNome": "Animais Peçonhentos",
@@ -597,6 +597,6 @@
     "imagemSintIntox1": "im_diverso_pulmao",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_ambulancia",
-    "imagemPrimSocorro2": "im_diverso_hospital"
+    "imagemPrimSocorro2": "im_diverso_hospital3"
   }
 ]
