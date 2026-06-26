@@ -1,8 +1,11 @@
+import com.google.firebase.appdistribution.gradle.firebaseAppDistribution
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.devtools.ksp)
+    alias(libs.plugins.google.firebase.appdistribution)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -13,8 +16,8 @@ android {
         applicationId = "br.com.local.toxihelp"
         minSdk = 29
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 24
+        versionName = "1.24.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -26,6 +29,12 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+        }
+
+        release {
+            firebaseAppDistribution {
+                testers="gabriel.barbosa1342@alunos.fho.edu.br, leonardo.colla@alunos.fho.edu.br"
+            }
         }
     }
     compileOptions {
