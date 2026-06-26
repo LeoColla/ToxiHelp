@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
-    android:src="@drawable/im_fundo"
-    android:tileMode="repeat"
-    android:dither="true" />
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <bitmap
+            android:src="@drawable/im_fundo"
+            android:dither="true" />
+    </item>
+
+    <item>
+        <color android:color="#B2F4F4F4" />
+    </item>
+
+</layer-list>
