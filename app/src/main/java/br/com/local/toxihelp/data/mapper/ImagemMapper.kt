@@ -222,7 +222,7 @@ object ImagemMapper {
         "im_parte_dedaleira" to R.drawable.im_parte_dedaleira,
         "im_parte_espirradeira" to R.drawable.im_parte_espirradeira,
         "im_parte_fedegoso" to R.drawable.im_parte_fedegoso,
-        "im_parte_filodentro" to R.drawable.im_parte_filodentro,
+        "im_parte_filodendro" to R.drawable.im_parte_filodendro,
         "im_parte_lirio" to R.drawable.im_parte_lirio,
         "im_parte_mamona" to R.drawable.im_parte_mamona,
         "im_parte_mandioca" to R.drawable.im_parte_mandioca,
