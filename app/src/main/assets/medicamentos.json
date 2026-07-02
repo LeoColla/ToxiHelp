@@ -15,7 +15,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_vomito",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro1" : "im_diverso_nao_vomito2",
     "imagemPrimSocorro2" : "im_diverso_hospital"
   },
   {
@@ -34,7 +34,7 @@
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_sonolencia",
     "imagemSintIntox2" : "",
-    "imagemPrimSocorro1" : "im_diverso_manter_vias",
+    "imagemPrimSocorro1" : "im_diverso_de_lado",
     "imagemPrimSocorro2" : ""
   },
   {
@@ -242,7 +242,7 @@
     "imagemPrincipal" : "im_med_carbamazepina",
     "imagemSecundaria" : "",
     "imagemSintIntox1" : "im_diverso_ataxia",
-    "imagemSintIntox2" : "im_diverso_nistagmo",
+    "imagemSintIntox2" : "im_diverso_tosse",
     "imagemPrimSocorro1" : "im_diverso_hospital",
     "imagemPrimSocorro2" : ""
   },
@@ -260,8 +260,8 @@
 
     "imagemPrincipal" : "im_med_fenitoina",
     "imagemSecundaria" : "",
-    "imagemSintIntox1" : "im_diverso_ataxia",
-    "imagemSintIntox2" : "im_diverso_nistagmo",
+    "imagemSintIntox1" : "im_diverso_confuso2",
+    "imagemSintIntox2" : "",
     "imagemPrimSocorro1" : "im_diverso_manter_vias",
     "imagemPrimSocorro2" : "im_diverso_hospital2"
   },

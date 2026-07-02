@@ -16,7 +16,7 @@
     "imagemSecundaria": "im_parte_espirradeira",
     "imagemSintIntox1": "im_diverso_enjoo",
     "imagemSintIntox2": "im_diverso_tosse",
-    "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro1": "im_diverso_nao_vomito2",
     "imagemPrimSocorro2": "im_diverso_hospital"
   },
   {
@@ -36,7 +36,7 @@
     "imagemSecundaria": "im_parte_mamona",
     "imagemSintIntox1": "im_diverso_enjoo",
     "imagemSintIntox2": "",
-    "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro1": "im_diverso_nao_vomito2",
     "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
@@ -76,7 +76,7 @@
     "imagemSecundaria": "im_parte_trombeteira",
     "imagemSintIntox1": "im_diverso_taquicardia",
     "imagemSintIntox2": "",
-    "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro1": "im_diverso_nao_vomito2",
     "imagemPrimSocorro2": "im_diverso_hospital"
   },
   {
@@ -136,7 +136,7 @@
     "imagemSecundaria": "im_parte_saia_branca",
     "imagemSintIntox1": "im_diverso_confusao3",
     "imagemSintIntox2": "",
-    "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro1": "im_diverso_nao_vomito2",
     "imagemPrimSocorro2": "im_diverso_hospital"
   },
   {
@@ -176,7 +176,7 @@
     "imagemSecundaria": "im_parte_olho_cabra",
     "imagemSintIntox1": "im_diverso_nariz_sangrando",
     "imagemSintIntox2": "",
-    "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro1": "im_diverso_nao_vomito2",
     "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
@@ -216,7 +216,7 @@
     "imagemSecundaria": "im_parte_tinhorao",
     "imagemSintIntox1": "im_diverso_convulsao",
     "imagemSintIntox2": "",
-    "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro1": "im_diverso_nao_vomito2",
     "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
@@ -236,7 +236,7 @@
     "imagemSecundaria": "im_parte_aconito",
     "imagemSintIntox1": "im_diverso_sinais_vitais",
     "imagemSintIntox2": "",
-    "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro1": "im_diverso_nao_vomito2",
     "imagemPrimSocorro2": "im_diverso_hospital3"
   },
   {
@@ -256,7 +256,7 @@
     "imagemSecundaria": "im_parte_dedaleira",
     "imagemSintIntox1": "im_diverso_taquicardia",
     "imagemSintIntox2": "",
-    "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro1": "im_diverso_nao_vomito2",
     "imagemPrimSocorro2": "im_diverso_hospital"
   },
   {
@@ -336,7 +336,7 @@
     "imagemSecundaria": "im_parte_rosa_natal",
     "imagemSintIntox1": "im_diverso_diarreia",
     "imagemSintIntox2": "",
-    "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro1": "im_diverso_nao_vomito2",
     "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
@@ -396,7 +396,7 @@
     "imagemSecundaria": "im_parte_cambara",
     "imagemSintIntox1": "im_diverso_vomito",
     "imagemSintIntox2": "",
-    "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro1": "im_diverso_nao_vomito2",
     "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
@@ -456,7 +456,7 @@
     "imagemSecundaria": "im_parte_moura",
     "imagemSintIntox1": "im_diverso_sintoma_geral",
     "imagemSintIntox2": "",
-    "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro1": "im_diverso_nao_vomito2",
     "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
@@ -496,7 +496,7 @@
     "imagemSecundaria": "im_parte_fedegoso",
     "imagemSintIntox1": "im_diverso_fraqueza",
     "imagemSintIntox2": "",
-    "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro1": "im_diverso_nao_vomito2",
     "imagemPrimSocorro2": "im_diverso_hospital"
   },
   {
@@ -516,7 +516,7 @@
     "imagemSecundaria": "im_parte_tabaco",
     "imagemSintIntox1": "im_diverso_tremor",
     "imagemSintIntox2": "",
-    "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro1": "im_diverso_nao_vomito2",
     "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {
@@ -576,7 +576,7 @@
     "imagemSecundaria": "im_parte_mico",
     "imagemSintIntox1": "im_diverso_pele_irritada",
     "imagemSintIntox2": "",
-    "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro1": "im_diverso_nao_vomito2",
     "imagemPrimSocorro2": "im_diverso_hospital2"
   },
   {

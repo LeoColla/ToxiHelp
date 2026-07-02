@@ -367,6 +367,7 @@ object ImagemMapper {
         "im_diverso_confusao3" to R.drawable.im_diverso_confusao3,
         "im_diverso_convulsao" to R.drawable.im_diverso_convulsao,
         "im_diverso_corisa" to R.drawable.im_diverso_corisa,
+        "im_diverso_de_lado" to R.drawable.im_diverso_de_lado,
         "im_diverso_desidratacao" to R.drawable.im_diverso_desidratacao,
         "im_diverso_diarreia" to R.drawable.im_diverso_diarreia,
         "im_diverso_disturbio_visual" to R.drawable.im_diverso_disturbio_visual,

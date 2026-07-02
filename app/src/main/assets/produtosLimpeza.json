@@ -17,7 +17,7 @@
     "imagemSintIntox1": "im_diverso_olho_vermelho",
     "imagemSintIntox2": "im_diverso_pele_queimada",
     "imagemPrimSocorro1": "im_diverso_local_arejado",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -37,7 +37,7 @@
     "imagemSintIntox1": "im_diverso_tosse",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_local_arejado",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -57,7 +57,7 @@
     "imagemSintIntox1": "im_diverso_vomito",
     "imagemSintIntox2": "im_diverso_queimadura_quimica",
     "imagemPrimSocorro1": "im_diverso_local_arejado",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -77,7 +77,7 @@
     "imagemSintIntox1": "im_diverso_diarreia",
     "imagemSintIntox2": "im_diverso_tosse",
     "imagemPrimSocorro1": "im_diverso_lava_boca",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -97,7 +97,7 @@
     "imagemSintIntox1": "im_diverso_tosse",
     "imagemSintIntox2": "im_diverso_queimadura_quimica",
     "imagemPrimSocorro1": "im_diverso_local_arejado",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -117,7 +117,7 @@
     "imagemSintIntox1": "im_diverso_sonolencia",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_local_arejado",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -137,7 +137,7 @@
     "imagemSintIntox1": "im_diverso_tosse_sangue",
     "imagemSintIntox2": "im_diverso_vomito",
     "imagemPrimSocorro1": "im_diverso_local_arejado",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -157,7 +157,7 @@
     "imagemSintIntox1": "im_diverso_dor_peito4",
     "imagemSintIntox2": "im_diverso_enjoo",
     "imagemPrimSocorro1": "im_diverso_local_arejado",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -177,7 +177,7 @@
     "imagemSintIntox1": "im_diverso_necrose",
     "imagemSintIntox2": "im_diverso_pele_queimada",
     "imagemPrimSocorro1": "im_diverso_lava_maos5",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -197,7 +197,7 @@
     "imagemSintIntox1": "im_diverso_fraqueza",
     "imagemSintIntox2": "im_diverso_pele_queimada",
     "imagemPrimSocorro1": "im_diverso_local_arejado",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -217,7 +217,7 @@
     "imagemSintIntox1": "im_diverso_irritacao_ocular2",
     "imagemSintIntox2": "im_diverso_pele_queimada",
     "imagemPrimSocorro1": "im_diverso_lava_mao5",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -237,7 +237,7 @@
     "imagemSintIntox1": "",
     "imagemSintIntox2": "im_diverso_pele_queimada",
     "imagemPrimSocorro1": "im_diverso_hospital",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -257,7 +257,7 @@
     "imagemSintIntox1": "",
     "imagemSintIntox2": "im_diverso_queimadura_quimica",
     "imagemPrimSocorro1": "im_diverso_local_arejado",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -277,7 +277,7 @@
     "imagemSintIntox1": "im_diverso_dor_abdominal",
     "imagemSintIntox2": "im_diverso_irritacao_ocular2",
     "imagemPrimSocorro1": "im_diverso_lava_rosto",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -297,7 +297,7 @@
     "imagemSintIntox1": "im_diverso_enjoo",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_local_arejado",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -317,7 +317,7 @@
     "imagemSintIntox1": "im_diverso_confusao3",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_rosto",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -337,7 +337,7 @@
     "imagemSintIntox1": "im_diverso_confusao3",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_boca",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -357,7 +357,7 @@
     "imagemSintIntox1": "im_diverso_coma",
     "imagemSintIntox2": "im_diverso_dor_abdominal",
     "imagemPrimSocorro1": "im_diverso_local_arejado",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -377,7 +377,7 @@
     "imagemSintIntox1": "im_diverso_tontura4",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_bebeagua2",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -397,7 +397,7 @@
     "imagemSintIntox1": "im_diverso_irritacao_ocular2",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_rosto",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   },
   {
     "categoriaNome": "Produtos de Limpeza",
@@ -417,6 +417,6 @@
     "imagemSintIntox1": "im_diverso_queimadura_quimica",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_local_arejado",
-    "imagemPrimSocorro2": "im_diverso_nao_provocar_vomito"
+    "imagemPrimSocorro2": "im_diverso_nao_vomito2"
   }
 ]

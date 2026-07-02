@@ -376,7 +376,7 @@
     "imagemSecundaria": "im_subs_bht",
     "imagemSintIntox1": "im_diverso_enjoo",
     "imagemSintIntox2": "",
-    "imagemPrimSocorro1": "im_diverso_nao_provocar_vomito",
+    "imagemPrimSocorro1": "im_diverso_nao_vomito2",
     "imagemPrimSocorro2": "im_diverso_hospital"
   },
   {
@@ -453,7 +453,7 @@
     "caracteristica": "",
     "resumo": "",
     "imagemPrincipal": "im_produto_alumen",
-    "imagemSecundaria": "im_subs_alumen",
+    "imagemSecundaria": "",
     "imagemSintIntox1": "im_diverso_dor_abdominal",
     "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_rosto",
