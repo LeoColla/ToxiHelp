@@ -34,8 +34,8 @@
     "resumo": "A <i>Crotalus durissus</i>, popularmente conhecida como cascavel, é uma serpente amplamente distribuída no território brasileiro, predominando em regiões de cerrado, campos abertos, áreas semiáridas e também em pastagens. Seu comportamento é reservado: prefere a fuga ao confronto e, quando ameaçada, emite um som característico através do guizo presente em sua cauda, como forma de alerta. ",
     "imagemPrincipal": "im_anima_cascavel",
     "imagemSecundaria": "im_anima_cascavel2",
-    "imagemSintIntox1": "im_diverso_substancia_neurotoxin",
-    "imagemSintIntox2": "im_diverso_sonolencia",
+    "imagemSintIntox1": "im_diverso_sonolencia",
+    "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_repouso3",
     "imagemPrimSocorro2": "im_diverso_hospital2"
   },
@@ -54,8 +54,8 @@
     "resumo": "As serpentes do gênero <i>Micrurus</i>, conhecidas como corais verdadeiras, habitam uma variedade de ecossistemas no Brasil, incluindo matas atlânticas, cerrados, florestas amazônicas e áreas de transição. São mais frequentemente encontradas em ambientes úmidos e com boa cobertura vegetal, como folhiço e solo de mata. São animais fossoriais, ou seja, passam grande parte do tempo enterradas ou escondidas sob troncos e folhas, o que dificulta o encontro com humanos. ",
     "imagemPrincipal": "im_anima_coral_vdd",
     "imagemSecundaria": "im_anima_coral_vdd2",
-    "imagemSintIntox1": "im_diverso_substancia_neurotoxin",
-    "imagemSintIntox2": "im_diverso_formigamento3",
+    "imagemSintIntox1": "im_diverso_formigamento3",
+    "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_repouso3",
     "imagemPrimSocorro2": "im_diverso_hospital3"
   },
@@ -154,8 +154,8 @@
     "resumo": "Espécie encontrada em áreas rurais e urbanas, sob pedras, entulhos, cascas de árvores e dentro de residências. Comportamento noturno, solitário e pouco agressivo, mas pode picar ao ser pressionado. Frequente em ambientes com acúmulo de material orgânico e insetos.",
     "imagemPrincipal": "im_anima_escorpiao_marrom",
     "imagemSecundaria": "im_anima_escorpiao_marrom2",
-    "imagemSintIntox1": "im_diverso_substancia_neurotoxin",
-    "imagemSintIntox2": "im_diverso_enjoo",
+    "imagemSintIntox1": "im_diverso_enjoo",
+    "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_repouso3",
     "imagemPrimSocorro2": "im_diverso_hospital2"
   },
@@ -174,8 +174,8 @@
     "resumo": "Distribuídos por América Central e América do Norte, em áreas tropicais e semiáridas, sob pedras, cascas de árvores e estruturas humanas. Comportamento ativos à noite, predadores de insetos. Espécies como <i>C. sculpturatus</i> têm potencial tóxico significativo.",
     "imagemPrincipal": "im_anima_escorpiao_novomundo",
     "imagemSecundaria": "im_anima_escorpiao_novomundo2",
-    "imagemSintIntox1": "im_diverso_substancia_neurotoxin",
-    "imagemSintIntox2": "im_diverso_convulsao",
+    "imagemSintIntox1": "im_diverso_convulsao",
+    "imagemSintIntox2": "",
     "imagemPrimSocorro1": "im_diverso_lava_mao5",
     "imagemPrimSocorro2": "im_diverso_hospital3"
   },
